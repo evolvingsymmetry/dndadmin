@@ -1,0 +1,708 @@
+var npcdata = {
+   "compendium": {
+      "npcs": [
+
+         {
+            "name": "Whisper",
+            "gender": "Male",
+            "title": "",
+            "alias": "",
+            "alignment": "CE",
+            "born":"1331 DR",
+            "died":"",
+            "npcclass":"Wizard",
+            "npcrace":"Human",
+            "npclocation":"Eveningstar",
+
+
+            "religion": "Mystra",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Whisper's personal wizard rune was a stylized, clutching human hand, black and claw-like.</br></br>Whisper was a cruel and calculating mage with great ambition, but he angered the wrong group of adventurers. Working as an agent of the Zhentarim in northern Cormyr, he spied on trade routes and troop movements, organizing raids and ambushes. His ambition was to rise in the ranks of the Zhentarim and also head up his own secret society. To that end, he was gathering agents and organizing strongholds that were under his exclusive control."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Jelde Asturian",
+            "gender": "Male",
+            "title": "",
+            "alias": "Stoop, Semoor Wolftooth",
+            "alignment": "LG",
+            "born":"",
+            "died":"",
+            "npcclass":"Cleric",
+            "npcrace":"Human",
+            "npclocation":"Eveningstar",
+
+
+            "religion": "Lathander",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Jelde was born as Semoor Wolftooth in Espar village. He went to search of fortune with Florin Falconhand, Doust Sulwood, and Islif Lurelake. During their adventures, he found his vocation as a cleric of Lathander and in order to follow the god's dogma, he renamed himself 'Jelde Asturian'.</br></br>Later, he served as seneschal of the Twisted Tower of Ashaba in Shadowdale and fought against drow, Zhentarim, and Lashan Aumersair. After this last adventure, Jelde retired to Eveningstar to serve his god."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Jorace Elbernath",
+            "gender": "Male",
+            "title": "",
+            "alias": "Toras",
+            "alignment": "NG",
+            "born":"",
+            "died":"",
+            "npcclass":"Druid",
+            "npcrace":"Half-elf",
+            "npclocation":"High Forest",
+
+
+            "religion": "Meilikki",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The bastard half-elf Jorace, formerly of the last name Elbernath, and known as Toras to the wood elves of High Forest, was the last male heir to Gastor Elbernath, the lord of a minor nobility in the city of Silverymoon, in the Silver Marches. He was the product of a tragic romance between his father and the fair wood elf maiden Nalia, who met when Gastor was down south near the High Forest during a campaign. </br></br>When Jorace was born, Gastor’s traveling secretary noted that an elven concubine and a half-elf heir would not be tolerated back home. Similarly, even if duty-bound Gastor abandoned his house to live with Nalia, he wouldn’t be welcomed by the elves either. Saddened and heartbroken by the realities of their stations, the lovers were forced to separate and Jorace was left with his mother in the High Forest until later in his childhood. </br></br>Growing up among elves in a secluded village, the quiet Jorace was sneered at by some of the senior elves and bullied by his peers because of his parentage. His poor treatment was tempered by the kindness of his mother and her family, but prejudice quickly made him prefer the company of trees to that of people, and he often wandered the thick woods on the outskirts of home to escape the jeers of his pure-blood cousins. </br></br>When Jorace was twelve, political instability in Silverymoon forced his father to return south for him. Gastor had as of yet been unable to produce another male heir, having gone through several successive wives and fathered multiple daughters. Whether it was the result of a cruel wayward curse or just horrid luck, only an Elf had so far been able to give Gastor a boy and he was desperate to secure the health of his noble house during the tumultuous time. Jorace was taken to Silverymoon only at the protest of his mother. The rest of the village was either ambivalent or enthusiastic to see the half-breed leave, and Jorace was curious about his human heritage and the father he never got to know. He promised he would see his mother again.</br></br>Jorace was met with warmer reception in the city, which was accustomed to seeing a multitude of races walk its streets. He picked up on human customs quickly, including the language of common. But after two years, mounting suspicion about Jorace’s real origin came to a head with Gastor’s political peers when a mob showed up at their doorstep. The secret was out, and Jorace narrowly escaped execution by slipping away into the night as his father was arrested. Gastor’s life ended at the guillotine, and Jorace ran out of Silverymoon and as far away as he could, and he looked for the nearest forest. </br></br>He ended up at the Glimmerwood. Accustomed to the temperate High Forest, he was unprepared for the cold and almost died if not for the fortuitous intervention of an incredibly rare ancient elf. The old elven woman was a druid, and seeing the love of nature already budding in Jorace’s heart, she took him under her wing. She taught him to conjure his own fire, befriend animals, and study the rites and language of the north druidic way. It was from her that he learned to pray to and watch the northern lights that often blazed across the night sky. </br></br>He spent twenty years in the Glimmerwood. His ancient elf mentor died from old age a few years after his arrival, so Jorace studied druidism as a hermit mostly alone, where the only company he saw was of the local wildlife, fellow northern druids during a rare gathering, or the occasional far traveling ranger. He never disavowed his upbringing, he wrote journals in common and elvish as well as druidic, but he never felt truly accepted in civilization anywhere, so he was content to live out his days in the forest living in concordance with nature while observing the aurora above. That is, until something changed. "
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Trolgar",
+            "gender": "Male",
+            "title": "",
+            "alias": "",
+            "alignment": "CN",
+            "born":"",
+            "died":"",
+            "npcclass":"Barbarian",
+            "npcrace":"Human",
+            "npclocation":"Balinok Mountains",
+
+
+            "religion": "",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     ""
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Durgeddin Stonehammer",
+            "gender": "Male",
+            "title": "Durgeddin the Black",
+            "alias": "",
+            "alignment": "LG",
+            "born":"",
+            "died":"",
+            "npcclass":"Fighter",
+            "npcrace":"Shield Dwarf",
+            "npclocation":"Glitterhame",
+
+
+            "religion": "",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Durgeddin Stonehammer, also known as Durgeddin the Black was a shield dwarf fighter and smith and patriarch of the Stonehammer clan after the destruction of its ancestral home in 566 DR and its subsequent decline. Although many survivors of Clan Stonehammer fled for Citadel Adbar, Durgeddin led a small group of followers to the northern peaks of the Rauvin Mountains, establishing themselves in a series of caves they called the glitterhame, which would later become the realm of Khundrukar. Despite Durgeddin's fervor and his followers' loyalty, Khundrukar fell to an orc horde under his leadership. In his day, Durgeddin was widely believed to have been stockpiling magic weapons, and thus his home today remains a popular destination for adventurers (almost all of whom are never seen again)."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Belak the Outcast",
+            "gender": "Male",
+            "title": "",
+            "alias": "",
+            "alignment": "NE",
+            "born":"",
+            "died":"",
+            "npcclass":"Druid",
+            "npcrace":"Half-orc",
+            "npclocation":"The Sunless Citadel",
+
+
+            "religion": "",
+            "image": "images/npcs/belak.jpg",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Belak was a Druid formerly employed by the College of Necromancy who specialized in the interaction between plant life and undeath. He was eventually able to create a sinister species called the Guthias Tree which sucks the life energy of the land and nearby creatures to nourish itself. In his pride he betrayed the College of Necromancy by killing his close associates and keeping his creations to himself. A bounty was placed on his head and he was slain by a group of adventurers."
+                  ]
+               },
+            ],
+         },
+
+
+         {
+            "name": "Durnan, The Wanderer",
+            "gender": "Male",
+            "title": "Lord of Waterdeep",
+            "alias": "The Wanderer, The One",
+            "alignment": "NG",
+            "born":"",
+            "died":"",
+            "npcclass":"Fighter",
+            "npcrace":"Illuskan Human",
+            "npclocation":"The Yawning Portal",
+
+
+            "religion": "",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Durnan 'the Wanderer' (occasionally known as Durham) was the gruff, burly yet close-mouthed Masked Lord of Waterdeep who ran the Yawning Portal Inn and considered himself the self-appointed gatekeeper to Undermountain. He was known for having explored Undermountain. He had a strong dislike for hobgoblins. Mirt believed he may have lost family, friends, and neighbors -- and even been left homeless -- by hobgoblin raids, although Durnan himself would never speak on the subject."
+                  ]
+               },
+               {
+                  "name": "History",
+                  "text": [
+                     "Durnan was born in the remote North. Durnan was known as 'The Wanderer' because that was precisely what he spent his youth doing: wandering around seemingly aimlessly, killing monsters. Eventually he took on Undermountain and survived, using the riches he gained to build the Yawning Portal Inn. His hatred of injustice and unfairness earned him a place with the Masked Lords."
+                  ]
+               },
+               {
+                  "name": "Relationships",
+                  "text": [
+                     "Durnan was friends with Khelben 'Blackstaff' Arunsun. He had a secret association with the Red Sashes."
+                  ]
+               },
+            ],
+         },
+
+
+         {
+            "name": "Rhaugilath",
+            "gender": "Male",
+            "title": "Lich-King",
+            "alias": "The Ageless",
+            "alignment": "LG",
+            "born":"",
+            "died":"",
+            "npcclass":"Wizard, Archmage",
+            "npcrace":"Human Archlich",
+            "npclocation":"Warlock's Crypt",
+
+
+            "religion": "",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Rhaugilath, called 'the Ageless', was a male human and an archlich. He was the former Sorcerer-King of the enclave of Orbedal in ancient Netheril and later one of the servitor liches of Larloch the Shadow King of Warlock's Crypt."
+                  ]
+               },
+               {
+                  "name": "History",
+                  "text": [
+                     "Rhaugilath was once the ruler of the enclave of Orbedal in High Netheril, known as the Lich-King of Orbedal.[2][1] In this position, he was an archrival to Larloch of the enclave of Jiksidur.</br></br>In the Year of Sundered Webs, −339 DR, Netheril suffered Karsus's Folly, all magic failed, and Orbedal fell from the sky to crash-land on the Sword Coast, near the mouth of the Winding Water. Rhaugilath and his phylactery survived the impact, but he was buried and trapped by rubble in a small pocket.</br></br>Many years later, Rhaugilath was discovered and freed from the rubble—by his archrival Larloch, who'd found and claimed Orbedal for his own. A vicious battle erupted between the two. Larloch was victorious and he bound Rhaugilath to serve him. He became the first of Larloch's lich servitors, as Orbedal became the infamous Warlock's Crypt. He was still there by 1374 DR."
+                  ]
+               },
+               {
+                  "name": "Activities",
+                  "text": [
+                     "Rhaugilath dedicated himself to writing Netheril's complete history, compiled in his great work, Of the Fall of Netheril.[2][1] However, he considered the Netherese Diaspora after Netheril's fall to be an integral part of the history, as well as the expected restoration of Netheril, thought to be only beginning in 1374 DR. Thus his book was never likely to be finished, and it reached several volumes. Larloch reviewed each chapter when it was completed, and they were delivered to Candlekeep to be archived in the library there.</br></br>Occasionally, Larloch allowed Rhaugilath to use either a dream or nightmare spell, at Larloch's choosing, to send a vision to some being Rhaugilath had scried upon. Rhaugilath used these visions to grant some small piece of Netherese lore to the targeted individual. Reportedly, those who received such visions heard Rhaugilath sigh and Larloch chuckle as the vision ended."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Larloch",
+            "gender": "Male",
+            "title": "The Shadow King",
+            "alias": "",
+            "alignment": "Lawful Evil",
+            "born":"",
+            "died":"",
+            "npcclass":"Wizard",
+            "npcrace":"Lich",
+            "npclocation":"Warlock's Crypt",
+
+
+            "religion": "",
+            "image": "images/npcs/larloch.jpg",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Larloch, called the Shadow King, was a Netherese male human and a lich. He was the former Sorcerer-King of the enclave of Jiksidur in ancient Netheril and later the master of the Warlock's Crypt and Shadow King of its undead inhabitants. He was one of the oldest non-draconic beings in Faerûn and one of the most powerful mages.</br></br>As a lich of such extreme age, Larloch's body was greatly decayed, with his flesh entirely gone and leaving only his white-boned skeleton. In his empty eye-sockets were two orbs of red light in place of eyes. On occasion, streaks of emerald energy moved about his body, and were a side-effect of his defensive curses. He wore fine clothes that hung off and partially covered his skeleton. At least two dozen ioun stones floated around his skull."
+                  ]
+               },
+               {
+                  "name": "Personality",
+                  "text": [
+                     "Larloch possessed incredible power and was a superintelligent genius. Over two thousand years, he'd composed perfect plans to deal with nearly every possible situation, and even for things he was not prepared for, he could come up with an almost-perfect response in moments.[2] He was a talented and cunning inventor of new spells, magic items, and magical techniques and strategies.</br></br>But he was also insane, his mind affected by his extreme age. Sometimes he could be calm and even whimsical. Other times he was crazed, snarling and launching spells at random.</br></br>Larloch once claimed he only sought greater Art, to become more skilled and powerful in the use of magic. As such, he would not battle the servants of the goddess of magic, Mystra, whom he called 'the Lady', saying that 'No matter how powerful one becomes, there are always those who are stronger.'[9] He desired only to be left alone by the outside world.</br></br>He usually killed intruders outright, but occasionally enjoyed speaking with captive adventurers before killing them. Some he freed to perform certain services, albeit with horrific curses and geases to ensure completion. He had a code of conduct to these things and kept his word, completely freeing and restoring those who were successful, provided they did not attempt to deceive or assault him."
+                  ]
+               },
+               {
+                  "name": "Abilities",
+                  "text": [
+                     "Larloch the Shadow King was an awesomely powerful lich mage, supported by his spells, an arsenal of magic items, and a range of undead powers. The true extents of his powers were unknown, and some were unique and of his own devising, having made a number of permanent magical modifications to his own body and lich nature via wish spells and rituals. He so well prepared it was extremely difficult to catch him by surprise.</br></br>As a lich, he possessed an aura of fear that terrified lesser creatures, and he was immune to the effects of cold and electricity, and to polymorphing and mind-affecting assaults. Larloch was also immune to one particular arcane spell of each level, though which were unknown to others, and too risky to try to find out. He was, however, vulnerable to the bite of a silvered weapon, which burned his undead flesh into smoke. This was a side-effect of the alterations made to his body.</br></br>He particularly made use of a variety of horrible curses, including defensive curses that left trails of emerald energy moving around his body. If Larloch touched another creature, or was touched by them, they were affected by a bestow curse spell, a loss of intellect and abilities, and a horrific change of appearance. A victim could appear withered and ghastly, or rotting and sore-ridden, or be slowly transformed into some ugly monster, limb by limb. Some of these took days or even weeks to take effect, and were hard to remove.</br></br>Larloch wielded a range of spells for attack, defense and utility, many quickened for immediate use. His tactics in battle were to simply overwhelm his enemies before they could even react, usually by casting haste, time stop, and the quickened spells in rapid succession. Against other spellcasters, he liked to counter and negate their own spells.[2] Larloch modified a number of his spells so they required no components. He'd ingrained one spell of every level with no need for preparation, namely magic missile, web, dispel magic, arcane eye, animate dead, chain lightning, control undead, devastate undead, and energy drain, and could cast them once a day without components.[1][2] A favorite tactic was to use devastate undead against his own minions, to drain their health and power his own.</br></br>If not particularly inclined to fight, or if actually pressed in combat, or just bored, Larloch would simply remove himself from the battle by using greater teleport, etherealness, by walking through walls or sinking through floors, or similar means. If he was threatened and seriously damaged, a contingency spell teleported him away. Either way, he returned to one of his safe rooms to rejuvenate."
+                  ]
+               },
+               {
+                  "name": "Rumors and Legends",
+                  "text": [
+                     "Rumors and legends knew of Larloch as one of the last remaining sorcerer-kings of Netheril, and also knew he was a powerful archmage. He was known as the 'Shadow King' along the Sword Coast lands. A few mistaken minstrels incorrectly called Larloch 'the Warlock' or 'the Warlock King', after the Warlock's Crypt, but Larloch apparently took umbrage at being called a warlock. Composers of ballads naming him as such were supposedly kidnapped by creatures in the night and carried away to be tortured and turned into some undead thing by Larloch. Singing the ballad titled 'The Warlock King' anywhere in three days' ride of the Troll Hills was not advised, lest Larloch overhear and be displeased."
+                  ]
+               },
+               {
+                  "name": "Activities",
+                  "text": [
+                     "Larloch sent his bonebats and skeletal giant bats ridden by undead servants, as well as stranger undead creatures, out of Warlock's Crypt to hunt for live creatures and travellers, especially live humans. These were brought to Larloch for his experimentations in undeath.</br></br>Larloch sometimes freed captive adventurers to perform certain services for him, such as retrieving a powerful but well-guarded spell or magical item, held for example by a Red Wizard or an archmage. However, to ensure completion, he placed on these lucky adventurers a number of geases and contingent curses. Abandoning the mission prompted a horrific transformation into a hideous monster, like a hook horror or a tanar'ri demon, one limb at a time. Larloch kept his word, however, and those who successfully performed their service were granted complete freedom and restored to their proper forms, provided they did not attempt to deceive or assault him.</br></br>Occasionally, Larloch allowed Rhaugilath to use either a dream or nightmare spell, at Larloch's choosing, to send a vision to some being Rhaugilath had scried upon. Rhaugilath used these visions to grant some small piece of Netherese lore to the targeted individual. Reportedly, those who received such visions heard Rhaugilath sigh and Larloch chuckle as the vision ended."
+                  ]
+               },
+               {
+                  "name": "Possessions",
+                  "text": [
+                     "Over his many centuries, Larloch collected a vast hoard of spellbooks, spells, magic items and other treasures, including several artifacts. This consisted of every common arcane spell and many others, almost every magic item ever made, and most of the artifacts were commonly thought lost or destroyed, or not known at all to the outside world. His collection included several kinds of Netherese power scepter, rare and forgotten to later centuries. Outside the small arsenal he carried and used on a day-to-day basis, he had a collection valued at least 3,000,000 gp. He knew all their properties and functions well, and if attacked, or about to be, he could quickly equip anything he needed for his defense.</br></br>He wielded a staff of the magi and regularly wore bracers of armor +8, a cloak of resistance +5, a major cloak of displacement, gloves of storing, a robe of eyes, and winged boots. He also had an amulet of the planes, an amulet of proof against detection and location, a ring of three wishes, and a ring of x-ray vision. Some of these items were not in their standard forms. Among his possessions was a +1 light mace of disruption, permanently reduced to half its normal size; this was not used as a weapon, but as a focus for his devastate undead spell.</br></br>Impressively, over two dozen ioun stones orbited Larloch's head at all times, giving him a wide variety of powers, protections, and enhancements. Some were more powerful than their regular forms, and he had multiples of a few."
+                  ]
+               },
+               {
+                  "name": "Relationships",
+                  "text": [
+                     "As the Shadow King of Warlock's Crypt, Larloch commanded an army of undead creatures to serve and protect him. They were his immortal, devoted servants.Among them was a small army of liches, numbering at least sixty by 1374 DR. Many were also survivors of Netheril, including Rhaugilath. Their loyalty was absolute, and ensured by some force of magic. Occasionally, he granted some of these liches their freedom, just to see what they would do.</br></br>He ruled a city populated by undead, including liches, vampires, wraiths, wights, and legions of lesser undead creatures. A troop of trolls also defended the city.[22][5][1][10][2][12] Larloch also sometimes summoned kastighur demons from the Barrens of Doom and Despair to serve him.</br></br>Larloch had dealings and trade with other powerful mages, such as one of the clones of Manshoon.[17] He had an alliance or cooperated with Szass Tam, Zulkir of Necromancy of Thay, and they traded several artifacts and magic items.</br></br>Larloch commanded a group of mages called the Imprisoners, and worked with them to create Blueflame items."
+                  ]
+               },
+               {
+                  "name": "Base",
+                  "text": [
+                     "Larloch dwelled in and ruled over the city of Warlock's Crypt. The name itself was a corruption of Larloch's name, and the name 'Larloch's Crypt' came to cover the whole city. The tallest tower was Larloch's own home.[2] Certain areas, caskets and cupboards contained magical traps that inflicted his powerful curses upon trespassers.[1] Within the tower were special safe rooms that quickly rejuvenated undead bodies, to which Larloch could quickly relocate if attacked and seriously damaged, only to return revitalized soon after. He spent most of his time in these chambers."
+                  ]
+               },
+               {
+                  "name": "History",
+                  "text": [
+                     "Larloch was considered to be nearly 2000 years old circa 1372 DR, suggesting that he was born some time in or after the late 7th century before Dalereckoning (i.e., after −628 DR). In time, Larloch rose to become Sorcerer-King of the enclave of Jiksidur in Netheril.[3] At some point, he fashioned the Death Moon Orb, a powerful artifact that allowed him to charm and mentally control the members of his court, to spy on his enemies and learn their plans, and to summon powerful fiends from the Outer Planes. It did so successfully, and Larloch ruled for many years, gaining great power. In time, he underwent a transformation into a lich. </br></br>In the Year of Sundered Webs, −339 DR, Larloch had Jiksidur hovering high over east Faerûn to spy on the rival empires of Narfell and Raumathar. A contingency spell warned Larloch that Jiksidur was facing impending doom, and he fled the city riding a dragon. Very soon after, Netheril suffered Karsus's Folly, all magic failed, and Jiksidur fell from the sky to crash into northern Narfell, utterly destroyed. Thus Larloch survived the fall of Netheril, as one of its last arcanist-kings.</br></br>Some months after the fall, Larloch discovered the ruins of Orbedal, the enclave ruled by his archrival Rhaugilath the Ageless. He claimed the city as his own and constructed himself a crypt out of its broken towers, Larloch's Crypt. Once complete, he set about fully exploring the ruins. After many years, he discovered Rhaugilath, who'd been trapped in a subterranean pocket, and a vicious battle between the two erupted. Larloch was victorious and he bound Rhaugilath to serve him. He became the first of Larloch's lich servitors.</br></br>Since then, Larloch accumulated a vast collection of spells, magic items, and undead creatures to serve him.[2] He became known as the Shadow King around the Sword Coast lands,[1][2] and Orbedal was called 'Larloch's Crypt', which was later corrupted into the name 'Warlock's Crypt'.</br></br>Over the centuries, a great number of adventurers attempted to defeat Larloch, but most failed; the bodies of many were reused as decorations in Warlock's Crypt or as undead servants.[1] Some even claimed to have destroyed him, but Larloch always rose again.[5] At least sixteen Red Wizards of Thay ventured into Warlock's Crypt, seeking to either kill Larloch or steal his magic, treasures and power, and all failed. All bar one were destroyed.</br></br>The only one who survived was Szass Tam, Zulkir of Necromancy of Thay, who visited Warlock's Crypt around 1366 DR.[6][14][7][8][5] What transpired was unknown to the outside world;[15] Szass Tam described the Red Wizards who'd faced Larloch before him as 'inept', to which Larloch agreed.[4] The two came to some deal or alliance, the details of which were again unknown to outsiders. Larloch gave Szass several powerful magic items and artifacts—including his own Death Moon Orb, and Thakorsil's Seat—and granted him a number of hooded companions, to aid him in his plots to control Thay and the demon Eltab.[16][14][15] In exchange, over a number of visits, Szass Tam gave Larloch several surviving treasures from the ruins of Jiksidur.[3] One was a certain metal vest of great power called a 'mantle', which Szass or his agents killed several Harpers for. </br></br>In the Year of the Tankard, 1370 DR, up to nine clones of Manshoon traded a number of spells known only to himself and the Zhentarim to quite a number of wizards, including Larloch, in exchange for sanctuary. In the Year of Lightning Storms, 1374 DR, over two hundred liches attacked the Knights of Myth Drannor while seeking to corrupt part of the Weave. All bore Larloch's mark. A great many were defeated by the combined might of clockwork soldiers created by Mystra and the Knights, but the liches did succeed in corrupting dozens of baelnorns to their will, who also perished in the battle. Larloch later appeared to the Knights to apologize, explaining that he'd simply given the liches their freedom as a test, to see what they did with it, and called their actions foolish. He said he only sought greater power in the Art of magic, and would not battle those who served Mystra. He was fascinated by Storm Silverhand's silver fire, desiring its power for his own but fearing that it could destroy him. Storm allowed him a close look, and he said it was the first kindness he'd been given in a long time. </br></br>Prior to the Spellplague, Larloch worked with the Imprisoners to create Blueflame magic items, formed by imprisoning spirits within the items. His apparent goal was to preserve some of his power so that he might access it later. Mystra forbade her clergy to interfere, and the Simbul later theorized that the Blueflame items preserved some of the goddess's power, allowing her possible restoration.</br></br>Larloch had apparently survived the Spellplague of the Year of Blue Fire, 1385.</br></br>In the Year of the Rune Lords Triumphant, 1487 DR, Larloch tried to become the new deity of magic by absorbing the wards of Candlekeep and the mythal of Myth Drannor. Before he could complete the draining of the mythal, however, he was stopped by the Srinshee and Elminster Aumar."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Asilther Graelor",
+            "gender": "Female",
+            "title": "Harper",
+            "alias": "",
+            "alignment": "CN",
+            "born":"",
+            "died":"",
+            "npcclass":"Thief",
+            "npcrace":"Half-elf",
+            "npclocation":"Silverymoon",
+
+
+            "religion": "",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Asilther Graelor was an Harper. Asilther followed always Mintiper, as she saw it, she owed her life to him. She preferred wilderness than cities."
+                  ]
+               },
+               {
+                  "name": "History",
+                  "text": [
+                     "Asilther was saved by Mintiper Moonsilver from Calishite slavers. She regained health but not memory, she only remembered to had born in the Forest of Tethir. She lived thieved slavers, especially those from Calimshan and was usually in company of Mintiper. Asilther was an acquaintance of lady Alustriel of Silverymoon and had many dealings with the Lords of Waterdeep but very few knew she was an Harper. Asilther usually performed missions like protecting and guiding some individuals, shadowing or kidnapping others and killing agents of Luskan and of Zhentarim. One of her best exploit was thieved most of the hoard of the adult black dragon Shammagar in mountain north of Waterdeep. Shammagar promised revenge but Asilther discovered thank to exploits of Mirt the secret name of the dragon, that was obliged to avoid a direct confrontation. Later some said she made peace with the dragon, agreeing to restore his hoard. Probably for this Asilther thieved alone a Luskan ship full of treasures raided in Ruathym and directed it to the new lair of Shammagar."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Mintiper Moonsilver",
+            "gender": "Male",
+            "title": "The Lonely Harpist",
+            "alias": "Mintiper Silverhand, Lunargent",
+            "alignment": "CN",
+            "born":"1321 DR",
+            "died":"",
+            "npcclass":"Bard",
+            "npcrace":"Human",
+            "npclocation":"Silverymoon",
+
+
+            "religion": "",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Mintiper Moonsilver was a bard whose works were collected in Silverymoon and compiled into Mintiper's Chapbook. Mintiper's eyes were usually blue but whose brightness fluctuated with his mood, growing darker when angered or shining when excited. He had shoulder-length black hair and a distinctive burn mark lay on the back of his right hand.[3] Mintiper stood tall at 6 ft 2 in (1.9 m) but was noted to weigh only 142 lb (64.4 kg).[4] His left shoulder bears Alyniria's silver lip impression. He tended to wear non-descript clothing in earthy tones. "
+                  ]
+               },
+               {
+                  "name": "Biography",
+                  "text": [
+                     "Mintiper's childhood was a mystery to all. He was out on his own, living solely on the merit of his skills at a very young age. Mirt claimed that his father was a waterdhavian while his mother (Mintiper himself said her name was Maralen) was a moon elf from Ardeep Forest, though Mirt accepts that his claim could be wildly erroneous. Mintiper's sometime use of the surname Silverhand could also link him to the family of Dornal Silverhand, father of the Seven Sisters.</br></br>Mintiper is said to have been a member of several groups beforehand but he first came to prominence at the head of his Moonlight Men in 1341 DR who, over the course of two years, proved to be an incredibly capable band of mercenaries, mostly protecting caravans in the Silver Marches[7] but also gaining renown after looting the treasures of Luskan. Unfortunately, in the Battle of Moonlight's Triumph, all but Mintiper and five others of that group were slain at Turnstone Pass after defeating an orc force at least four thousand-strong there that threatened Everlund.</br></br>Mintiper ventured south into the High Forest immediately afterward, parting ways with his fellow survivors (although two died atop Turlangtor before they reached the forest boundary[9]) and traversing the wood's entire length by himself thanks to the help of a clan of forest gnomes who showed him the Misty Trail[10]. His next recorded encounter was with the Wood-Riders of Turlang, whom he joined in attacking both merchant and bandit alike in the plains north of Secomber. During this time he encountered a group of adventurers led by a remarkable spellsinger named Alyniria. Mintiper rescued her from his fellows, enraptured by her beauty and bravery, but she was already dying from the wounds that she had suffered. With her remaining time, Alyniria taught Mintiper the ancient Runetongue and with the last of her life, marked his left shoulder with an indelible silver impression of her lips which bestowed a permanent magical blessing. </br></br>After laying Alyniria's body to rest in a secret grave, an embittered Mintiper headed to the Sword Coast where he began a career as a thief. He excelled at this role and gained a reputation for daring. He slew the mage Iniarv the Manyhanded in his tower and stole his collection of two hundred emerald lions. Mintiper briefly joined forces with the evil Morlaug before assassins working for Calimshan's satraps (many of whom he had robbed) forced him to flee for Skaug in a calishite ship stolen from Port Kir.</br></br>At Skaug, Mintiper joined the crew of the notorious pirate Kesmer Redeyed - known as the 'Coast Wolf' until a storm dashed their ship. Mintiper escaped, allegedly by using a magical green gem given to him by his mother. The sole pirate survivor of the wreck however, described a conflagration that consumed the remains of the ship and it's crew, leaving no trace of the half-elf.</br></br>Arriving in the Purple Hills, Mintiper set up in Myratma, acting as a guide to adventurers in the ruins of the First Kingdom but quickly grew bored, deciding to head back toward the High Forest[8]. Along the way though, he was caught up in several skirmishes with bedine warriors at the southeastern edge of Anauroch. Mintiper and his group, the Company of the Striking Hawk as well as the Company of the Blue Broadaxe, at the behest of amnian merchant interests, engaged the desert nomads for nearly three months until their camp was found at the Battle of Bones and their leader, Khytor Moramu was killed. Five men from the two groups survived that final desperate battle: three returned to Amn where they reported success at the loss of all others while Mintiper and another man, Tassoram continued north toward the Fallen Lands with Khytor's three daughters whom Tassoram had taken as captives. Tassoram and two of the women died on the journey but Mintiper and the last of Kytor's daughters made it to the Far Forest. After barely surviving a fight with an owlbear using only his dagger, Mintiper and the girl, Noura, were taken in by the druids of Tall Trees. It was here that Noura persuaded Mintiper to learn to play the harp and pipes. Already a gifted singer, Mintiper found that he preferred to play the harp and lute, singing ballads and writing songs about his own life. Visiting bards were drawn to him, among them, Flamatanda Snowbow who made him her apprentice and introduced him to the Harpers, of which she was a veteran member. Fifteen months later, Noura went insane and died a slow death despite Mintiper's best efforts to cure her.</br></br>Mintiper became a wandering bard with a reputation for fearlessness and went on many more adventures, including destroying the Ghost of Berun's Hill, singlehandedly attacking Hellgate Keep as well as travelling the Underdark."
+                  ]
+               },
+               {
+                  "name": "Personality",
+                  "text": [
+                     "After Moonlight's Triumph, Mintiper became increasingly embittered at the losses he suffered of people he cared about. Flamatanda Snowbow showed him a better way to live under the weight of those feelings of loss, having apparently suffered much the same for many more years than he. Mintiper has a well-earned reputation for acts of bravery. He was reportedly seen playing his harp in the midst of banshees, completely unperturbed by the danger they posed. He in fact, had no fear of death and could sometimes be found casually strolling through dungeons."
+                  ]
+               },
+               {
+                  "name": "Relationships",
+                  "text": [
+                     "Few humans, elves or half-elves would have attacked Mintiper, either out of respect or for fear of his prowess and rumours of as-yet-unseen magic at his disposal. Mintiper was a Harper and enjoyed a sterling reputation in that organisation equivalent perhaps to Elminster. He was a close friend and sometimes lover of Asilther Graelor and held a great amount of respect for his musical mentor Flamatanda, claiming she could 'make a harp sing'."
+                  ]
+               },
+               {
+                  "name": "Equipment",
+                  "text": [
+                     "Mintiper owned a set of leather armour but preferred to rely on magical Bracers of Defense for protection. He wielded a silver-bladed +2 bastard sword in combat. He also wore a cloak of elvenkind and a greenstone amulet. Mintiper also carried a decanter of endless water, several potions of healing and magical scrolls as well as his musical instruments - a harp, a hand-lute and a reed-flute. He also carried a couple of throwing knives in his boots and a pair of longswords as backup weapons."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Sernius Alathar",
+            "gender": "Male",
+            "title": "Knight Grand Commander",
+            "alias": "",
+            "alignment": "LG",
+            "born":"",
+            "died":"",
+            "npcclass":"Fighter, Paladin",
+            "npcrace":"Human",
+            "npclocation":"Silverymoon",
+
+
+            "religion": "",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Sernius Alathar is the current leader of the Knights in Silver, Silverymoon's main fighting force. Knight Grand Commander Alathar is responsible for inducting all new Knights in Silver and is personally responsible for the Knight-errants."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Klauth",
+            "gender": "Male",
+            "title": "Old Snarl, Dragon of the North",
+            "alias": "",
+            "alignment": "CE",
+            "born":"Over 1,200 years old",
+            "died":"",
+            "npcclass":"",
+            "npcrace":"Red Dragon",
+            "npclocation":"Spine of the World",
+
+
+            "religion": "",
+            "image": "images/npcs/klauth.jpg",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Klauth, also known as Old Snarl, was supposedly one of the eldest dragons alive who had not been turned into a dracolich. He was thoroughly evil, especially to his own kind, though he did have a few redeeming factors such as granting boons to creatures he considered no threat, crushing the odd orc horde on a whim and the fact that he has avoided the advances of the Cult of the Dragon.</br></br>For such an active dragon of his age, he had lived much longer than his race's life expectancy would normally allow without the aid of the cult's methods. This is because he has developed a magical process in which he can use the eggs of red dragons to increase his own size, health and vigor."
+                  ]
+               },
+               {
+                  "name": "History",
+                  "text": [
+                     "In 1339 DR Klauth, along with the green dragon Aglaraerose devoured a horde of orcs in the Spine of the World mountains.[5] On 3 Mirtul 1360 DR, Klauth was waylaid by a pair of white dragons and the blue dragon, Irdrithkryn, working in concert to kill him. Although Klauth slew each of his attackers and plundered Irdrithkryn's lair, he was gravely wounded, almost losing a wing and having half his body frozen solid. After this battle, Klauth found a new lair just east of Raven Rock to recuperate, this lair became known as Klauthen Vale. </br></br>In 1373 DR, Klauth succumbed to the effects of the Dracorage mythal and appeared above Mirabar, enraged and with destruction in mind. After destroying much of the surface city he was only barely driven off by the combined efforts of Mirabar's defenders and the Crystal dragon, Saryndalaghlothtor."
+                  ]
+               },
+               {
+                  "name": "Lair",
+                  "text": [
+                     "Klauth makes his lair in the northern Sword Coast, in a narrow winding valley dubbed Klauthen Vale in the mountains west of Mirabar. From here Old Snarl uses his powerful scrying spells and abilities to learn as much as possible about the other inhabitants of the Sword Coast; this means the old wyrm is rarely caught off guard by intruders."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Halaster Blackcloak",
+            "gender": "Male",
+            "title": "Lord of Undermountain",
+            "alias": "",
+            "alignment": "CE",
+            "born":"At least 1,100 years ago",
+            "died":"",
+            "npcclass":"Wizard, Archmage",
+            "npcrace":"Human",
+            "npclocation":"Undermountain",
+
+
+            "religion": "",
+            "image": "images/npcs/Halaster.jpg",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Halastar Blackcloak (formerly Hilather) was a very old and insane wizard who resided within his lair: Undermountain. While in Undermountain, Halaster seems constantly distracted, always chuckling and muttering to himself over people and happenings only he can discern. He also has difficulty holding the thread of any conversation.</br></br>If he is ever removed from Undermountain, he regains his lucidity. At these times, Halaster is fastidious, meticulous, and quite proper, though still thoroughly evil. Halaster can be honorable, and even noble in a way. He brooks no insolence in any case, and remembers any slight or aid given him. He also tries to get his own way in everything, caring not for the harm he does to others in the process. Blackcloak's interests include collecting new monsters and magic, but after thousands of years, nothing is really new to him. Whilst waiting for such delights, he amuses himself by manipulating events and politics to suit his whims."
+                  ]
+               },
+               {
+                  "name": "History",
+                  "text": [
+                     "In his youth more than a thousand years ago, Halaster Blackcloak was known as Hilather, though where he spent his youth is the source of great speculation. Some sources place him in the ancient Imaskari Empire. Whatever his nation of origin, it is known that he was more gregarious as a young man, creating and hosting magefairs and spellmoots, and taking many apprentices. However, as his power grew, he became more interested in aberrations and the Outer Planes, which led to growing paranoia and viciousness.</br></br>In 168 DR Hilather, now calling himself Halaster Blackcloak, arrived at the foot of Mount Waterdeep with his apprentices, collectively called 'The Seven'. Halaster summoned demons and other outsiders to construct Halaster's Hold and claimed the nearby lands as his own. Most likely he chose the location because of Sargauth Enclave, an abandoned Netherese outpost buried deep beneath the surface.</br></br>Halaster refused to release the monsters and demons after they constructed his Hold, instead sending them into the caverns to explore. This began Halaster's Hunts, a long series of journeys into the area now called the Underhalls, driving out the drow, duergar, and various monsters that lived there. By 309 DR Halaster had complete control over the near-endless tunnels and caverns and began constructing the largest and most deadly dungeon imaginable, Undermountain.</br></br>By that time, Halaster had become completely mad and wanted nothing to do with the outside world. He left his hold to live in Undermountain itself, allowing the keep to fall into ruin. Several of his apprentices came looking for him; he slew two before demanding the rest help him fortify his dungeon even more. One refused and managed to escape. Jhesiyra Kestellharp would later become Magister and would provide what little history there is about Halaster, the Mad Mage."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Helm Dwarf-Friend",
+            "gender": "Male",
+            "title": "Ruler of Sundabar",
+            "alias": "",
+            "alignment": "NG",
+            "born":"",
+            "died":"",
+            "npcclass":"Ranger, Fighter",
+            "npcrace":"Human",
+            "npclocation":"Sundabar",
+
+
+            "religion": "",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Helm Dwarf-Friend was the ruler of Sundabar and a member of the Council of the Marches. Helm was known as a wise and fair leader. </br></br> Helm first gained notoriety when he was a the war-captain of the Bloodaxe Mercenary Company, his valiant campaigns earned him popularity in Sundabar. In 1355 DR, Helm became the sixth Ruling Master of the city of Sundabar.[5] In Sojourn, around 1340 DR, Helm already is the Master of Sundabar, as Dove Falconhand is waiting to have an audience with him when called to hunt Drizzt."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Amphail the Just",
+            "gender": "Male",
+            "title": "",
+            "alias": "",
+            "alignment": "LG",
+            "born":"",
+            "died":"Early 940s DR",
+            "npcclass":"Paladin",
+            "npcrace":"Illuskan",
+            "npclocation":"Amphail",
+
+
+            "religion": "",
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Amphail the Just was a human War Lord of Waterdeep. He reigned during the second Trollwar, but his reign lasted only one year because he was killed during a battle against the trolls. His rule followed on from that of Gharl, successor to Nimoar, and he was succeeded by another five War Lords before the end of that twelve-year period. The village of Amphail is named after him, and his ghost is still said to walk the streets there. Amphail was the middle of three Caradoon brothers. The oldest brother was Renwick Caradoon, a noted wizard, and the youngest brother was Samular Caradoon. Amphail and Samular were both paladins in the service of Tyr."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Alustriel Silverhand",
+            "gender": "Female",
+            "title": "Lady Hope",
+            "alias": "Elué Dualen",
+            "alignment": "CG",
+            "born":"",
+            "died":"",
+            "npcclass":"Mage",
+            "npcrace":"Human",
+            "npclocation":"Silverymoon",
+
+
+            "religion": "",
+            "image": "images/npcs/alustriel.jpg",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Lady Alustriel Silverhand (known as Elué Dualen to the elves) was a human wizard[6] who served for many years as the ruler of the open city of Silverymoon, and later as the High Lady of the League of the Silver Marches, a confederation of various states in the areas around Silverymoon (Mithral Hall, Everlund, and Citadel Adbar, to name a few)."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "King Harbromm",
+            "gender": "Male",
+            "title": "King of Citadel Adbar",
+            "alias": "",
+            "alignment": "LG",
+            "born":"",
+            "died":"",
+            "npcclass":"Fighter, Dwarven Defender",
+            "npcrace":"Dwarf",
+            "npclocation":"Citadel Adbar",
+
+
+            "religion": "",
+            "image": "images/npcs/harbromm.jpg",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Harbromm is noted for his attention to strategy and detail. He is also a master smith and the city's badge is his personal forge mark. It is an upright, single-bladed hand axe enclosed by a circle of flame inscribed in red on a silver field. He has managed to hold his community together in the face of threats from the goblins. King Harbromm sits in the council of six and rules over all activities within Adbar with absolute authority. However, he is known to be reasonable, even compassionate at times, but just not with goblins, orcs or the like."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Izek Strazni",
+            "gender": "Male",
+            "title": "Enforcer and right hand man for Baron Vallakovich",
+            "alias": "",
+            "alignment": "NE",
+            "born":"",
+            "died":"",
+            "npcclass":"Fighter",
+            "npcrace":"Human",
+            "npclocation":"Vallaki",
+
+
+            "religion": "",
+            "image": "images/npcs/izek.png",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Izek had a history of violence as well as the ability to summon fire into his open hand. He relished in violence and the fear he created, often attacking or framing townsfolk for no reason other than to satiate his boredom or bloodlust."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Obould Many-Arrows",
+            "gender": "Male",
+            "title": "King",
+            "alias": "",
+            "alignment": "CE",
+            "born":"",
+            "died":"",
+            "npcclass":"Barbarian Fighter",
+            "npcrace":"Orc",
+            "npclocation":"Citadel of Many Arrows",
+
+
+            "religion": "",
+            "image": "images/npcs/obould.jpg",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Obould, also known as King Obould I Many-Arrows, was an exarch of Gruumsh and the mortal orc king of the Broken Arrow tribe. </br></br>Obould was a large orc who was intelligent even by human standards. Considering that the blessings bestowed upon him calmed him somewhat he had become able to see things in a far broader perspective than any orc before him. This led to a change in orcish society under his leadership and the founding of Many-Arrows. Obould was known to have four wives and at least eight sons. It was said his only fear was that when he dies his sons will destroy all he has created in their fight to succeed him."
+                  ]
+               },
+               {
+                  "name": "Possessions",
+                  "text": [
+                     "As a mortal, Obould was known to wear a ridged suit of black plate armor that was adorned with numerous spikes and decorations. Obould was also known to own a set of magical boots, which enabled him to leave no tracks in the snow, walk on ice without slipping and endure the coldest blizzard without harm. In battle he used a magical greatsword enchanted to catch fire at will. His black iron crown had four large rubies set into it each of which could generate a large fireball.[2] His main shaman and adviser, Arganth Snarrl, also made him a helmet shaped like a skull with a protective lens of the rare glassteel."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Taern Hornblade",
+            "gender": "Male",
+            "title": "High Mage. Lord Warder",
+            "alias": "Thunderspell",
+            "alignment": "LG",
+            "born":"1204 DR",
+            "died":"",
+            "npcclass":"Evoker",
+            "npcrace":"Human",
+            "npclocation":"Silverymoon",
+
+
+            "religion": "",
+            "image": "images/npcs/taern.jpg",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Taern 'Thunderspells' Hornblade was the High Mage of the city of Silverymoon[7], having succeeded Alustriel when she took the office of High Lady, and member of the Council of the Marches.Taern was tall and gray-bearded, appearing grave and thoughtful most of the time. </br></br> Although reckless in his youth, in his later years Taern prefers to avoid confrontations. By striving for consensus where possible and working hard at building friendships, Taern tended to reach decisions through alliance with others."
+                  ]
+               },
+               {
+                  "name": "Abilities",
+                  "text": [
+                     "A powerful Evoker, Taern's nickname, 'Thunderspell', was earned during his early Magefair duels where his mastery of potent battle-spells became known.[1] During his tenure among the Spellguard he showed his prowess in defense of Silverymoon by facing off against a dracolich."
+                  ]
+               },
+               {
+                  "name": "Relationships",
+                  "text": [
+                     "Taern has a deep and abiding love of Alustriel."
+                  ]
+               },
+               {
+                  "name": "History",
+                  "text": [
+                     "Born in 1204 DR, Taern earned his nickname, 'Thunderspell', early in his life from attending magefair duels and showcasing his deadly battle-spells. He is also a longtime member of the Harpers. Taern founded the Spellguard of Silverymoon in 1255 DR as a bodyguard unit to protect Alustriel. </br></br> In 1361 DR, Taern and Alustriel defeated two archmages of the Cult of the Dragon that had arrived outside Silverymoon. However while Alustriel was drawn away from the city, Taern and his Spellguard were forced to battle a Dracolich that had assaulted the southern walls. Before taking over the supreme office of the city he was the leader of the Spellguard of Silverymoon. In place of Alustriel, who has the roles of Lady Protectorate and High Lady, Hornblade sits as a Peer on the council of the Silver Marches for Silverymoon, though he follows Alustriel's wishes whenever they are expressed. </br></br> During the Tyranny of Dragons the leader of Luruar Methrammar Aerasumé sent Taern, already in good health thanks to potions of longevity, as his delegate at the Council of Waterdeep to contrast the Cult of the Dragon and Tiamat; Methrammar selected Taern for his high diplomatic skills."
+                  ]
+               },
+               {
+                  "name": "Possessions",
+                  "text": [
+                     "Taern's signature weapon is his namesake longsword Hornblade, which is a famous and heavily enchanted blade.[1] It has a number of magical properties that are extremely useful to Taern, as well as being a potent weapon in its own right. Firstly, the blade has a sending ability, which allows the wielder to send a message to up to five individuals at one time; this message consists of a distinctive horn-call - no other message is possible. Secondly, the sword is capable of storing up to two spells at once, rather than the usual one spell that most spell-storing items can have prepared. Taern normally has dispel evil and heal stored in Hornblade. Finally, the blade is attuned to the ward initiates of Silverymoon, and it will only function correctly in their hands; furthermore, any evil being that holds the sword will receive negative effects. Taern has a rat familiar called Vesk."
+                  ]
+               },
+            ],
+         },
+
+
+
+      ],
+      "_version": "5"
+   }
+}

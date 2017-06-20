@@ -17,6 +17,10 @@ Theme Version: 	1.6.0
     padding-bottom: 15px;
 }
 
+.image-frame{
+	width: 170px;
+	border-radius: 50%;
+}
 
 
 /* 5e Tools */

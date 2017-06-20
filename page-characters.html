@@ -5,7 +5,7 @@
 		<!-- Basic -->
 		<meta charset="UTF-8">
 
-		<title>Bestiary | DM Admin 1.0</title>
+		<title>Character Creation | DM Admin 1.0</title>
 		<meta name="keywords" content="HTML5 Admin Template" />
 		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
 		<meta name="author" content="okler.net">
@@ -40,6 +40,7 @@
 
 		<!-- Head Libs -->
 		<script src="assets/vendor/modernizr/modernizr.js"></script>
+		<script src="data/locations.json"></script>
 
 	</head>
 	<body>
@@ -159,7 +160,7 @@
 										</a>
 										<ul class="nav nav-children">
 											<li>
-												<a href="page-charactercreation.html">
+												<a href="index.html">
 													 Character Creation
 												</a>
 											</li>
@@ -193,22 +194,22 @@
 										</a>
 										<ul class="nav nav-children">
 											<li>
-												<a href="index.html">
+												<a href="page-classes.html">
 													 Classes
 												</a>
 											</li>
 											<li>
-												<a href="layouts-default.html">
+												<a href="page-backgrounds.html">
 													 Backgrounds
 												</a>
 											</li>
 											<li>
-												<a href="layouts-default.html">
+												<a href="page-feats.html">
 													 Feats
 												</a>
 											</li>
 											<li>
-												<a href="layouts-default.html">
+												<a href="page-races.html">
 													 Races
 												</a>
 											</li>
@@ -221,6 +222,11 @@
 										</a>
 										<ul class="nav nav-children">
 											<li>
+												<a href="page-tables.html">
+													 NPC Generator
+												</a>
+											</li>
+											<li>
 												<a href="pages-signup.html">
 													 CR Calculator
 												</a>
@@ -231,7 +237,7 @@
 												</a>
 											</li>
 											<li>
-												<a href="pages-recover-password.html">
+												<a href="pages-lootgen.html">
 													 Loot Generator
 												</a>
 											</li>
@@ -240,15 +246,20 @@
 													 Market
 												</a>
 											</li>
+											<li>
+												<a href="page-tables.html">
+													 Tables
+												</a>
+											</li>
 										</ul>
 									</li>
-									<li class="nav-parent nav-active">
+									<li class="nav-parent">
 										<a>
 											<i class="fa fa-book" aria-hidden="true"></i>
 											<span>References</span>
 										</a>
 										<ul class="nav nav-children">
-											<li class="nav-active">
+											<li>
 												<a href="page-bestiary.html">
 													 Bestiary
 												</a>
@@ -293,25 +304,35 @@
 											</li>
 										</ul>
 									</li>
-									<li class="nav-parent">
+									<li class="nav-parent nav-active">
 										<a>
 											<i class="fa fa-exclamation" aria-hidden="true"></i>
 											<span>Lore</span>
 										</a>
 										<ul class="nav nav-children">
 											<li>
-												<a href="page-npcs.html">
+												<a href="forms-basic.html">
 													 NPCs
 												</a>
 											</li>
 											<li>
+												<a href="page-factions.html">
+													 Factions
+												</a>
+											</li>
+											<li class="nav-active">
 												<a href="page-locations.html">
 													 Locations
 												</a>
 											</li>
 											<li>
-												<a href="forms-validation.html">
+												<a href="page-buildings.html">
 													 Buildings
+												</a>
+											</li>
+											<li>
+												<a href="page-factions.html">
+													 Factions
 												</a>
 											</li>
 										</ul>
@@ -362,7 +383,7 @@
 				<!-- end: sidebar -->
 					<section role="main" class="content-body">
 					<header class="page-header">
-						<h2>Bestiary</h2>
+						<h2>Locations</h2>
 					
 						<div class="right-wrapper pull-right">
 							<ol class="breadcrumbs">
@@ -371,240 +392,100 @@
 										<i class="fa fa-home"></i>
 									</a>
 								</li>
-								<li><span>References</span></li>
-								<li><span>Bestiary</span></li>
+								<li><span>DM Tools</span></li>
+								<li><span>Locations</span></li>
 							</ol>
 					
 							<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
 						</div>
 					</header>
+				<!-- start: page -->
 
-					<!-- start: page -->
-						
-					<div class="col-md-6" id="monstercontainer">
-						<div class="input-group" style="vertical-align: top;">
-							<input type="search" id="search" class="search form-control" placeholder="Find monster...">
-							<span class="input-group-btn">
-								<button class="btn btn-default" type="button" id="reset">Reset</button>
-							</span>
-						</div>
 
-						<form id="filtertools" class="form-group" autocomplete="off">
-							<select class="sourcefilter col-md-3">
-								<option value="All">All Sources</option>
-							</select>
-							<select class="3ppfilter col-md-3">
-								<option value="All">Third Party</option>
-								<option value="None">No Third Party</option>
-								<option value="Only">Third Party Only</option>
-							</select>
-							<select class="crfilter col-md-3">
-								<option value="All">All CRs</option>
-							</select>
-							<select class="typefilter col-md-3">
-								<option value="All">All Types</option>
-							</select>
-							<span class="sortlabel btn-group">
-									<button class="col-md-4 sort btn btn-default btn-xs" type="button" sort="name" sortby="asc">Name</button>
-									<button class="col-md-2 sort btn btn-default btn-xs" type="button" sort="source" sortby="asc">Source</button>
-									<button class="col-md-3 sort btn btn-default btn-xs" type="button" sort="type" sortby="asc">Type</button>
-									<button class="col-md-3 sort btn btn-default btn-xs" type="button" sort="cr" sortby="asc">CR</button>
-								</span>
-						</form>
-						<ul id="monsters" class="list">
 
-						</ul>
-						<hr>
+					<div class="row">
+			<div class="col-sm-5" id="listcontainer">
+					<div class="input-group">
+						<input type="search" id="search" class="search form-control" placeholder="Find location...">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button" id="reset">Reset</button>
+						</span>
 					</div>
+					<form id="filtertools">
+						<select class="npclocationfilter">
+							<option value="All">All Locations</option>
+						</select>
+						<select class="alignmentfilter">
+							<option value="All">All Alignments</option>
+						</select>
+						<span class="sortlabel btn-group">
+							<button class="col-xs-4 sort btn btn-default btn-xs" type="button" data-sort="name">Name</button>
+							<button class="col-xs-4 sort btn btn-default btn-xs" type="button" data-sort="npclocation">Location</button>
+							<button class="col-xs-4 sort btn btn-default btn-xs" type="button" data-sort="alignment">Alignment</button>
+						</span>
+					</form>
+				<ul class="list races">
 
-					<div class="col-sm-6">
-				<img src="" alt="" id="token">
-				<table id="stats" class="monster">
-					<tr>
-						<th class="border" colspan="6"></th>
-					</tr>
-					<tr>
-						<th id="name" colspan="6">Name <span class="source" title="Source book">SRC</source></th>
-							</tr>
-							<tr>
-								<td id="sizetypealignment" colspan="6"><span id="size">Size</span> <span id="type">type</span>, <span id="alignment">alignment</span></td>
-					</tr>
-					<tr>
-						<td class="divider" colspan="6">
-							<div></div>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Armor Class</strong> <span id="ac">## (source)</span></td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Hit Points</strong> <span id="hp">hp</span></td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Speed</strong> <span id="speed">30 ft.</span></td>
-					</tr>
-					<tr>
-						<td class="divider" colspan="6">
-							<div></div>
-						</td>
-					</tr>
-					<tr id="abilitynames">
-						<th>STR </th>
-						<th>DEX </th>
-						<th>CON </th>
-						<th>INT </th>
-						<th>WIS </th>
-						<th>CHA </th>
-					</tr>
-					<tr id="abilityscores">
-						<td id="str"><span class="score">10</span> (<span class="mod">0</span>)</td>
-						<td id="dex"><span class="score">10</span> (<span class="mod">0</span>)</td>
-						<td id="con"><span class="score">10</span> (<span class="mod">0</span>)</td>
-						<td id="int"><span class="score">10</span> (<span class="mod">0</span>)</td>
-						<td id="wis"><span class="score">10</span> (<span class="mod">0</span>)</td>
-						<td id="cha"><span class="score">10</span> (<span class="mod">0</span>)</td>
-					</tr>
-					<tr>
-						<td class="divider" colspan="6">
-							<div></div>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Saving Throws</strong> <span id="saves">Str +0</span></td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Skills</strong> <span id="skills">Perception +0</span></td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Damage Vulnerabilities</strong> <span id="dmgvuln">fire</span></td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Damage Resistances</strong> <span id="dmgres">cold</span></td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Damage Immunities</strong> <span id="dmgimm">lightning</span></td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Condition Immunities</strong> <span id="conimm">exhaustion</span></td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Senses</strong> <span id="senses">darkvision 30 ft.</span> passive Perception <span id="pp">10</span></td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Languages</strong> <span id="languages">Common</span></td>
-					</tr>
-					<tr>
-						<td colspan="6"><strong>Challenge</strong> <span id="cr">1</span> (<span id="xp">450</span> XP)</td>
-					</tr>
-					<tr id="traits">
-						<td class="divider" colspan="6">
-							<div></div>
-						</td>
-					</tr>
-					<tr class="trait">
-						<td colspan="6"><span class="name">Trait.</span> <span class="content">Content.</span></td>
-					</tr>
-					<tr id="actions">
-						<td colspan="6"><span>Actions</span></td>
-					</tr>
-					<tr class="action">
-						<td colspan="6"><span class="name">Action.</span> <span class="content">Content.</span></td>
-					</tr>
-					<tr id="reactions">
-						<td colspan="6"><span>Reactions</span></td>
-					</tr>
-					<tr class="reaction">
-						<td colspan="6"><span class="name">Reaction.</span> <span class="content">Content.</span></td>
-					</tr>
-					<tr id="legendaries">
-						<td colspan="6"><span>Legendary Actions</span></td>
-					</tr>
-					<tr class="legendary">
-						<td colspan="6"><span class="name">Action.</span> <span class="content">Content.</span></td>
-					</tr>
-					<tr>
-						<th class="border" colspan="6"></th>
-					</tr>
-				</table>
-				<div id="output"></div>
-				<br>
-				<button class="btn btn-block btn-default btn-xs" type="button" id="expandcollapse">Toggle Search</button>
+				</ul>
 			</div>
+			<div class="col-sm-7 panel-body">
+					<table id="stats">
+						<tr><th class="border" colspan="6"></th></tr>
+
+						<tr>
+							<td colspan="6"><span id="image"></span></td>
+						</tr>
+
+						<tr>
+							<th class="name-title" style="padding-top: 15px;" id="name" colspan="6">Name</th>
+						</tr>
+						<tr>
+							<td id="title" colspan="6"><strong>Title: </strong><span></span></td>
+						</tr>
+						<tr>
+							<td id="alias" colspan="6"><strong>Alias: </strong><span></span></td>
+						</tr>
+						<tr>
+							<td id="npclocation" colspan="6"><strong>Location: </strong><span></span></td>
+						</tr>
+						<tr>
+							<td id="npcclass" colspan="6"><strong>Class: </strong><span></span></td>
+						</tr>
+						<tr>
+							<td id="npcrace" colspan="6"><strong>Race: </strong><span></span></td>
+						</tr>
+						<tr>
+							<td id="gender" colspan="6"><strong>Gender:	</strong><span></span></td>
+						</tr>
+						<tr>
+							<td id="alignment" colspan="6"><strong>Alignment: </strong><span></span></td>
+						</tr>
+						<tr>
+							<td id="born" colspan="6"><strong>Born:	</strong><span></span></td>
+						</tr>
+						<tr>
+							<td id="died" colspan="6"><strong>Died:	</strong><span></span></td>
+						</tr>
 
 
+
+						<tr id="background"><td class="divider" colspan="6"><div></div><h4 style="padding-top:15px; color:#0088cc;">Background:</h4></td></tr>
+
+						
+						<tr><th class="border" colspan="6"></th></tr>
+					</table>
+			</div>
+		</div>
+
+
+						
 				<!-- end: page -->
 				</section>
 			</div>
 
-			<aside id="sidebar-right" class="sidebar-right">
-				<div class="nano">
-					<div class="nano-content">
-						<a href="#" class="mobile-close visible-xs">
-							Collapse <i class="fa fa-chevron-right"></i>
-						</a>
-			
-						<div class="sidebar-right-wrapper">
-			
-							<div class="sidebar-widget widget-calendar">
-								<h6>Upcoming Tasks</h6>
-								<div data-plugin-datepicker data-plugin-skin="dark" ></div>
-			
-								<ul>
-									<li>
-										<time datetime="2016-04-19T00:00+00:00">04/19/2016</time>
-										<span>Company Meeting</span>
-									</li>
-								</ul>
-							</div>
-			
-							<div class="sidebar-widget widget-friends">
-								<h6>Friends</h6>
-								<ul>
-									<li class="status-online">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-									<li class="status-online">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-									<li class="status-offline">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-									<li class="status-offline">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-								</ul>
-							</div>
-			
-						</div>
-					</div>
-				</div>
-			</aside>
-
 		</section>
+
+		<script type="text/javascript" src="data/npcdata.json"></script>
 
 		<!-- Vendor -->
 		<script src="assets/vendor/jquery/jquery.js"></script>
@@ -613,14 +494,6 @@
 		<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
 		<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
 		<script src="assets/vendor/magnific-popup/jquery.magnific-popup.js"></script>
-
-		<script src="assets/javascripts/5eTools/page-bestiary.js"></script>
-		<script type="text/javascript" src="data/bestiary.json"></script>
-		<script type="text/javascript" src="data/bestiary-tob.json"></script>
-
-		<script type="text/javascript" src="assets/javascripts/5eTools/droll.js"></script>
-		<script type="text/javascript" src="assets/javascripts/5eTools/list.js"></script>
-
 		<script src="assets/vendor/jquery-placeholder/jquery-placeholder.js"></script>
 		
 		<!-- Specific Page Vendor -->
@@ -661,6 +534,11 @@
 
 		<!-- Examples -->
 		<script src="assets/javascripts/dashboard/examples.dashboard.js"></script>
+
+
+		<script src="assets/javascripts/5eTools/page-npcs.js"></script>
+		<script src="assets/javascripts/5eTools/list.js"></script>
+	
 
 	</body>
 </html>

@@ -1,0 +1,727 @@
+<!doctype html>
+<html class="fixed">
+	<head>
+
+		<!-- Basic -->
+		<meta charset="UTF-8">
+
+		<title>Character Creation | DM Admin 1.0</title>
+		<meta name="keywords" content="HTML5 Admin Template" />
+		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
+		<meta name="author" content="okler.net">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+
+		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+
+		<!-- Specific Page Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.css" />
+		<link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.theme.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.css" />
+		<link rel="stylesheet" href="assets/vendor/morris.js/morris.css" />
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+
+		<!-- Head Libs -->
+		<script src="assets/vendor/modernizr/modernizr.js"></script>
+
+	</head>
+	<body>
+		<section class="body">
+
+			<!-- start: header -->
+			<header class="header">
+				<div class="logo-container">
+					<a href="#" class="logo">
+						<img src="assets/images/logo.png" width="100" height="35" alt="Porto Admin" />
+					</a>
+					<div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+						<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+					</div>
+				</div>
+			
+				<!-- start: search & user box -->
+				<div class="header-right">
+			
+					<form action="pages-search-results.html" class="search nav-form">
+						<div class="input-group input-search">
+							<input type="text" class="form-control" name="q" id="q" placeholder="Search...">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+							</span>
+						</div>
+					</form>
+			
+					<span class="separator"></span>
+			
+					<ul class="notifications">
+						<li>
+							<a href="http://dnd.wizards.com/" class="dropdown-toggle notification-icon" target="_blank">
+								<i class="fa fa-tasks"></i>
+								<span class="badge"></span>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://roll20.net/" class="dropdown-toggle notification-icon" target="_blank">
+								<i class="fa fa-users"></i>
+								<span class="badge"></span>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://donjon.bin.sh/" class="dropdown-toggle notification-icon" target="_blank">
+								<i class="fa fa-map"></i>
+								<span class="badge"></span>
+							</a>
+						</li>
+					</ul>
+			
+					<span class="separator"></span>
+			
+					<div id="userbox" class="userbox">
+						<a href="#" data-toggle="dropdown">
+							<figure class="profile-picture">
+								<img src="assets/images/!logged-user.jpg" alt="Joseph Doe" class="img-circle" data-lock-picture="assets/images/!logged-user.jpg" />
+							</figure>
+							<div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
+								<span class="name">Casey Willis</span>
+								<span class="role">administrator</span>
+							</div>
+			
+							<i class="fa custom-caret"></i>
+						</a>
+			
+						<div class="dropdown-menu">
+							<ul class="list-unstyled">
+								<li class="divider"></li>
+								<li>
+									<a role="menuitem" tabindex="-1" href="pages-user-profile.html"><i class="fa fa-user"></i> My Profile</a>
+								</li>
+								<li>
+									<a role="menuitem" tabindex="-1" href="#" data-lock-screen="true"><i class="fa fa-lock"></i> Lock Screen</a>
+								</li>
+								<li>
+									<a role="menuitem" tabindex="-1" href="pages-signin.html"><i class="fa fa-power-off"></i> Logout</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- end: search & user box -->
+			</header>
+			<!-- end: header -->
+
+			<div class="inner-wrapper">
+				<!-- start: sidebar -->
+				<aside id="sidebar-left" class="sidebar-left">
+				
+					<div class="sidebar-header">
+						<div class="sidebar-title">
+							Menu
+						</div>
+						<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+							<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+						</div>
+					</div>
+				
+					<div class="nano">
+						<div class="nano-content">
+							<nav id="menu" class="nav-main" role="navigation">
+								<ul class="nav nav-main">
+									<li>
+										<a href="layouts-default.html">
+											<i class="fa fa-home nav-active" aria-hidden="true"></i>
+											<span>Home</span>
+										</a>
+									</li>
+
+									<li class="nav-parent nav-active">
+										<a>
+											<i class="fa fa-book" aria-hidden="true"></i>
+											<span>Rules</span>
+										</a>
+										<ul class="nav nav-children">
+											<li class="nav-active">
+												<a href="index.html">
+													 Character Creation
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Equipment
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Playing the Game
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Running the Game
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Setting
+												</a>
+											</li>
+										</ul>
+									</li>
+
+									<li>
+										<a>
+											<i class="fa fa-users" aria-hidden="true"></i>
+											<span>Player Options</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="index.html">
+													 Classes
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Backgrounds
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Feats
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Races
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-wrench" aria-hidden="true"></i>
+											<span>DM Tools</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="pages-signup.html">
+													 CR Calculator
+												</a>
+											</li>
+											<li>
+												<a href="pages-signin.html">
+													 Encounter Builder
+												</a>
+											</li>
+											<li>
+												<a href="pages-recover-password.html">
+													 Loot Generator
+												</a>
+											</li>
+											<li>
+												<a href="pages-lock-screen.html">
+													 Market
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-book" aria-hidden="true"></i>
+											<span>References</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="page-bestiary.html">
+													 Bestiary
+												</a>
+											</li>
+											<li>
+												<a href="page-conditions.html">
+													 Conditions
+												</a>
+											</li>
+											<li>
+												<a href="ui-elements-panels.html">
+													 Items
+												</a>
+											</li>
+											<li>
+												<a href="page-spells.html">
+													 Spells
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-random" aria-hidden="true"></i>
+											<span>Generators</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="page-tavern.html">
+													 Tavern Generator
+												</a>
+											</li>
+											<li>
+												<a href="page-npc.html">
+													 NPC Generator
+												</a>
+											</li>
+											<li>
+												<a href="page-encounters.html">
+													 Encounter Generator
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-exclamation" aria-hidden="true"></i>
+											<span>Lore</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="forms-basic.html">
+													 NPCs
+												</a>
+											</li>
+											<li>
+												<a href="forms-advanced.html">
+													 Locations
+												</a>
+											</li>
+											<li>
+												<a href="forms-validation.html">
+													 Buildings
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-map" aria-hidden="true"></i>
+											<span>Map</span>
+										</a>
+									</li>
+									
+				
+							<hr class="separator" />
+				
+							<div class="sidebar-widget widget-tasks">
+								<div class="widget-header">
+									<h6>Links</h6>
+									<div class="widget-toggle">+</div>
+								</div>
+								<div class="widget-content">
+									<ul class="list-unstyled m-none">
+										<li><a href="https://roll20.net/">Roll20</a></li>
+										<li><a href="https://donjon.bin.sh/">Donjon</a></li>
+									</ul>
+								</div>
+							</div>
+				
+							<hr class="separator" />
+				
+							
+						</div>
+				
+						<script>
+							// Maintain Scroll Position
+							if (typeof localStorage !== 'undefined') {
+								if (localStorage.getItem('sidebar-left-position') !== null) {
+									var initialPosition = localStorage.getItem('sidebar-left-position'),
+										sidebarLeft = document.querySelector('#sidebar-left .nano-content');
+									
+									sidebarLeft.scrollTop = initialPosition;
+								}
+							}
+						</script>
+				
+					</div>
+				
+				</aside>
+				<!-- end: sidebar -->
+
+				<section role="main" class="content-body has-toolbar">
+					<header class="page-header">
+						<h2>Rules</h2>
+					
+						<div class="right-wrapper pull-right">
+							<ol class="breadcrumbs">
+								<li>
+									<a href="index.html">
+										<i class="fa fa-home"></i>
+									</a>
+								</li>
+								<li><span>Pages</span></li>
+								<li><span>System Log</span></li>
+							</ol>
+					
+							<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
+						</div>
+					</header>
+
+					<!-- start: page -->
+					<div class="inner-toolbar clearfix">
+						<ul>
+							<li class="right">
+								<ul class="nav nav-pills nav-pills-primary">
+									<li class="active">
+										<a href="#stepbystep" data-toggle="tab">Step-by-Step Characters</a>
+									</li>
+									<li>
+										<a href="#advancement" data-toggle="tab">Character Advancement</a>
+									</li>
+									<li>
+										<a href="#races" data-toggle="tab">Races</a>
+									</li>
+									<li>
+										<a href="#alignment" data-toggle="tab">Alignment</a>
+									</li>
+									<li>
+										<a href="#languages" data-toggle="tab">Languages</a>
+									</li>
+									<li>
+										<a href="#backgrounds" data-toggle="tab">Backgrounds</a>
+									</li>
+									<li>
+										<a href="#feats" data-toggle="tab">Feats</a>
+									</li>
+									<li>
+										<a href="#multiclassing" data-toggle="tab">Multiclassing</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					
+					<section class="panel">
+						<div class="panel-body tab-content">
+							<div id="stepbystep" class="tab-pane active">
+								<h2>Step-by-Step Characters</h2>
+								</br>
+								<p>Your first step in playing an adventurer in a Dungeons and Dragons game is to imagine and create a character of your own. Your character is a combination of game statistics. roleplaying hooks, and your imagination. You choose a race (such as human or halfling) and a class (such as fighter or wizard). You also invent the personality, appearance, and backstory of your character. Once completed, your character serves as your representative in the game, your avatar in the Dungeons and Dragons world.</p>
+								<p>Before you dive into step 1 below, think about the kind of adventurer you want to play. You might be a courageous fighter, a skulking rogue, a fervent cleric, or a flamboyant wizard. Or you might be more interested in an unconventional character, such as a brawny rogue who likes hand-to-hand combat, or a sharpshooter who picks off enemies from afar. Do you like fantasy fiction featuring dwarves or elves? Try building a character of one of those races. Do you want your character to be the toughest adventurer at the table? Consider a class like barbarian or paladin. If you don’t know where else to begin, take a look at the illustrations in this book to see what catches your interest.</p>
+								<p>Once you have a character in mind, follow these steps in order, making decisions that reflect the character you want. Your conception of your character might evolve with each choice you make. What’s important is that you come to the table with a character you’re excited to play. Throughout this section, we use the term character sheet to mean whatever you use to track your character, whether it’s a formal character sheet, some form of digital record, or a piece of notebook paper. An official DnD character sheet is a fine place to start until you know what information you need and how you use it during the game.</p>
+								<h3>Building Bruenor</h3>
+								<p>Each step of character creation includes an example of that step, with a player named Bob building his dwarf character, Bruenor.</p>
+								<h3>1. Choose a Race</h3>
+								<p>Every character belongs to a race, one of the many intelligent humanoid species in the DnD world. The most common player character races are dwarves, elves, halflings, and humans. Some races also have subraces, such as mountain dwarf or wood elf.</p>
+								<p>The race you choose contributes to your character’s identity in an important way, by establishing a general appearance and the natural talents gained from culture and ancestry. Your character’s race grants particular racial traits, such as special senses, proficiency with certain weapons or tools, proficiency in one or more skills, or the ability to use minor spells. These traits sometimes dovetail with the capabilities of certain classes (see step 2). For example, the racial traits of lightfoot halflings make them exceptional rogues, and high elves tend to be powerful wizards. Sometimes playing against type can be fun, too. Half-orc paladins and mountain dwarf wizards, for example, can be unusual but memorable characters.</p>
+							</div>
+
+							<div id="advancement" class="tab-pane active">
+								<h2>Character Advancement</h2>
+								</br>
+								<p>As your character goes on adventures and overcomes challenges, he or she gains experience, represented by experience points. A character who reaches a specified experience point total advances in capability. This advancement is called gaining a level. When your character gains a level, his or her class often grants additional features, as detailed in the class description. Some of these features allow you to increase your Ability Scores, either increasing two scores by 1 each or increasing one score by 2. You can’t increase an ability score above 20. In addition, every character’s proficiency bonus increases at certain levels.</p>
+								<p>Each time you gain a level, you gain 1 additional Hit Die. Roll that Hit Die, add your Constitution modifier to the roll, and add the total to your hit point maximum. Alternatively, you can use the fixed value shown in your class entry, which is the average result of the die roll (rounded up). When your Constitution modifier increases by 1, your hit point maximum increases by 1 for each level you have attained. For example, if your 7th-level fighter has a Constitution score of 17, when he reaches 8th level, he increases his Constitution score from 17 to 18, thus increasing his Constitution modifier from +3 to +4. His hit point maximum then increases by 8.</p>
+								<p>The Character Advancement table summarizes the XP you need to advance in levels from level 1 through level 20, and the proficiency bonus for a character of that level. Consult the information in your character’s class description to see what other improvements you gain at each level.</p>
+								<table class="table table-bordered table-striped mb-none" id="datatable-details">
+												<thead>
+													<tr>
+														<th>Experience Points</th>
+														<th>Level</th>
+														<th>Proficiency Bonus</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr role="row">
+														<td>0</td>
+														<td>1</td>
+														<td>+2</td>
+													</tr>
+													<tr role="row">
+														<td>300</td>
+														<td>2</td>
+														<td>+2</td>
+													</tr>
+													<tr role="row">
+														<td>900</td>
+														<td>3</td>
+														<td>+2</td>
+													</tr>
+													<tr role="row">
+														<td>2,700</td>
+														<td>4</td>
+														<td>+2</td>
+													</tr>
+													<tr role="row">
+														<td>6,500</td>
+														<td>5</td>
+														<td>+3</td>
+													</tr>
+													<tr role="row">
+														<td>14,000</td>
+														<td>6</td>
+														<td>+3</td>
+													</tr>
+													<tr role="row">
+														<td>23,000</td>
+														<td>7</td>
+														<td>+3</td>
+													</tr>
+													<tr role="row">
+														<td>34,000</td>
+														<td>8</td>
+														<td>+3</td>
+													</tr>
+													<tr role="row">
+														<td>48,000</td>
+														<td>9</td>
+														<td>+3</td>
+													</tr>
+													<tr role="row">
+														<td>64,000</td>
+														<td>10</td>
+														<td>+3</td>
+													</tr>
+													<tr role="row">
+														<td>85,000</td>
+														<td>11</td>
+														<td>+4</td>
+													</tr>
+													<tr role="row">
+														<td>100,000</td>
+														<td>12</td>
+														<td>+4</td>
+													</tr>
+													<tr role="row">
+														<td>120,000</td>
+														<td>13</td>
+														<td>+5</td>
+													</tr>
+													<tr role="row">
+														<td>140,000</td>
+														<td>14</td>
+														<td>+5</td>
+													</tr>
+													<tr role="row">
+														<td>165,000</td>
+														<td>15</td>
+														<td>+5</td>
+													</tr>
+													<tr role="row">
+														<td>195,000</td>
+														<td>16</td>
+														<td>+5</td>
+													</tr>
+													<tr role="row">
+														<td>225,000</td>
+														<td>17</td>
+														<td>+6</td>
+													</tr>
+													<tr role="row">
+														<td>265,000</td>
+														<td>18</td>
+														<td>+6</td>
+													</tr>
+													<tr role="row">
+														<td>305,000</td>
+														<td>19</td>
+														<td>+6</td>
+													</tr>
+													<tr role="row">
+														<td>355,000</td>
+														<td>20</td>
+														<td>+6</td>
+													</tr>
+
+													
+												</tbody>
+											</table>
+							</div>
+
+							<div id="races" class="tab-pane active">
+								<h2>Races</h2>
+								</br>
+								<h3>Racial Traits</h3>
+								<p>The description of each race includes racial traits that are common to members of that race. The following entries appear among the traits of most races.</p>
+								<h3>Ability Score Increase</h3>
+								<p>Every race increases one or more of a character’s ability scores.</p>
+								<h3>Age</h3>
+								<p>The age entry notes the age when a member of the race is considered an adult, as well as the race’s expected lifespan. This information can help you decide how old your character is at the start of the game. You can choose any age for your character, which could provide an explanation for some of your ability scores. For example, if you play a young or very old character, your age could explain a particularly low Strength or Constitution score, while advanced age could account for a high Intelligence or Wisdom.</p>
+								<h3>Alignment</h3>
+								<p>Most races have tendencies toward certain alignments, described in this entry. These are not binding for player characters, but considering why your dwarf is chaotic, for example, in defiance of lawful dwarf society can help you better define your character.</p>
+								<h3>Size</h3>
+								<p>Characters of most races are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few races are Small (between 2 and 4 feet tall), which means that certain rules of the game affect them differently. The most important of these rules is that Small characters have trouble wielding heavy weapons, as explained in “Equipment.”</p>
+								<h3>Speed</h3>
+								<p>Your speed determines how far you can move when traveling ( “Adventuring”) and fighting (“Combat”).</p>
+								<h3>Languages</h3>
+								<p>By virtue of your race, your character can speak, read, and write certain languages.</p>
+								<h3>Subraces</h3>
+								<p>Some races have subraces. Members of a subrace have the traits of the parent race in addition to the traits specified for their subrace. Relationships among subraces vary significantly from race to race and world to world.</p>
+							</div>
+
+							<div id="alignment" class="tab-pane active">
+								<h2>Alignment</h2>
+								</br>
+							</div>
+
+							<div id="languages" class="tab-pane active">
+								<h2>Languages</h2>
+								</br>
+							</div>
+
+							<div id="backgrounds" class="tab-pane active">
+								<h2>Backgrounds</h2>
+								</br>
+							</div>
+
+							<div id="feats" class="tab-pane active">
+								<h2>Feats</h2>
+								</br>
+							</div>
+
+							<div id="multiclassing" class="tab-pane active">
+								<h2>Multiclassing</h2>
+								</br>
+							</div>
+
+
+							
+						</div>
+					</section>
+
+					<!-- end: page -->
+				</section>
+			</div>
+
+			<aside id="sidebar-right" class="sidebar-right">
+				<div class="nano">
+					<div class="nano-content">
+						<a href="#" class="mobile-close visible-xs">
+							Collapse <i class="fa fa-chevron-right"></i>
+						</a>
+			
+						<div class="sidebar-right-wrapper">
+			
+							<div class="sidebar-widget widget-calendar">
+								<h6>Upcoming Tasks</h6>
+								<div data-plugin-datepicker data-plugin-skin="dark" ></div>
+			
+								<ul>
+									<li>
+										<time datetime="2016-04-19T00:00+00:00">04/19/2016</time>
+										<span>Company Meeting</span>
+									</li>
+								</ul>
+							</div>
+			
+							<div class="sidebar-widget widget-friends">
+								<h6>Friends</h6>
+								<ul>
+									<li class="status-online">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+									<li class="status-online">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+									<li class="status-offline">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+									<li class="status-offline">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+			
+						</div>
+					</div>
+				</div>
+			</aside>
+
+		</section>
+
+		<!-- Vendor -->
+		<script src="assets/vendor/jquery/jquery.js"></script>
+		<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+		<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+		<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script src="assets/vendor/magnific-popup/jquery.magnific-popup.js"></script>
+		<script src="assets/vendor/jquery-placeholder/jquery-placeholder.js"></script>
+		
+		<!-- Specific Page Vendor -->
+		<script src="assets/vendor/jquery-ui/jquery-ui.js"></script>
+		<script src="assets/vendor/jqueryui-touch-punch/jqueryui-touch-punch.js"></script>
+		<script src="assets/vendor/jquery-appear/jquery-appear.js"></script>
+		<script src="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.js"></script>
+		<script src="assets/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.js"></script>
+		<script src="assets/vendor/flot.tooltip/flot.tooltip.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.pie.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.categories.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.resize.js"></script>
+		<script src="assets/vendor/jquery-sparkline/jquery-sparkline.js"></script>
+		<script src="assets/vendor/raphael/raphael.js"></script>
+		<script src="assets/vendor/morris.js/morris.js"></script>
+		<script src="assets/vendor/gauge/gauge.js"></script>
+		<script src="assets/vendor/snap.svg/snap.svg.js"></script>
+		<script src="assets/vendor/liquid-meter/liquid.meter.js"></script>
+		<script src="assets/vendor/jqvmap/jquery.vmap.js"></script>
+		<script src="assets/vendor/jqvmap/data/jquery.vmap.sampledata.js"></script>
+		<script src="assets/vendor/jqvmap/maps/jquery.vmap.world.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.africa.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.asia.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.australia.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.europe.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.north-america.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.south-america.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="assets/javascripts/theme.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="assets/javascripts/theme.custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="assets/javascripts/theme.init.js"></script>
+
+		<!-- Examples -->
+		<script src="assets/javascripts/dashboard/examples.dashboard.js"></script>
+
+	</body>
+</html>

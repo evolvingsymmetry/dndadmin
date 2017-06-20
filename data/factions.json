@@ -1,0 +1,295 @@
+var factiondata = {
+   "compendium": {
+      "factions": [
+
+         {
+            "name": "Purple Dragons",
+            "base":"Cormyr",
+            "leader":"",
+            "alignment": "Lawful Good",
+            "members": "",
+            "allegiance": "",
+            "formed":"",
+            "enemies":"",
+            "npclocation":"Cormyr",
+
+            "image": "",
+
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "The Purple Dragons were the famous military of Cormyr that were renowned for their discipline, skill, and loyalty. The Purple Dragons were considered to be one of the strongest armies in the Realms, and were well renowned for their heroism and acts of valor in the field of combat. They ranged from young nobles who joined as officers to farmers who joined as Blades. The well-disciplined army was made possible through Cormyr's military and hierarchical heritage."
+                  ]
+               },
+               {
+                  "name": "<strong>Recruitment and Training</strong>",
+                  "text": [
+                  "All loyal Cormyrean citizens were eligible to join the Purple Dragons by taking an oath. Although the oath was available to non-humans provided they are Cormyrean citizens, extra measures may have been imposed on non-humans to ensure their loyalty, due to the fact that Cormyr was predominantly human.</br></br>Nobles were actively expected to take the oath, and would generally be given positions of leadership. Non-nobles would form part of the militia with an initial service of two years.</br></br>The first six months consisted of an extensive training regime, before starting active duty, such as patrolling Cormyr's borders or guarding its cities and towns. After the two-year service came to an end, the Purple Dragon may choose to continue his or her role, or return to his or her former life. In times of conflict the individual could be called back into service.</br></br>Training could take one of three paths, including basic combat training, leadership training, or training in the protection of key personnel, often War Wizards. Training was conducted in a range of weapons, and covered subjects such as defense of others and battlefield awareness, in addition to basic combat training."
+                  ]
+               },
+               {
+                  "name": "<strong>Ranks</strong>",
+                  "text": [
+                     "The Purple Dragons had specific titles for the members of their army, listed here from lowest to highest.</br></br>Blade</br>Telsword</br>First Sword</br>Swordcaptian</br>Lionar</br>Ornrion</br>Constal</br>Oversword</br>Battlemaster</br>Lord High Marshall</br></br>The Lord High Marshall in 1374 DR, also known as the Warden of the North, was Lord Dauneth Marliir. Lord Marliir was commissioned by the King for his loyalty and dedication to the Crown. He was based in the city of Arabel, where his personal estate lay."
+                  ]
+               },
+               {
+                  "name": "<strong>History</strong>",
+                  "text": [
+                     "Cormyr used to be part of the woodland empire of Myth Drannor, where elves and dragons fought for dominance. The black dragon Thauglor was one of the most prominent dragons, and contested the elves for the land. However, Thauglor was so old that his scales had begun to age and appear to be purple colored.</br></br>The elves defeated the dragon Thauglor and took the land for themselves. It was from the purple tinged scales of the defeated Thauglor that the Purple Dragons took their name.</br></br>The Purple Dragons as an organization were originally a group of noble rebels led by King Duar 'Longyears', striving for three years to retake Cormyr from the pirate lord Magrath the Minotaur and the traitors that had allied themselves with him.</br></br>The group consisted of Elvarin Crownsilver, Glorin Truesilver, Omalra Dracohorn, Dintheron Bleth, and Jotor Turcassan (the only Turcassan to remain loyal to the king). Those five were led by Duar and Amedahast, who also had a dwindling number of rank-and-file soldiers following them. The increasingly rag-tag band had found great difficulty in re-taking the nation even though they had the full support of Cormyr's commoners. In 432 DR, another loyalist unit had managed to take High Horn and the soldiers inside agreed to pledge themselves to the king if the Purple Dragons could win a single victory by themselves. Duar and Amedahast chose the remote Dheolur, the hold of one of the traitorous noble families. With the help of a farmer named Dhedluk (whom Dheolur was later renamed after), and Threena Cormaeril, the group stormed the main building. Magrath was being entertained there at the time, which allowed King Duar to kill the minotaur. This dealt a crippling blow to the traitors and earned the Dragons the allegiance of High Horn's troops, who helped to quickly bring the realm under Duar's rightful control.</br></br>Although not explicitly stated, the royal army was most likely named in honor of this group."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "The Kur-Tharsu",
+            "base":"Lost kingdom of Thar",
+            "leader":"",
+            "alignment": "Lawful Evil",
+            "members": "?",
+            "allegiance": "",
+            "formed":"",
+            "enemies":"",
+            "npclocation":"Thar",
+
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Most Moonsea natives have heard stories of the ancient ogre-kingdom of Thar and its surprising sophistication. Long-ruined watchtowers and roads of well-built stonework, powerful ogre-sized magic weapons, and black curses that still linger over ruined holds all suggest accomplishments beyond the capabilities of the notoriously dull-witted ogres. And in fact all these things were not the work of ordinary ogres. Ancient Thar was a kingdom of oni, not common ogres. While most of the old realm’s common folk were indeed ordinary ogres, oni lords and captains were responsible for building Thar’s keeps and holds, laying its spells, and crafting its arms. Common ogres were little more than laborers and loyal (if dim-witted) troops whose activities were closely supervised by oni masters.</br></br> Most of the oni vanished into history a thousand years ago when Thar fell, but a few oni still linger in buried strongholds or the ruins of Thar’s ancient fortresses. They call themselves the Kur-Tharsu, or “Overlords of Thar.” The Kur-Tharsu are not really a tribe, per se—they consist of a few score scattered individuals, none of whom would admit to owing allegiance to any others. But they still exert an influence over the lesser savages who roam their ancient homeland. For example, some of the oni still enslave common ogres and rule over ogre bands. Tribes such as the Jade Skull, the Falling Star, or the Crystal Sphere are bands of common ogres under the sway of one or more oni.</br></br>For the most part, the Kur-Tharsu oni have little desire to rebuild their old kingdom. While they are far more clever and ambitious than their minions, they simply are too few and too jealous of each other. Instead they use their ogre servants to bring them food, plunder nearby ruins and caravans or weaker tribes, and guard their lairs. A few, however, long for the civilized glory of their past. These few oni have, mostly in secret, begun siding with the humans of New Phlan, Melvaunt, and Glister, hoping to raise a great, new empire from the human cities, with themselves as the rulers. It is from these that any Player Character ogre mages most likely come."
+                  ]
+               },
+               {
+                  "name": "Quests",
+                  "text": [
+                  "• Root out the clerics of Gruumsh in Thar."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Bloody Skull Tribe",
+            "base":"Bloodskull Keep",
+            "leader":"Warchief Wertha",
+            "alignment": "Lawful Evil",
+            "members": "300+",
+            "allegiance": "",
+            "formed":"",
+            "enemies":"",
+            "npclocation":"Thar",
+
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "This grim keep in northwestern Thar is home to the Bloody Skull orc tribe. In the keep’s great hall, hundreds of red-dyed skulls are affixed to the walls, each a trophy of the tribe. Most are human, dwarf, or orc skulls, but ogre, giant, and wyvern skulls are also in prominent places. The Bloody Skulls carelessly mix the skulls of their own fallen champions with the skulls of noteworthy enemies those champions slew.</br></br>The Bloody Skulls are a numerous and aggressive tribe, but they have been embroiled in vicious infighting for many months now. They were known as the Black Spears only a few years ago, a tribe dominated by the clerics of Gruumsh; they took their name from the orc-god’s fearsome weapon. When the old chief died, the Gruumshites moved to take over the tribe altogether and rule it in the name of He Who Watches. The orc warriors soon grew restive and resentful of the clerics’ rule and rallied behind a young half-orc warchief named Wertha. Wertha overthrew the clerics of Gruumsh and captured Bloodskull Keep, but Gruumshite devotees remained in control of various outlying lairs and secret holds. Wertha has been engaged in reducing these strongholds one by one and making himself the master of the new Bloody Skull tribe. When he finishes, the Bloody Skulls—formerly the Black Spears—will reclaim their spot as one of the strongest tribes in Thar."
+                  ]
+               },
+               {
+                  "name": "Quests",
+                  "text": [
+                  "• Root out the clerics of Gruumsh in Thar."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "The Red Claws",
+            "base":"The Red Castle",
+            "leader":"Warlord Hashrad",
+            "alignment": "Chaotic Evil",
+            "members": "100+",
+            "allegiance": "Worgs",
+            "formed":"",
+            "enemies":"",
+            "npclocation":"Thar",
+
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "A large tribe of goblins and hobgoblins, the Red Claws lair in the cyclopean ruins of an old ogre hold from the days when Thar was a kingdom. Cunning half-floors and quarter-steps of fieldstone and timber divide the huge ogre doorways and towering ogre vaults into spaces more suitable for goblins. The Red Claws are allied with a powerful pack of worgs, and Red Claw worg-riders range all over Thar (and the lands about) in search of easy plunder.</br></br>The Red Claws are currently the tribe of Thar causing the most trouble to the most people. The Red Castle stands about twenty miles north of the coastal track between Phlan and Melvaunt, and marauding worg-riders have made travel along this path dangerous even for large and well-armed groups. The hobgoblin marshal Hashrad is warlord of the tribe, and he has been gleefully extorting tolls, bribes, and tribute from anyone within reach. As you might expect, Hashrad is not particularly scrupulous about staying bribed, and so he frequently “loses control” over raiding parties or “doesn’t receive” tribute offerings—both timeworn excuses to take a bribe, and then plunder passers-by anyway."
+                  ]
+               },
+               {
+                  "name": "Quests",
+                  "text": [
+                  "• Loot and pillage traveling caravans"
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Skullsmashers",
+            "base":"Fangjaw Hold in Thar",
+            "leader":"Zar-Umak",
+            "alignment": "Chaotic Evil",
+            "members": "200+",
+            "allegiance": "",
+            "formed":"",
+            "enemies":"",
+            "npclocation":"Thar",
+
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "A crude palisade surrounding a dozen huge lodges made of fieldstone and turf, Fangjaws Hold is named for its barbaric gate, where hundreds of bulette teeth have been driven into the wood to give it the appearance of, well, a fanged jaw. This is the lair of the Skullsmashers, a tribe of unusually fierce and strong ogres. The Skullsmashers have captured many slaves from weaker tribes around them and their raids against neighboring lands, and so Fangjaws is home to a hundred or more goblin “thralls” who fight for their ogre masters, and scores of human and dwarf wretches who are simply worked and bullied to death in the most callous and careless manner imaginable. Few Skullsmasher captives last more than a few months.</br></br>The chief of the Skullsmashers is a hulking, two-headed ogre named Zar-Umak. Whether he has ettin blood in him, or is simply some freak of nature, none can say."
+                  ]
+               },
+               {
+                  "name": "Quests",
+                  "text": [
+                  "• Capture slaves from neighboring tribes."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "The Burning Daggers",
+            "base":"Burning Daggers Keep in Thar",
+            "leader":"Kossuth",
+            "alignment": "Lawful Evil",
+            "members": "Orc Zealots",
+            "allegiance": "",
+            "formed":"",
+            "enemies":"",
+            "npclocation":"Thar",
+
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Fanatical worshipers of Kossuth, the prince of evil fire elementals, the Burning Daggers are murderous, intolerant zealots even by orcish standards. The apex of their existence is the opportunity to build a mighty bonfire and hurl their captives to fiery death one by one. Each Burning Dagger orc is branded horribly in the center of his face with a dagger-shaped mark (point to the chin, crossguard above the eyes, pommel in the center of the forehead) as a sign of devotion… once every year, the new mark seared right over the old. The cumulative effect for an old chieftain is absolutely gruesome.</br></br>The Burning Daggers make their lair in a deep set of caverns about twenty miles from Glister. A natural rift to the Elemental Plane of Fire exists at the bottom of the cave, creating volcanic conditions in a place where none should exist. In the heart of the rift, a dagger of hot black iron floats in the air, wrapped in ebon flames. Sacred to Imix’s holy assassins, the dagger has been sought by the Black Flame zealots for many decades."
+                  ]
+               },
+               {
+                  "name": "Quests",
+                  "text": [
+                  "• Serve the Lord of Fire, Kossuth."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Six Coffers Market Priakos",
+            "base":"Silverymoon, Berdusk, Waterdeep, Priapurl, and Selgaunt.",
+            "leader":"Thelve Baruinheld",
+            "alignment": "Neutral",
+            "members": "",
+            "allegiance": "",
+            "formed":"",
+            "enemies":"",
+            "npclocation":"Waterdeep",
+
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The Six Coffers Market Priakos was a merchant company in Faerûn. Originally founded by six merchants, only four of the remaining founders remained alive in 1367 DR. Thelve Baruinheld served as the leader of the organization, operating out of Berdusk. This merchant company had bases of operation in Berdusk, Waterdeep, Silverymoon, Priapurl, and Selgaunt."
+                  ]
+               },
+               {
+                  "name": "Quests",
+                  "text": [
+                  "• Engage in profitable business ventures."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Moonlight Men",
+            "base":"Silverymoon",
+            "leader":"Mintiper Moonsilver",
+            "alignment": "Chaotic Good",
+            "members": "200",
+            "allegiance": "Luruar",
+            "formed":"",
+            "enemies":"Monstrous inhabitants of the North, enemies of Luruar",
+            "npclocation":"Luruar",
+
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                  "The Moonlight Men were a mercenary company of ten years' experience that gained a great reputation. They usually guarded caravan roads around Sundabar, Silverymoon, and Everlund. Their last battle was the defense of Turnstone Pass against a huge orc horde. They managed to crush the orcs but only six Moonlight Men, include Mintiper Moonsilver, survived. Mintiper went to wander south, while the others possibly joined the army of Silverymoon."
+                  ]
+               },
+               {
+                  "name": "Quests",
+                  "text": [
+                  "• Defend the caravans that run from Sundabar, to Silverymoon, to Everlund."
+                  ]
+               },
+            ],
+         },
+
+
+
+         {
+            "name": "Argent Legion",
+            "base":"Rauvinwatch Keep",
+            "leader":"Methrammar Aerasumé",
+            "alignment": "Lawful Good",
+            "members": "850",
+            "allegiance": "Luruar",
+            "formed":"1371 DR",
+            "enemies":"Monstrous inhabitants of the North, enemies of Luruar",
+            "npclocation":"Luruar",
+
+            "image": "",
+
+            "background": [
+               {
+                  "name": "Summary",
+                  "text": [
+                  "The Argent Legion was the state army of Luruar. Formed in an attempt to ensure the safety of the smaller settlements of Luruar, the Argent Legion's forces were drawn from the various armies maintained by the more powerful city-states of that nation. Its purpose is to patrol Luruar's territory and garrison its settlements."
+                  ]
+               },
+               {
+                  "name": "Quests",
+                  "text": [
+                  "• Defend the smaller settlements of Luraur."
+                  ]
+               },
+               {
+                  "name": "Membership",
+                  "text": [
+                  "Any member of Luruar's various official state military forces could be transferred into the Legion. Many cities chose to send their barely-trained new recruits to maintain their commitment to the force while not losing their own veterans. In 1372 DR the group numbered 850 soldiers - 200 Knights in Silver (Silverymoon), 250 Iron Guard (Citadel Adbar), 200 Shieldsar (Sundabar), 50 dwarves each from Citadel Felbarr and Mithral Hall, and 100 archers & cavalry from the Army of the Vale (Everlund)."
+                  ]
+               },
+               {
+                  "name": "Leadership",
+                  "text": [
+                     "Methrammar Aerasumé was appointed High Marshal of the Legion by his mother, Alustriel Silverhand.[1] An able warrior, Methrammar was an excellent drillmaster whose training regimen turned green youths into elite warriors. The High Marshal of the Legion was considered the seventh member of the Nine Peers council that governed the League of the Silver Marches."
+                  ]
+               },
+            ],
+         },
+
+      ],
+      "_version": "5"
+   }
+}

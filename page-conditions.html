@@ -1,0 +1,627 @@
+<!doctype html>
+<html class="fixed">
+	<head>
+
+		<!-- Basic -->
+		<meta charset="UTF-8">
+
+		<title>Character Creation | DM Admin 1.0</title>
+		<meta name="keywords" content="HTML5 Admin Template" />
+		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
+		<meta name="author" content="okler.net">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+
+		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+
+		<!-- Specific Page Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.css" />
+		<link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.theme.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.css" />
+		<link rel="stylesheet" href="assets/vendor/morris.js/morris.css" />
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+
+		<!-- Head Libs -->
+		<script src="assets/vendor/modernizr/modernizr.js"></script>
+
+	</head>
+	<body>
+		<section class="body">
+
+			<!-- start: header -->
+			<header class="header">
+				<div class="logo-container">
+					<a href="#" class="logo">
+						<img src="assets/images/logo.png" width="100" height="35" alt="Porto Admin" />
+					</a>
+					<div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+						<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+					</div>
+				</div>
+			
+				<!-- start: search & user box -->
+				<div class="header-right">
+			
+					<form action="pages-search-results.html" class="search nav-form">
+						<div class="input-group input-search">
+							<input type="text" class="form-control" name="q" id="q" placeholder="Search...">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+							</span>
+						</div>
+					</form>
+			
+					<span class="separator"></span>
+			
+					<ul class="notifications">
+						<li>
+							<a href="http://dnd.wizards.com/" class="dropdown-toggle notification-icon" target="_blank">
+								<i class="fa fa-tasks"></i>
+								<span class="badge"></span>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://roll20.net/" class="dropdown-toggle notification-icon" target="_blank">
+								<i class="fa fa-users"></i>
+								<span class="badge"></span>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://donjon.bin.sh/" class="dropdown-toggle notification-icon" target="_blank">
+								<i class="fa fa-map"></i>
+								<span class="badge"></span>
+							</a>
+						</li>
+					</ul>
+			
+					<span class="separator"></span>
+			
+					<div id="userbox" class="userbox">
+						<a href="#" data-toggle="dropdown">
+							<figure class="profile-picture">
+								<img src="assets/images/!logged-user.jpg" alt="Joseph Doe" class="img-circle" data-lock-picture="assets/images/!logged-user.jpg" />
+							</figure>
+							<div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
+								<span class="name">Casey Willis</span>
+								<span class="role">administrator</span>
+							</div>
+			
+							<i class="fa custom-caret"></i>
+						</a>
+			
+						<div class="dropdown-menu">
+							<ul class="list-unstyled">
+								<li class="divider"></li>
+								<li>
+									<a role="menuitem" tabindex="-1" href="pages-user-profile.html"><i class="fa fa-user"></i> My Profile</a>
+								</li>
+								<li>
+									<a role="menuitem" tabindex="-1" href="#" data-lock-screen="true"><i class="fa fa-lock"></i> Lock Screen</a>
+								</li>
+								<li>
+									<a role="menuitem" tabindex="-1" href="pages-signin.html"><i class="fa fa-power-off"></i> Logout</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- end: search & user box -->
+			</header>
+			<!-- end: header -->
+
+			<div class="inner-wrapper">
+				<!-- start: sidebar -->
+				<aside id="sidebar-left" class="sidebar-left">
+				
+					<div class="sidebar-header">
+						<div class="sidebar-title">
+							Menu
+						</div>
+						<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+							<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+						</div>
+					</div>
+				
+					<div class="nano">
+						<div class="nano-content">
+							<nav id="menu" class="nav-main" role="navigation">
+								<ul class="nav nav-main">
+									<li>
+										<a href="layouts-default.html">
+											<i class="fa fa-home nav-active" aria-hidden="true"></i>
+											<span>Home</span>
+										</a>
+									</li>
+
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-book" aria-hidden="true"></i>
+											<span>Rules</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="page-charactercreation.html">
+													 Character Creation
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Equipment
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Playing the Game
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Running the Game
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Setting
+												</a>
+											</li>
+										</ul>
+									</li>
+
+									<li>
+										<a>
+											<i class="fa fa-users" aria-hidden="true"></i>
+											<span>Player Options</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="page-classes.html">
+													 Classes
+												</a>
+											</li>
+											<li>
+												<a href="page-backgrounds.html">
+													 Backgrounds
+												</a>
+											</li>
+											<li>
+												<a href="page-feats.html">
+													 Feats
+												</a>
+											</li>
+											<li>
+												<a href="page-races.html">
+													 Races
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-wrench" aria-hidden="true"></i>
+											<span>DM Tools</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="pages-signup.html">
+													 CR Calculator
+												</a>
+											</li>
+											<li>
+												<a href="page-encounters.html">
+													 Encounter Builder
+												</a>
+											</li>
+											<li>
+												<a href="page-lootgen.html">
+													 Loot Generator
+												</a>
+											</li>
+											<li>
+												<a href="page-market.html">
+													 Market
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent nav-active">
+										<a>
+											<i class="fa fa-book" aria-hidden="true"></i>
+											<span>References</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="page-bestiary.html">
+													 Bestiary
+												</a>
+											</li>
+											<li class="nav-active">
+												<a href="page-conditions.html">
+													 Conditions
+												</a>
+											</li>
+											<li>
+												<a href="ui-elements-panels.html">
+													 Items
+												</a>
+											</li>
+											<li>
+												<a href="page-spells.html">
+													 Spells
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-random" aria-hidden="true"></i>
+											<span>Generators</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="page-tavern.html">
+													 Tavern Generator
+												</a>
+											</li>
+											<li>
+												<a href="page-npc.html">
+													 NPC Generator
+												</a>
+											</li>
+											<li>
+												<a href="page-encounters.html">
+													 Encounter Generator
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-exclamation" aria-hidden="true"></i>
+											<span>Lore</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="forms-basic.html">
+													 NPCs
+												</a>
+											</li>
+											<li>
+												<a href="page-locations.html">
+													 Locations
+												</a>
+											</li>
+											<li>
+												<a href="forms-validation.html">
+													 Buildings
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-map" aria-hidden="true"></i>
+											<span>Map</span>
+										</a>
+									</li>
+									
+				
+							<hr class="separator" />
+				
+							<div class="sidebar-widget widget-tasks">
+								<div class="widget-header">
+									<h6>Links</h6>
+									<div class="widget-toggle">+</div>
+								</div>
+								<div class="widget-content">
+									<ul class="list-unstyled m-none">
+										<li><a href="https://roll20.net/">Roll20</a></li>
+										<li><a href="https://donjon.bin.sh/">Donjon</a></li>
+									</ul>
+								</div>
+							</div>
+				
+							<hr class="separator" />
+				
+							
+						</div>
+				
+						<script>
+							// Maintain Scroll Position
+							if (typeof localStorage !== 'undefined') {
+								if (localStorage.getItem('sidebar-left-position') !== null) {
+									var initialPosition = localStorage.getItem('sidebar-left-position'),
+										sidebarLeft = document.querySelector('#sidebar-left .nano-content');
+									
+									sidebarLeft.scrollTop = initialPosition;
+								}
+							}
+						</script>
+				
+					</div>
+				
+				</aside>
+				<!-- end: sidebar -->
+					<section role="main" class="content-body">
+					<header class="page-header">
+						<h2>Conditions</h2>
+					
+						<div class="right-wrapper pull-right">
+							<ol class="breadcrumbs">
+								<li>
+									<a href="layouts-default.html">
+										<i class="fa fa-home"></i>
+									</a>
+								</li>
+								<li><span>References</span></li>
+								<li><span>Conditions</span></li>
+							</ol>
+					
+							<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
+						</div>
+					</header>
+
+					<!-- start: page -->
+						<section class="panel">
+							<header class="panel-heading">
+								<div class="panel-actions">
+									<a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
+									<a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
+								</div>
+						
+								<h2 class="panel-title">Conditions</h2>
+							</header>
+							<div class="panel-body">
+								<table class="table table-bordered table-striped mb-none" id="datatable-details">
+									<thead>
+										<tr>
+											<th>Condition</th>
+											<th>Effect</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr role="row">
+											<td>Blinded</td>
+											<td>A blinded creature can’t see and automatically fails any ability check that requires sight. Attack rolls against the creature have advantage, and the creature’s attack rolls have disadvantage.</td>
+										</tr>
+										<tr role="row">
+											<td>Charmed</td>
+											<td>A charmed creature can’t attack the charmer or target the charmer with harmful abilities or magical effects. The charmer has advantage on any ability check to interact socially with the creature.</td>
+										</tr>
+										<tr role="row">
+											<td>Deafened</td>
+											<td>A deafened creature can't hear and automatically fails any ability check that requires hearing.</td>
+										</tr>
+										<tr role="row">
+											<td>Exhaustion</td>
+											<td>Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.</br></br>
+
+											<table class="table table-bordered table-striped mb-none" id="datatable-details">
+												<thead>
+													<tr>
+														<th>Level</th>
+														<th>Effect</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr role="row">
+														<td>1</td>
+														<td>Disadvantage on ability checks</td>
+													</tr>
+													<tr role="row">
+														<td>2</td>
+														<td>Speed halved</td>
+													</tr>
+													<tr role="row">
+														<td>3</td>
+														<td>Disadvantage on attack rolls and saving throws</td>
+													</tr>
+													<tr role="row">
+														<td>4</td>
+														<td>Hit point maximum halved</td>
+													</tr>
+													<tr role="row">
+														<td>5</td>
+														<td>Speed reduced to 0</td>
+													</tr>
+													<tr role="row">
+														<td>6</td>
+														<td>Death</td>
+													</tr>
+												</tbody>
+											</table>
+
+											</br></br>If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description. A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.</br></br>An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1. Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink.</td>
+										</tr>
+										<tr role="row">
+											<td>Frightened</td>
+											<td>A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight. The creature can't willingly move closer to the source of its fear.</td>
+										</tr>
+										<tr role="row">
+											<td>Grappled</td>
+											<td>A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed. The condition ends if the grappler is incapacitated (see the condition). The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunder-wave spell.</td>
+										</tr>
+										<tr role="row">
+											<td>Incapacitated</td>
+											<td>An incapacitated creature can't take actions or reactions.</td>
+										</tr>
+										<tr role="row">
+											<td>Invisible</td>
+											<td>An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves. Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.</td>
+										</tr>
+										<tr role="row">
+											<td>Paralyzed</td>
+											<td>A paralyzed creature is incapacitated (see the condition) and can't move or speak. The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage. Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</td>
+										</tr>
+										<tr role="row">
+											<td>Petrified</td>
+											<td>A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging. </br></br>The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings. Attack rolls against the creature have advantage. The creature automatically fails Strength and Dexterity saving throws. The creature has resistance to all damage. The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.</td>
+										</tr>
+										<tr role="row">
+											<td>Poisoned</td>
+											<td>A poisoned creature has disadvantage on attack rolls and ability checks.</td>
+										</tr>
+										<tr role="row">
+											<td>Prone</td>
+											<td>A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition. The creature has disadvantage on attack rolls. An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</td>
+										</tr>
+										<tr role="row">
+											<td>Restrained</td>
+											<td>A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed. Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage. The creature has disadvantage on Dexterity saving throws.</td>
+										</tr>
+										<tr role="row">
+											<td>Stunned</td>
+											<td>A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly. The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage.</td>
+										</tr>
+										<tr role="row">
+											<td>Unconscious</td>
+											<td>An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings. The creature drops whatever it's holding and falls prone. The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage. Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</td>
+										</tr>
+										
+										
+									</tbody>
+								</table>
+							</div>
+						</section>
+				<!-- end: page -->
+				</section>
+			</div>
+
+			<aside id="sidebar-right" class="sidebar-right">
+				<div class="nano">
+					<div class="nano-content">
+						<a href="#" class="mobile-close visible-xs">
+							Collapse <i class="fa fa-chevron-right"></i>
+						</a>
+			
+						<div class="sidebar-right-wrapper">
+			
+							<div class="sidebar-widget widget-calendar">
+								<h6>Upcoming Tasks</h6>
+								<div data-plugin-datepicker data-plugin-skin="dark" ></div>
+			
+								<ul>
+									<li>
+										<time datetime="2016-04-19T00:00+00:00">04/19/2016</time>
+										<span>Company Meeting</span>
+									</li>
+								</ul>
+							</div>
+			
+							<div class="sidebar-widget widget-friends">
+								<h6>Friends</h6>
+								<ul>
+									<li class="status-online">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+									<li class="status-online">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+									<li class="status-offline">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+									<li class="status-offline">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+			
+						</div>
+					</div>
+				</div>
+			</aside>
+
+		</section>
+
+		<!-- Vendor -->
+		<script src="assets/vendor/jquery/jquery.js"></script>
+		<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+		<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+		<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script src="assets/vendor/magnific-popup/jquery.magnific-popup.js"></script>
+		<script src="assets/vendor/jquery-placeholder/jquery-placeholder.js"></script>
+		
+		<!-- Specific Page Vendor -->
+		<script src="assets/vendor/jquery-ui/jquery-ui.js"></script>
+		<script src="assets/vendor/jqueryui-touch-punch/jqueryui-touch-punch.js"></script>
+		<script src="assets/vendor/jquery-appear/jquery-appear.js"></script>
+		<script src="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.js"></script>
+		<script src="assets/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.js"></script>
+		<script src="assets/vendor/flot.tooltip/flot.tooltip.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.pie.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.categories.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.resize.js"></script>
+		<script src="assets/vendor/jquery-sparkline/jquery-sparkline.js"></script>
+		<script src="assets/vendor/raphael/raphael.js"></script>
+		<script src="assets/vendor/morris.js/morris.js"></script>
+		<script src="assets/vendor/gauge/gauge.js"></script>
+		<script src="assets/vendor/snap.svg/snap.svg.js"></script>
+		<script src="assets/vendor/liquid-meter/liquid.meter.js"></script>
+		<script src="assets/vendor/jqvmap/jquery.vmap.js"></script>
+		<script src="assets/vendor/jqvmap/data/jquery.vmap.sampledata.js"></script>
+		<script src="assets/vendor/jqvmap/maps/jquery.vmap.world.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.africa.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.asia.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.australia.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.europe.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.north-america.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.south-america.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="assets/javascripts/theme.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="assets/javascripts/theme.custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="assets/javascripts/theme.init.js"></script>
+
+		<!-- Examples -->
+		<script src="assets/javascripts/dashboard/examples.dashboard.js"></script>
+
+	</body>
+</html>

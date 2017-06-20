@@ -1,0 +1,1610 @@
+var locationdata = {
+   "compendium": {
+      "location": [
+
+
+         {
+            "name": "Halfhap",
+            "size": "ST",
+            "population": "2,200",
+            "region": "Cormyr",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "",
+
+            "locationofinterest": [
+               {
+                  "name": "Volo's Guide to Cormyr",
+                  "text": [
+                     "Halfhap was located on the edge of Cormyr until the annexation of Tilverton. This walled town is growing in importance as Cormyr expands into the northeastern lands. It is a no-nonsense, bleak place that exists to supply prospectors, traveling merchants, and outlying ranchers operating in region surrounding the upper Immerflow and the Stonelands.</br></br>Halfhap is protected by keeps at either end of its ovalwell, giant-potatoshaped ring of walls, wherein Purple Dragons dwell in strength. These Purple Dragons have hippogriff steeds, and their keeps sport numerous ballistae that are backed by a huge subterranean armory of ballistae ammunition reached by a winched lift.</br></br>Over a thousand of Halfhaps roughly 2,200 folk are soldiers. Monsters and Zhent-sponsored forces out of the Stonelands have attacked this area often. They still do so, especially each spring, when orcs whove grown restless and short of food over the winter boil down from the heart of the Desertsmouth Mountains and raid across northern Cormyr.</br></br>Patrols out of Halfhap travel the Moonsea Ride regularly as far as Moot- post, halfway to Tilverton, and Gnollpost, in the heart of Gnoll Pass. At Mootpost the garrison at Tilverton takes over patrol duties, and at Gnollpost, the forces from Castle Crag assume these duties. Halthaps patrols do a good job keeping the road safe, but the town theyre based in has the feel - and the welcoming charm - of an armed camp.</br></br>Travelers stay here because they must take shelter while on the road or they have dealings with the shops here that supply food, tools, remounts, weapons, rope, and other supplies to folk using Halfhap as a base. (These shops need endless resupplies to keep their shelves full.)</br></br>Travelers dont come to see the scenic sites of Halfhap because there arent any. For those who must stay here, I recom- mend the Marching Myrmidon inn, the Doffed Cloak festhall, and Evershelds Embers tavern. I hear an enterprising halfling clan, the Blacknee family, has set up shop in Halfhap with an eye to build- ing a large inn with luxury baths, a din- ing room to be proud of, and suchlike. I await news of so welcome and unlikely an establishment opening. Travelers through Halfhap in the year ahead are asked to keep me posted."
+                  ]
+               },               
+
+            ],
+         },
+
+
+         {
+            "name": "Phlan",
+            "size": "LC",
+            "population": "20,000",
+            "region": "Moonsea",
+            "imports": "",
+            "exports": "",
+            "religion": "Tyr, Sune, Tempus, Bane",
+            "alignment": "",
+            "image": "images/evermoors.png",
+
+            "locationofinterest": [
+               {
+                  "name": "History",
+                  "text": [
+                     "Phlan was founded in 367 DR[3][4] as a trading outpost between the elves of Myth Drannor and the dwarves of the Dragonspine Mountains. It was leveled in 400 DR by the First Turnabout, a massive attack by the Dark Alliance of humanoids who swept down onto the Moonsea region to attack Northkeep.[5][4] In 712 DR, Milsor the Valjevo had the city rebuilt and also commissioned the building of what would become Valjevo castle when it was completed in 730 DR [6]. The abandonment of Hillsfar, after the fall of Myth Drannor (714 DR), saw refugees expanding the citizenry of what was then the largest settlement on the north shore of the Moonsea.</br></br>In 902 DR the Zhentilar made the first of many attempts to conquer their eastern neighbor, claiming that citizens of Phlan had raided their territory (though this claim was likely erroneus) but didn't count on Phlan's ally Melvaunt disrupting their siege. A four-year war resulted in Phlan becoming a reluctant signatory to the Treaty of the Ride (906 DR) which saw Zhentarim influence over the city increase dramatically.</br></br>1303 DR saw ogres completely overrun a Phlan unprepared for their assault but the city was quickly rebuilt by the stubborn survivors and was able to participate in the Moonsea War against Mulmaster three years later. The Dragon Run of 1306 DR saw Phlan again reduced to ruins as the other cities of the Moonsea were too focused on the Moonsea War to provide any assistance."
+                  ]
+               },               
+
+            ],
+
+         },
+
+
+         {
+            "name": "Evermoors",
+            "size": "Moor",
+            "population": "",
+            "region": "Savage Frontier",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/evermoors.png",
+
+            "locationofinterest": [
+               {
+                  "name": "History",
+                  "text": [
+                     "This region was infamous for its troll population. However, recent history (Present Age) changed the face of the Evermoors. Humans in general had not bothered to tame this land, seeing is useful only for grazing of sheep or rothé and prospecting, both of which were usually stopped by the trolls. Around 1372 DR, giants came from the north and began pushing the trolls out of the Evermoors, much to the distress of surrounding countryside."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The Evermoors, or Trollmoors, was a region of bog-pocketed hills, long rolling vistas, rocky ridges, and small peaks hiding deposits of valuable ore. It was located along the western edge of the Silver Marches. The Evermoors were bound by the River Surbrin and the Lower Rauvin Vale to the north, the River Surbrin and the Surbrin Hills to the west, and the Silverwood to the east. To the south and east was open land and the High Forest. The river Laughingflow originated deep within the Evermoors, meeting the River Surbrin after it passed though the Surbrin Hills. Evermoor Way, the major route from Yartar to Everlund, passed between the Evermoors and the High Forest.</br></br>The moors were formed by large rocky plateaus, here and there interspersed by very steep small gorges dug by the water. Though if tors and rocky outcrop were visible everywhere, most of the area was covered with a thin layer of soil. The landscape was sterile, ventilated and full of grassy wavy hills. Shifting sands surrounded by a plenty of rare plants were formed in the depth of the region. The moors was full of burial mounds belonging to both dwarves and netherese humans. The tombs of the moors were constituted by deep pits in which were deposited the remains covered by large plate of stone. In the course of the years, the tombs of the place have given up many wands and magic staff; long time ago, magic rings were so commons that they used to wash down directly the LaughingFlow during the floods."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Moonwood",
+            "size": "FOR",
+            "population": "",
+            "region": "Silver Marches",
+            "imports": "",
+            "exports": "",
+            "religion": "Eilistraee, Malar, Uthgar",
+            "alignment": "",
+            "image": "images/moonwood.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Inhabitants",
+                  "text": [
+                     "Although the Moonwood was known to be free of orcs and other goblinkind, orc tribes frequently raided the outer edges of the forest for lumber. The forest was known to be the haunt of many lycanthropes, primarily in the northern reaches. Many of these lycanthropes were members of the People of the Black Blood, while others were members of the Eldreth Veluuthra. As of 1374 DR, the two organizations often clashed, and the greater number and superior organization of the People of the Black Blood meant the odds were in their favor. The southern section of the Moonwood was home to small bands of moon elves."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The Moonwood was a large forest north of Silverymoon in the Silver Marches. By about 1460 DR, the Moonwood had grown together with the Cold Wood and the larger forest was known as the Glimmerwood, although the elves still referred to it as the Moonwood. The Moonwood was located between Silverymoon and Mithral Hall and was bound by the River Surbrin to the west and the River Redrun to the northeast. Directly to the north of the Moonwood was the Druarwood; across the Redrun were the Night Trees forest groves and, beyond them, the Coldwood.</br></br>These three woods grow together and the resulting one forest is known as Glimmerwood. The Moonwood was dominated by evergreens, shadowtops, and duskwoods."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Cold Wood",
+            "size": "FOR",
+            "population": "",
+            "region": "Luruar",
+            "imports": "",
+            "exports": "",
+            "religion": "Uthgar",
+            "alignment": "",
+            "image": "images/coldwood.jpg",
+
+            "locationofinterest": [
+               {
+                  "name": "Inhabitants",
+                  "text": [
+                     "Snow tigers, orcs, ettins, and a bebilith have been known to roam the Cold Wood. The Uthgardt barbarians hunted in the area, but would not cut any living tree or kept fires to a minimum to protect the forest. The Red Tiger Tribe considered the northern part of the wood their territory. Several bands of outcasts from Uthgardt society were known to live around the area as well."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The Cold Wood was a forest on the edge of the Silver Marches. By about 1460 DR, the Moonwood had grown together with the Cold Wood and the larger forest was known as the Glimmerwood. It was located between the Spine of the World, Rauvin Mountains, and Ice Mountains.[4] A wild place, the Cold Wood was largely untouched by civilization; most woodcutters and homesteaders avoided it.</br></br>The forest was full of pine, birch, and spruce trees."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Sundabar",
+            "size": "LC",
+            "population": "14,259",
+            "region": "Silver Marches",
+            "imports": "Grain, livestock, fruit, lumber, textiles",
+            "exports": "Armor, clay wares, copper, furniture, gold, lumber, pelts, silver, tools, weapons",
+            "religion": "Tyr, Torm, Helm",
+            "alignment": "Lawful Neutral",
+            "image": "images/sundabar.png",
+
+            "locationofinterest": [
+               {
+                  "name": "History",
+                  "text": [
+                     "Sundabar began life as Citadel Sundbarr, a dwarven citadel both aboveground and belowground built in the Everfire caverns around -500 DR. The citadel survived the fall of Delzoun Empire by using the volcanic heat of the Everfire in its defense. Over the years, however, the surface fortress was weakened and plundered by orcs. </br></br>In 882 DR, one of the High Captains of Ascalhorn, Prince Simberuel Astalmé, fled his city with a group of refugees to Sundabar Vale, pursued by vrocks. The refugees were saved at the last minute by the Forgemaster of Sundbarr. Astalmé gave his life to save the Forgemaster, and in return, the humans were allowed to settle in the abandoned surface portion of Citadel Sundbarr.</br></br>In 1355 DR, Helm Dwarf-Friend became the sixth Ruling Master of Sundabar after the previous Master died defending the city from orcs.</br></br>In 1369 DR, fiends from Hellgate Keep attacked Sundabar, burning much of the city before being forced out.[3] Just four years later, in 1373 DR, Kaanyr Vhok attempted to take control of the city because of a rivalry he had with Helm Dwarf-Friend. He first used Aliisza to infiltrate Helm Dwarf-Friend's house, then allied with Zasian Menz and Banite priests. His plan ultimately failed."
+                  ]
+               },
+               {
+                  "name": "Government",
+                  "text": [
+                     "The Ruling Master of the city served as the ultimate leader of the city. However, the Forgemaster served as the leader of the dwarven community and was an important adviser to the Ruling Master."
+                  ]
+               },
+               {
+                  "name": "Trade",
+                  "text": [
+                     "The city was a trading hub for ore from Citadel Adbar and the dwarves of Fardrimm. It was also the source of magical weapons enchanted by the Everfire volcano. Sundabar was connected to Everlund via the trail between Everlund and Sundabar.</br></br>Sundabar was connected to Silverymoon via the road that ran through Silverymoon Pass. The road was well patrolled, but it was often impassable in winter due to avalanches. The Hawk's Nest watchtower at the top of the pass was manned by a dozen Knights in Silver and provided a place for travelers to rest in safety. The entire journey took between one and two tendays, with the distance making up nearly 150 miles."
+                  ]
+               },
+               {
+                  "name": "Defense",
+                  "text": [
+                     "Helm Dwarf-Friend wisely taxed his people (not unfairly) and used the proceeds to shore up Sundabar's defenses against orc attacks, which occurred every two or three years. Sundabar was defended primarily by a double wall, a moat (said to be inhabited by man-eating eels), and mercenaries, including Helm Dwarf-Friend's Bloodaxe Mercenary Company. The Shieldsar were the city's primary defenders and numbered about 2,000 in 1372 DR. They were responsible for patrolling Sundabar Vale. The Stone Shields served as the city watch and were commanded by the Watchblade, which also had a network of spies."
+                  ]
+               },
+               {
+                  "name": "Culture",
+                  "text": [
+                     "Every hundred years the labyrinth of death took place in Sundabar."
+                  ]
+               },
+               {
+                  "name": "The Circle",
+                  "text": [
+                     "A large square in the center of the city that housed market stalls and caravans.[13] In the center of the Circle was the Master's Hall."
+                  ]
+               },
+               {
+                  "name": "Master's Hall",
+                  "text": [
+                     "Crowded group of towers and battlements that houses the city's government. It is located at the very center of the city on the Circle."
+                  ]
+               },
+               {
+                  "name": "Hall of Everlasting Justice",
+                  "text": [
+                     "Temple of Tyr and Torm. Overseen by Defender of Justice Lathkiera Morlund."
+                  ]
+               },
+               {
+                  "name": "Hall of Vigilance",
+                  "text": [
+                     "Temple of Helm. Overseen by Winterlord Senior Steeleye Mraskin Thoelaunth in 1372 DR. Located close the the Eastgate."
+                  ]
+               },
+               {
+                  "name": "Baldiver's",
+                  "text": [
+                     "A sprawling, quiet inn in a castle in 1372 DR. Located between Rivergate and the Circle."
+                  ]
+               },
+               {
+                  "name": "The Firestar Chariot",
+                  "text": [
+                     "Lively inn in 1372 DR. Located in the southeastern part of the city."
+                  ]
+               },
+               {
+                  "name": "Malshym's House",
+                  "text": [
+                     "A clean, quiet inn popular with merchants in 1372 DR. Located on the road leading from Turnstone Gate."
+                  ]
+               },
+               {
+                  "name": "The Trumpet",
+                  "text": [
+                     "Luxurious and expensive inn in 1372 DR. Located between Eastgate and Turnstone Gate."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Sundabar is a defensible, dwarven-built fortress that became a refuge for Prince Simberuel Astalmé of Ascalhorn and his collected survivors. As the years rolled on, the humans grew in number until emerging as the dominant race of a bastion city against the dangers of the North. </br></br> Sundabar was located in Sundabar Vale on the western side of Silverymoon Pass, with the Nether Mountains making up the southern border of the valley.[3] The Rauvin Mountains and Citadel Felbarr were upriver on the River Redrun. The nearest towns were Rauvincross downriver, Baraskur to the east, and Auvandell in the western Nether Mountains. Sundabar was directly connected to Citadel Adbar by the Dead Orc Pass, but only the most daring (or foolish) of travelers took that route. Beneath Sundabar was a volcano rift known as the Everfire."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Silverwood",
+            "size": "FOR",
+            "population": "",
+            "region": "Rauvin Vale",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/silverwood.png",
+
+            "locationofinterest": [
+               {
+                  "name": "History",
+                  "text": [
+                     "The Silverwood was once part of the High Forest, but after centuries of logging, the woodcutters took most of the trees on both sides of the Evermoor Way, inflicting a deep wound to the heart of the forest. Bare hills covered with stumps and old fallen trees flanked this plain. The Silverwood survived thanks to its dark and tangled thickets and to its steep and dangerous ground. Many creatures from the Evermoors, including trolls, roamed these woods looking for food."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The Silverwood was a forest on the eastern borders of the Evermoors and to the west of the Nether Mountains."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Striding Giant Rapids",
+            "size": "RA",
+            "population": "",
+            "region": "Rauvin Vale",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/stridingrapids.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Statue",
+                  "text": [
+                     "The Striding Giant was a statue (in fact, a petrified hill giant) of a giant stepping through the waters of the river. The statue caused a 'snag' in the river. The water in that area was considered rough; in the spring, runoff made the water deeper and more treacherous. Rumors of a terrible fate for anyone who disturbed the Striding Giant ensured that the obstacle was not removed from the river."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The Striding Giant Rapids was the name for a sections of rapids located around a petrified giant in the middle of the River Rauvin, just downriver from Everlund. Striding Giant Rapids was located just out of sight and to the west of Everlund in the Rauvin Vale."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Staunt Pools",
+            "size": "P",
+            "population": "",
+            "region": "Rauvin Vale",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/rauvinriver.png",
+
+            "locationofinterest": [
+               {
+                  "name": "History",
+                  "text": [
+                     "According to the rumor, a barge carrying a dwarf-treasure full of silver bullion was sunk somewhere between the sludge of one of these pools. The pools were named for the ruined village of Staunt's Hold that once stood nearby."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The Staunt Pools referred to a succession of deep holes located in the River Rauvin to the west of Jalanthar. The pools were the lair of a freshwater giant squid. Many barge guards swore to have met and killed the squid, but others reported attacks by another identical example. The legend of the 'Treasure of the Holes' was very well known in the region."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Zymorven Hall",
+            "size": "MI",
+            "population": "",
+            "region": "Rauvin Vale",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "Chaotic Good",
+            "image": "images/heraldsholdfast.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Harthos Zymorven",
+                  "text": [
+                     "Harthos Zymorven was the commander of Zymorven Hall in Rauvin Vale. Harthos was the lord of the Zymorven family of Silverymoon. His duty was to maintain the keep that watched over the Rauvin Road, which was patrolled by the keep's soldiers."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Perched atop a crag overlooking the Rauvin Road, with a clear view of the Evermoors to the south and the Moonwood to the north, is a keep of mortarted stone with a high-pitched roof that has wooden status of baying wolves rising from it's peaks. A branch in the road winds up to the keep's gatehouse and bailey. From the keep, the Zymorven family of Silverymoon has watched over the surrounding lands for four generations."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Amphail",
+            "size": "V",
+            "population": "850",
+            "region": "Sword Coast North",
+            "imports": "",
+            "exports": "Agricultural produce, fine horses",
+            "religion": "",
+            "alignment": "Neutral Good",
+            "image": "images/waterdeep.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Legends",
+                  "text": [
+                     "The spirit of Amphail the Just, called the 'Ghost of Amphail,'' was said to patrol the streets."
+                  ]
+               },
+               {
+                  "name": "Ammakyl Flowers and Foods",
+                  "text": [
+                     "Ammakyl Flowers and Foods was a shop in the village of Amphail, selling fruits, vegetables, and trail baskets. It was run by the Ammakyl family of Waterdeep. During the summer and autumn months, an awning was erected outside the shop to provide extra space for the wares. It sold skewered vegetables that had been dipped in gravy, and during the winter it imported fruit and vegetables from the Shining South, selling them at high prices, especially out of season."
+                  ]
+               },
+               {
+                  "name": "Blodhlar's Wares",
+                  "text": [
+                     "Blodhlar's Wares is a hardware store in Amphail. It sells nails, ropes, gate hinges and other assorted pieces of hardware. The general state of the building is poor."
+                  ]
+               },
+               {
+                  "name": "Elraghona Selember",
+                  "text": [
+                     "Elraghona Selember was a retired adventurer who lived in Amphail in northwest Faerûn, where she operated a ranch, providing mounts for travelers along the Long Road. She distributed these horses to nearby places such as the Sleeping Dragon in Rassalantar."
+                  ]
+               },
+               {
+                  "name": "Halana Shauluth",
+                  "text": [
+                     "Halana Shauluth was a baker in the village of Amphail on the Sword Coast North around 1370 DR. She baked hard loaves of wheat and meat-filled buns. Halana was formerly a mercenary who was in a group with a dozen female dwarves, but she lost her hand after it became infected with gangrene, hence she retired from that career to become a baker.[2] She claimed to have seen the 'Ghost of Amphail,' the ghost of Amphail the Just (after whom the village is named) and that the ghost rescued her from thieves who were trying to rob her."
+                  ]
+               },
+               {
+                  "name": "Horse Pond",
+                  "text": [
+                     "Horse Pond was a pond in Amphail on the Sword Coast. It was a muddy pond containing frogs and water lilies, and it was used for drinking and washing water for horses. There was a legend that at the bottom of the pond there was a hidden entrance to the tomb of the Maiden King, who ruled the area a long time before the 14th century DR. According to legend, she lay sleeping forever on a stone bed with her magic two-handed sword resting on her chest. Some adventurers entered the pond on several occasions and found nothing, but one band at least never returned. In the mid–14th century DR, there was an incident in which skeletons ventured out of the pond and ran amok through the village, strangling people before they were destroyed."
+                  ]
+               },
+               {
+                  "name": "Imbryl's Cloaks",
+                  "text": [
+                     "Imbryl's Cloaks is a cloak and garment shop in Amphail, run by Imbryl, a broad-shouldered woman. A group of women from the village gather here to make cloaks, breeches and rainspouts, which are hats with a large brim. The shop provides alterations to garments with a three-day waiting period."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Amphail was a village on the Long Road. It had a population of 600, supporting 250 more in outlying farms. The population was mostly humans, but there were elves, half-elves and a smattering of dwarves and halflings. Amphail was named after one of Waterdeep's early warlords, Amphail the Just, who had estates here. The village was three days' ride north of Waterdeep. </br></br> The village was led by Lord Warder Briiathor Alougarr, a muscular Tethyrian loyal to Piergeiron the Paladinson. Also notable were the 8-ft-tall (244 cm) Dlara, a Chultan wrestler; Mother Gothal who ran Mother Gothal's, a festhall; and Krivvin Shamblestar, the proprietor of The Stag-Horned Flagon."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Citadel Adbar",
+            "size": "F",
+            "population": "19,962",
+            "region": "Silver Marches",
+            "imports": "",
+            "exports": "Mithral, Refined metals, Weapons, Armor",
+            "religion": "",
+            "alignment": "",
+            "image": "images/citadeladbar.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Citadel Adbar",
+                  "text": [
+                     "The Citadel is a fortress. It has ditches that can be filled with flaming oil, bridges that can be drawn up or swung down into deep pits, concentric rings of walls that can be defended one by one in the event of a powerful besieging army, and so on. The Citadel has withstood over 60 orc horde attacks thus far. Each of these were determined sieges by over 10,000 orcs at a time, and occasionally 10 times that number.</br></br>The fortress that humans see is only the small surface part of an underground, dwarven hold known as Adbarrim. The Citadel exists to provide a secure connection with the world above and to keep the smoke, noise, and stench of metalwork out of the dwarven homes. Miles upon miles of chambers, passages, and suites have been carved out of solid granite.</br></br>The tall towers that jut above ground were called the Dragonspikes, so named because they protected against dragon attacks with their nasty spikes. Smoke from the Foundry exited out the central tower chimney. A waterwheel operated in the lowest part of the mines. Chain hoists connected the aboveground levels to the belowground levels. Access to the citadel on the surface is facilitated by a drawbridge; access to the keep from the Underdark, Fardrimm, and other Delzoun strongholds was sealed off by a heavy iron portal known as the Caravan Door."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Citadel Adbar was a fortress named for King Adbar, the ancient dwarf who began its construction in -370 DR[2] and completed it in -272 DR[3][4] during the waning years of ancient Delzoun, making this the last shard of that once mighty dwarven kingdom. The Citadel consisted of a massive fortified fortress that provided surface access to miles and miles of defensive granite corridors, tunnels, and hallways that wind their way under the Ice Mountains. The city can house up to 60,000 dwarves in relative comfort, though less then a third of that number were usually present. </br></br><strong>People of Citadel Adbar</strong></br></br>Citadel Adbar does not welcome visitors. This is not surprising, as most visitors are orcs or monsters seeking the swift death of its citizens, but, despite it's insular traditions and remote location, the fortress is a trading city. The dwarves dwelling here make their living by mining, smelting and forging their native ores. Their constant work causes a permanent cloud of smoke to hang over the city and creates such a din and clangor that it is just as well that the city does not entertain many guests.</br></br>Like other dwarven communities in Faerûn, the number of dwarves in Citadel Adbar had been steadily dwindling over the last several generations. In recent years, as the miners grew fewer and orc raids upon the trade-caravans became fiercer, the remaining dwarves' output decreased significantly. The renewed vigor brought about by The Thunder Blessing however, promises to help return Citadel Adbar to its former glory. While many dwarves of the new generation have left to rebuild Mithral Hall and Citadel Felbarr, enough have remained so that the city is once again producing its famed goods in quantity.</br></br>For over a hundred years Citadel Adbar has been ruled by King Harbromm, and he is noted for his attention to strategy and detail. He is also a master smith and the city's badge is his personal forge mark. It is an upright, single-bladed hand axe enclosed by a circle of flame inscribed in red on a silver field. He has managed to hold his community together in the face of threats from the orcish tribes.</br></br><strong>Militia</strong></br></br>The king employs human adventurers in patrols outside the walls, and he keeps two hundred dwarves on the battlements of the Citadel. Another 1,500 are ready to take up arms if the horn call is sounded through the speaking tubes cut in the Citadel's rock. These tubes also allow dwarves to flee quickly underground by tumbling into them. In a day, Adbar can arm and armor 9,000 dwarven warriors. Harbromm's policy is to safeguard the lives of his folk and to keep inside the Citadel whatever befalls. The Iron Guard form part of the militia.</br></br><strong>Trade</strong></br></br>Underdark Trade</br></br>As it is, only metal traders and the most desperate or daring peddlers attempt to reach Citadel Adbar. Ironically, since raiding orcs, prowling crag cats and other predators make the land around the Citadel so deadly, most caravans travel through the relative safety of the Underdark via Sundabar, Mithral Hall and even distant Mirabar. Caravans that survive the long and dangerous journey bring mainly grain and dried fruits and vegatables that the Citadel is incapable of producing. Fresh fruit, which the dwarves delight in eating during the winter, fetches the highest price.</br></br>Every year more than one caravan is lost in the Underdark but those who are successful are richly rewarded. The dwarven smiths here make the best dwarven weapons and armor this side of the Deep Realm. All goods made in Citadel Adbar are considered masterwork and command premium prices throughout the North. In addition most of the forge bars (blocks of refined metal) used by quality smiths in The North are from Citadel Adbar. The dwarves continually mine mithral as well as other precious metals, but the recent opening of long-abandoned Mithral Hall has made the largely mined-out mithral deposits of Citadel Adbar less important.</br></br>A well-guarded route runs through the Underdark from Citadel Adbar to Sundabar and also provides access to the Everfire. Once a year at Shieldmeet, a dozen master craftsmen are chosen by the king to make the perilous journey to the forge at Everfire. They are each given an entire year to create a single magical weapon or piece of armor commissioned by the king for an undisclosed champion of Citadel Adbar. These priceless artifacts are presented to the most deserving defenders of the city, as chosen by the king, and are almost always dwarves, however at least one dwarf friend has been awarded this great honor.</br></br>Surface Trade</br></br>Two trade routes exist on the surface. Both start at the gates of Citadel Adbar but split very soon after that. One, barely more than a trail passes through Cold Vale to eventually reach Silverymoon. The other travels for a short way to join Fork Road, at The Fork allowing access to Ascore at one end of Fork Road and Silverymoon at the other. Surface traders brought fresh produce to Adbar and returned with metals and dwarven craftworks.</br></br><strong>The Silver Marches Confederation</strong></br></br>King Harbromm was initially opposed to conjoining Citadel Adbar with the Silver Marches confederation, as he saw no benefit in it. But thanks to Emerus Warcrown and Bruenor Battlehammer, Citadel Adbar is now the Confederation's primary source of military ordnance."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Vallaki",
+            "size": "ST",
+            "population": "1,547",
+            "region": "Barovia",
+            "imports": "",
+            "exports": "",
+            "religion": "Morninglord",
+            "alignment": "Chaotic Good",
+            "image": "images/vallaki.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Blue Water Inn",
+                  "text": [
+                     "The Blue Water Inn has steep rates, but also provides private meeting rooms, a spectacular view of Lake Zarovich and Mount Baratak and complimentary tsuika from the Romulich Distillery each night."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Vallaki is a city located within Barovia, near Lake Zarovich."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Silverymoon",
+            "size": "M",
+            "population": "40,000",
+            "region": "Northwest Faerun",
+            "imports": "Food (especially grain and livestock), armour, weapons, footwear, textiles and clothing",
+            "exports": "Books, paper, herbs, inks, glass, glassware, furs, timber, valuable ores",
+            "religion": "Lurue, Mielikki, Ogham, Milil, Helm, Lathander, Selune",
+            "alignment": "Good",
+            "image": "images/silverymoon.png",
+
+            "locationofinterest": [
+               {
+                  "name": "The Bright Blade Brandished",
+                  "text": [
+                     "Located in Northbank, on Sunset Lane in the westernmost angle of the Wallrun. All are welcome at this friendly alehouse, which consists of two floors of rustic charm, with curtained booths. Wizards down on their luck can earn 1 sp per mage hand spell cast to whisk tankards overhead to waiting hands. This tavern is favored by adventurers because it's luxuriously furnished and kept by folk who are friendly to everyone, no matter how uncouth, unwashed, strange, dangerous-looking, or badly wounded they are. Service is attentive without being intrusive. The serving maids know their regular clientele by name, and steer rivals and enemies apart, introduce lonely newcomers to those with similar interests, and even guide the drunken home. They are aided by resident wizards, who use magical items with telekinesis abilities to whisk drinks to and from the thirsty over the heads of folk - and to snatch away suddenly drawn weapons or spoil spellcasting before trouble can get properly underway. Several curtained alcoves and booths open off the main taproom."
+                  ]
+               },
+               {
+                  "name": "The Dancing Goat",
+                  "text": [
+                     "Also located in Northbank, on the east side of the Moonway just north of the Moonbridge, the Dancing Goat is renowned for raucous revelry at all hours. It is a site of endless, enthusiastic dancing and flirting, with a remarkable cellar boasting hundreds of vintages. The Dancing Goat sometimes attracts the attentions of pickpockets and other professionals."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Silverymoon was the prime signatory state of the Confederation of the Silver Marches and therefore, viewed by many as the capital. It was ruled for centuries by High Lady Alustriel Silverhand, a powerful wizard and one of the Seven Sisters, some of the most powerful individuals on Faerûn and also Chosen of Mystra, the goddess of magic. In 1369 DR, Alustriel stepped down, paving the way for her trusted adviser Taern 'Thunderspell' Hornblade to ascend to the city's supreme office. She is now the leader of the entire confederation. <br></br> Silverymoon was often dubbed 'the Gem of the North', for it resembled and emulated the (formerly) lost elven city of Myth Drannor in many respects. It was one of the few civilized places in the middle of the rough and untamed wilderness that was the North of Faerûn. It had a rich cultural life and was renowned as a meeting place for all races that were morally inclined towards good. Even the occasional drow with good intentions (most notably the famous ranger Drizzt Do'Urden) could eventually find hospitality in the city of Silverymoon."
+                  ]
+               },
+               
+            ]
+         },
+
+
+         {
+            "name": "Quaervarr",
+            "size": "ST",
+            "population": "952",
+            "region": "Silver Marches",
+            "imports": "",
+            "exports": "Lumber",
+            "religion": "Silvanus",
+            "alignment": "Chaotic Good",
+            "image": "images/quaervarr.png",
+
+            "locationofinterest": [
+               {
+                  "name": "The Whistling Stag",
+                  "text": [
+                     "This cozy lodge is crammed with stag heads, bearskin rugs, and other trophies. The dining room has a magnificent tapestry depicting an elven hunt. It shows two hunting bands galloping through the forest after a boar, with the riders leaping their mounts over fallen trees. The groups take turns riding through the scene over and over, with birds flitting in and out of the trees between their appearances. </br> The Whistling Stag Inn and Hunting Lodge is a base where guests can enjoy the best hunting in all the North. The expert guides hunt owlbears, stirges, and other predators year-round. This keeps the boar and deer that roam the southern Moonwood plentiful. The guides are full of tales about the forest depths. </br></br> The Stag is named for a famous local animal, never caught, that eluded the best huntsmen and sauntered down the village streets the next morning. Folk swore he looked at them in amusement, whistling as he went. This is as good as inns get, with attentive personal service, like warmed robes at dawn, warm baths whenever desired, a resident healer, and more. A hidden delight."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "This logging village of 952 human and half-elven folk on the edge of the Moonwood provides masts and roof beams for many a ship or hall across the North and Sword Coast as far as the eastern reaches of Calimshan. Quaervarr is a quiet, shady place of woodcarvers, carpenters, loggers, and woodland gardeners. </br></br> The village's food comes from its hunters and from small planted patches in the forest. </br></br> More recently, the small village has been terrorized by a gang of werewolves operating out of the Moonwood, rumored to be led by a former werewolf hunter, who had in turn become infected."
+                  ]
+               },
+               
+            ]
+         },
+
+
+         {
+            "name": "Rauvinwatch Keep",
+            "size": "MI",
+            "population": "400",
+            "region": "Silver Marches",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "Good",
+            "image": "images/silverymoon.png",
+
+            "locationofinterest": [
+               {
+                  "name": "High Lord Methrammar Aerasumé",
+                  "text": [
+                     "High Lord Methrammar Aerasumé was a half-elf fighter and wizard and the High Lord of the Silver Marches as well as the ruler of Silverymoon. High Marshal of the Argent Legion, the army of the League of the Silver Marches. He lead 400 soldiers at Rauvinwatch Keep, about 15 miles west of Silverymoon, where a lot of time was spent training. </br></br> Methrammar had a bow named Swiftflight which was made for him as a parting gift by Tyresia before he left to return to his family. He armed it with +2 magical arrows and he also carried a magical +3 bastard sword. He wears a +3 mithral shirt and a +2 amulet of natural armor. Methrammar's upbringing was one of high expectations because of the status of his mother. He showed skills with both magic and armed combat and it was the latter which allowed him to rise through the ranks of the Argent Legion. Methrammar was soft-spoken and humble, honest and forthright. Although he would appear to be the ideal candidate for a paladin, he favored no specific deity, and dedicated himself to Silverymoon instead."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Home to the Argent Legion, Rauvinwatch Keep is about 15 miles west of Silverymoon. It is a military installation through and through. While the keep currently houses about 400 troops and the support staff necessary for such a force, it is capable of holding quite a bit more. The watchtower of the keep can see for miles in any direction. The keep isn’t designed to house travelers, though anyone who finds themselves in the vicinity of the keep around nightfall can find one nights worth of shelter there. </br></br> The current, and typical, disposition of troops in Rauvinwatch Keep are: 100 Knights in Silver from Silverymoon, 100 Iron Guard from Citadel Adbar (mostly heavy infantryman with some crossbowman), 100 Shieldsar from Sundabar (half heavy infantry, a quarter each archers and cavalry), 25 archers and 25 cavalry from Everlund Army of the Vale, and 25 dwarven warriors from each of Citadel Felbarr and Mithral Hall. Each group has its own captain, who reports directly to High Marshall Methrammar Aerasume. The captains are: </br> Sir Velisia Brethiny, elven female, captain of the Knights in Silver, </br> Captain Fargran Teldran, male dwarf, captain of the Iron Guard </br> Lord Audrin Woodward, male human, captain of the Shieldsar </br> Captain Mara Glaz, human female, captain of the Army of the Vale </br> Captain Galgrimm Bertan, dwarf male, captain of the dwarves from Citadel Felbarr </br> Captain Ebrak Karton, dwarf male, captain of the dwarves from Mithral Hall"
+                  ]
+               },
+               
+            ]
+         },
+
+
+
+         {
+            "name": "Herald's Holdfast",
+            "size": "LI",
+            "population": "",
+            "region": "Silver Marches",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "Good",
+            "image": "images/silverymoon.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Herald's Holdfast Library and Museum",
+                  "text": [
+                     "The outside facade of the Holdfast was so well-hidden by moss and vines of ivy that it blended into the cliff face behind it, and a seeker needed prior knowledge of where to look in order to locate it easily. Under the ivy was a deceptively ordinary squat stone tower, about 80 ft (24 m) in diameter and twice as tall as it was wide. The door was made of stone and covered with moss, but had no lock and swung inward with an easy touch. </br> </br> The inside of the tower was one huge cylindrical room with a vaulted ceiling that was filled with flags and banners, escutcheons bearing coats-of-arms, weapons and armor, and fine tapestries woven with scenes of historic battles and events. Above rafters carved in bas-relief style with the likenesses of mankind's greatest heroes and heroines, a blue faerie fire glow illuminated the entire space. Samples from every age of human existence were found here—this was the Chamber of Man, or alternatively, the Chamber of Humanity. </br></br> Opposite the main entrance was a wooden door that opened on a long corridor that led straight back into the stone of the cliff. Along this corridor were various side passages, each leading to a chamber dedicated to one of the races of Faerûn. Although decorated in a fashion similar to the Chamber of Man, none were quite as big. The Chamber of the Dwarves had statues of Moradin, Dumathoin, and the other dwarven deities and heroes looking down from the rafters. Dwarven suits of armor and weapons, such as hammers and axes were displayed to demonstrate the glory of the dwarven race. Other races known to have a chamber in the Holdfast included elf, halfling, gnoll, gnome, giant-kin, centaur, korred, satyr, orc, goblin, and hobgoblin.[2][3][4][5][6][14] All such chambers were filled with precious items of historical significance to the dedicated race, some of which were quite valuable due to being constructed from precious metals and gems. At the end of the long corridor was a formal dining room with a large, circular table covered in runes. A kitchen, some guest rooms, and Old Night's apartment were connected on either side of this dining area. Across the room from the corridor entrance was another door that led into the library: a space even bigger than the Chamber of Man, with shelves of books, scrolls, stone tablets, and documents lining the high walls and many tables also stacked with books occupying the floorspace. At least one floating magical orb provided light to this room. </br></br> There were some who claimed that a portal to Silverymoon was located very near the entrance to the Holdfast, known only to Old Night and his or her close associates. According to rumor, there were many other chambers in the Holdfast, all connected by secret doors."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Herald's Holdfast was a spellguarded library complex that belonged to the Heralds of Faerûn and was their primary repository of heraldic lore, history, genealogy, and artifacts from nearly all the humanoid races native to Faerûn. It was the greatest library in the North, surpassing even the Vault of the Sages in Silverymoon, and was also the residence of the High Herald Old Night."
+                  ]
+               },
+               
+            ]
+         },
+
+
+
+         {
+            "name": "Khelb",
+            "size": "SET",
+            "population": "200",
+            "region": "Silver Marches",
+            "imports": "",
+            "exports": "Vegetables",
+            "religion": "",
+            "alignment": "Good",
+            "image": "images/silverymoon.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Forks Inn",
+                  "text": [
+                  "Located in the center of town near a fork in the road, the Forks Inn is a tavern."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Khelb was a tiny village at the western end of Silverymoon Pass."
+                  ]
+               },
+               
+            ]
+         },
+
+
+
+         {
+            "name": "Methegrist",
+            "size": "SET",
+            "population": "0",
+            "region": "Silver Marches",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/quaervarr.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Methegrist Ruins",
+                  "text": [
+                  "Methegrist was destroyed by a devil infiltrating the ranks of the Moonwatchers, and tricking Jahar to be the first to strike a fellow knight. His ghost was seen passing through Quaervaar, forced into unrest by the imp Fortenesti."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Methegrist was home to a small group of paladins centuries before the Spellplague, known as the Moonwatchers. They were dedicated to Helm, and were appointed as protectors of the Moonlands."
+                  ]
+               },
+               
+            ]
+         },
+
+
+
+         {
+            "name": "Mouth of Song",
+            "size": "SH",
+            "population": "0",
+            "region": "Silver Marches",
+            "imports": "",
+            "exports": "",
+            "religion": "Eilistraee",
+            "alignment": "",
+            "image": "images/quaervarr.png",
+
+            "locationofinterest": [
+               {
+                  "name": "The Mouth of Song Shrine",
+                  "text": [
+                     "The area was frequented by followers of Eilistraee,[3] the goodly drow goddess. The good drow (mostly females) danced and sang under the moon, and performed other ceremonies atop the hill where a small shrine to Eilistraee stood."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The Mouth of Song was a small shrine to Eilistraee located in the south central portion of the Moonwood, approximately a day's travel north of Quaervarr. The shrine was located in a cave mouth beneath a treeless hill, atop which the dark elven worshipers and a few half-elven and elven faithful from Silverymoon danced in a great ring on moonlit nights."
+                  ]
+               },
+               
+            ]
+         },
+
+
+
+         {
+            "name": "Hawk's Nest",
+            "size": "T",
+            "population": "12",
+            "region": "Nether Mountains",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "Good",
+            "image": "images/hawksnest.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Hawk's Nest Tower",
+                  "text": [
+                     "The watchtower was usually manned by a dozen Knights in Silver during the months when the Silverymoon Pass was in heavy use."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Travelers on the road from Silverymoon to Sundabar were often pressed hard to reach the shelter of the watchtower before nightfall."
+                  ]
+               },
+               
+            ]
+         },
+
+
+
+         {
+            "name": "Tombs of Deckon Thar",
+            "size": "TO",
+            "population": "",
+            "region": "Nether Mountains",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "Lawful Evil",
+            "image": "images/deckonthar.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Tombs of Deckon Thar",
+                  "text": [
+                     "The tombs were located on the western slope of the Nether Mountains in a secret canyon north of Silverymoon Pass. Named for the first leader of the bandit group the Chieftains in Gold, the tombs were legendary. For years, Deckon Thar's raiders attacked merchants between Silverymoon and Sundabar. They grew rich hoarding their ill-gotten gains in a great keep and burying their leaders in dark caves filled with unplundered riches. Around 1372 DR, the entombed began to stir and rose as wights under the icy rule of Vinjarak the Mound King. </br></br> Seven wight-haunted tombs shudder in the cold grip of the Mound King, a plaguechanged wight with powers unknown but whispered to be terrible. The tombs were once the secret hoards of bandit lords called the Chieftains in Gold, who dominated the western Nether Mountains centuries ago. They sallied from a great keep and buried their dead in barrows filled with ill-gotten loot. One of the seven tombs was plundered by a group of salvagers, and vengeance found them all as they made their way back to their Silverymoon base. In each case, the dismembered corpses were discovered, sans loot and equipment, with the message “Disturb not the Mound King” inscribed in their flesh."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The Tombs of Deckon Thar were seven cairns loaded with bandit treasure within the Nether Mountains."
+                  ]
+               },
+               
+            ]
+         },
+
+
+         {
+            "name": "Ladypeak",
+            "size": "MO",
+            "population": "",
+            "region": "Nether Mountains",
+            "imports": "",
+            "exports": "",
+            "religion": "Loviatar",
+            "alignment": "",
+            "image": "images/ladypeak.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Lady's Hand Monastery",
+                  "text": [
+                     "The Lady's Hand Monastery was a temple dedicated to Loviatar on Ladypeak. </br></br> In the Year of the Unstrung Harp, 1371 DR, the tower of Lady's Hand collapsed under the attacks of a Morueme dragon, which was later torn asunder mid-flight by the monks' Netherese magic. After that, more Morueme dragons destroyed most of the buildings in the monastery but were unable to wipe out the monks who, in the meantime, retreated into the caves. The Moruemes then sent a small army of hobgoblins to execute the final assault, but the monks prevailed once again. However, winter likely drove the monks out. </br></br> About ninety priests (human and half-elf) resided in this fortified temple and in the caves under the abbey. These monks were able to repel attacks by orcs and other monsters using ancient Netherese magic. The monks had a bad reputation in the surrounding area, because travelers passing by tended to disappear mysteriously. After the dragon assault, High Whipmistress Lorthalae Shamrass ruled a clergy just over forty strong, who were involved in rebuilding the fortress."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Ladypeak was a mountain located at the westernmost end of the Nether Mountains."
+                  ]
+               },
+               
+            ]
+         },  
+
+
+         {
+            "name": "Dalagar's Dagger",
+            "size": "MO",
+            "population": "",
+            "region": "Nether Mountains",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/dalagarsdagger.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Dalagar's Dagger Mountain",
+                  "text": [
+                     "The Dagger was named after Dalagar the dwarf who tried to climb the mountain around 372 DR and fell to his death. Over the years many dying blue, green, and black dragons have committed suicide by impaling themselves on the knifelike pinnacle. Their bones were scattered all around the peak and among them there were gems and jewelry that covered their scales with in life. This treasure remained mostly untouched since the Moruemes (who have never dared to touch a single coin) tenaciously defended the place against any approaching creatures. It looked like they were aware when someone was trying to reach the hoard. Moruemes ripped to pieces even two young dragons came there to plunder the riches. It was discovered that one of these two young dragons was a mage under the effects of trasformation spell. The dragons Moruemes found out mage's residence and publicly returned his remains there as warning to other equally ambitious wizards."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Dalagar's Dagger was the highest peak in the northeast section of the Nether Mountains."
+                  ]
+               },
+               
+            ]
+         },
+
+
+         {
+            "name": "Dragondoom",
+            "size": "MO",
+            "population": "",
+            "region": "Nether Mountains",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/dragondoom.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Morueme's Cave",
+                  "text": [
+                  "Morueme's Cave was the home of the blue dragon clan the Blood of Morueme located in the Nether Mountains. </br></br> The cave was located on the edge of the Anauroch Desert on the mountain known as Dragondoom. </br></br> Nearly five dragons occupied the caves. Each dragon protected his own treasure sided by their faithful hobgoblin servants. The Caves had many traps, carefully placed to deal with humans. Most were rockfalls, in which rocks were linked together with chains. Moreover, the caves had some sharp bends where the Moruemes took advantage of cover. </br></br> The caves have been the home for the clan for at least a thousand years. For many years, the Moruemes were ruled by Kizilpazar, the ancient blue patriarch of the clan. In 1371 DR, his ambitious sons, Nahaunglaroth and Roraurim, betrayed and destroyed him."
+                  ]
+               },
+               {
+                  "name": "Doomspire",
+                  "text": [
+                     "Doomspire was a hobgoblin village guarding Morueme's Cave in the Nether Mountains."
+                  ]
+               },
+
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Dragondoom was a mountain located in the eastern end of the Nether Mountains."
+                  ]
+               },
+               
+            ]
+         },  
+
+
+         {
+            "name": "Mount Ieldroun",
+            "size": "MO",
+            "population": "",
+            "region": "Nether Mountains",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/telkountower.png",
+
+            "locationofinterest": [
+               {
+                  "name": "High Thorog",
+                  "text": [
+                  "High Thorog was a small valley located between Mount Ieldroun and Mount Thorog in the Nether Mountains."
+                  ]
+               },
+               {
+                  "name": "Telkoun's Tower",
+                  "text": [
+                     "Telkoun's Tower was a wizard stronghold located in High Thorog in the Nether Mountains. The stronghold consisted of one building with two double towers. Several gargoyles defended the tower, paid and also charmed by Telkoun Adranther. There was a stasis sphere at the last floor of the tower."
+                  ]
+               },
+
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Mount Ieldroun was one of the two tallest mountains east from the Moon Pass. The mountain peak was named for a long dead orc chieftain. Ieldroun stood halfway between Stone Stand and the site of Hellgate Keep. Between Mount Ieldroun and Mount Thorog was Telkoun's Tower, a stronghold of a little-known wizard and protected by perytons."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Telkoun's Tower",
+            "size": "T",
+            "population": "",
+            "region": "Nether Mountains",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "Chaotic Evil",
+            "image": "images/telkountower.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Telkoun's Tower",
+                  "text": [
+                     "The stronghold consisted of one building with two double towers. Several gargoyles defended the tower, paid and also charmed by Telkoun Adranther. There was a stasis sphere at the last floor of the tower."
+                  ]
+               },
+
+               {
+                  "name": "Telkoun Andranther",
+                  "text": [
+                     "Telkoun Adranther was an evil sorcerer who constantly sought magical power. </br></br> His parents were an evil sorceress and a powerful demon. Circa 1352 DR, together with his fellows, Telkoun came across the ancient Netherese tower of High Thorog. After driving away all the creatures that were occupying the tower, Telkoun enslaved his fellows and proclaimed himself absolute master of the tower. He spent years of his life trying to solve the mysteries of the tower. The most intriguing was certainly the stasis sphere. He believed that a demon lord had been imprisoned within the sphere. His purpose was to free the demon and gain a dark reward. Telkoun used his powerful spells, such as charm monster to subjugate large groups of monsters and creatures living near the tower. Under Telkoun's control, these creatures watched the lands around the tower and reported intruders' movements. These creatures were in the majority perytons."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Telkoun's Tower was a wizard stronghold located in High Thorog in the Nether Mountains."
+                  ]
+               },
+               
+            ]
+         }, 
+
+
+         {
+            "name": "Baraskur",
+            "size": "V",
+            "population": "842",
+            "region": "Nether Mountains",
+            "imports": "",
+            "exports": "",
+            "religion": "Gruumsh",
+            "alignment": "Chaotic Evil",
+            "image": "images/dalagarsdagger.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Fortress of Baraskur",
+                  "text": [
+                     "An unusual guardian watched over the Orcs. Centuries ago, an outcast human sorcerer named Aumathra asked for hospitality from the orcs living in Baraskur. Aumathra died ages ago, but her ghost was still nervous. The orcs were able to calm Aumathra's ghost by donating a tall, slender female body that had black hair and was skilled at magic, giving the ghost a chance to possess her. Despite that, the ghost became upset. So the orcs started looking for someone with Aumathra's likeness. They brought a captured specimen before Aumathra's ghost during a dark ceremony where Aumathra possessed the body. She usually spending most of her time rummaging through ruins and surrounding tombs. Aumathra also commanded the Ripped Gut orc tribe like they were her loyal slaves."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Baraskur was the main settlement of the Ripped Gut orc tribe. The cavernous fortress of Baraskur was built in memory of a great orc hero. It stood on a slope of the Nether Mountains at the end of a rough path that flanked a precipice. The fortress was located on the southern flank of the Orcsblood Peak between Deadsnows and Sundabar. Orc raiding parties from Baraskur infested Moon Pass, Turnstone Pass, and Fork Road."
+                  ]
+               },
+               
+            ]
+         },         
+
+
+         {
+            "name": "Deadsnows",
+            "size": "V",
+            "population": "830",
+            "region": "Nether Mountains",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "Neutral Good",
+            "image": "images/deadsnows.png",
+
+            "locationofinterest": [
+               {
+                  "name": "The Hospice of Marthammor",
+                  "text": [
+                     "A travellers sanctuary manned by devout dwarves of the dwarven god of adventurers, Marthammor Duin and led by Observer Kerrilla Gemstar. It lay two miles north-west of the village itself. Visitors could stay for one night with a meal of hard bread and cheese for free, but after that they were required to pay two silver pieces a night, or three if they also wanted to eat. The place regularly had five or ten guests a night but could hold up to twenty. People were turned out if they stayed for a tenday unless they were Dwarves or friends of Kerrilla. Healing was provided to good folks in return for services such as volunteering for the militia or doing a job for the village or the abbey itself."
+                  ]
+               },
+               {
+                  "name": "The Blazon",
+                  "text": [
+                     "A tavern owned by the shrewd businessman Lonnor. He realised how scarce rooms were in a boom-town like Deadsnows and raised his prices to five gold pieces a night. He only had 3 such rooms, but one of these three could house up to six people."
+                  ]
+               },
+               {
+                  "name": "Icespear House",
+                  "text": [
+                     "A former manor house rebuilt and renovated by the Brotherhood of the Moon as a base to send out mounted patrols. A haven for visiting nobles and good adventurers of reknown. No payment was expected or accepted from said guests, though they were expected to be civil and to not stay longer than two tendays. In the cellar, a spire of supernatural ice blasted cold energy at intruders - the Brotherhood used this spire to guard their accumulated wealth."
+                  ]
+               },
+               {
+                  "name": "Vandarhouse",
+                  "text": [
+                     "A simple barn that its half-orc proprietress Vandar ran as an inn. She was not a kind person and gladly charged three silver pieces for the 'privilege' of sleeping on a cold, damp, pallet for a night. She charged an extra two silver pieces if one wished to have a meal of hardtack and broth and an additional siver piece for a mug of the cheapest ale she could get her hands on. She and her band of ruffians paid off a few of the town guards so that they were free to steal from those who might bring anything of value into the 'inn' while they slept."
+                  ]
+               },
+               {
+                  "name": "The Rose and Hammer",
+                  "text": [
+                     "The only actual inn within the walls of the village. It had twelve private rooms and a common dormitory that could house twenty."
+                  ]
+               },
+               {
+                  "name": "The Morning Watchtower",
+                  "text": [
+                     "A watchtower and temple to Lathander, led by Morninglord Ashnar the humble. He and five other clerics operated the place, while a pair of guards made sure they were protected from harm. Ashnar fostered good relations with Kerrilla and the pair were the two most respected people in the village and usually the first people turn to when help was needed. Ashnar was also a bit of a crusader and was not above prodding known adventurers into action."
+                  ]
+               },
+               {
+                  "name": "Snowtown",
+                  "text": [
+                     "This is what the shanty town that sprang up outside the village became known as. A maze of ramshackle huts that had become a haven for illegal goings-on. During the day, most of the place was empty while everyone was out prospecting. By night it became rowdy as most of the occupants took to drink and drugs. Prostitution, gambling and other vices started appearing in addition to the theft and claim-jumping problems that had been associated with Snowtown since its inception. Deadsnows jail became full of residents of Snowtown as a result."
+                  ]
+               },
+
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Deadsnows was a large village located on the northen edge of the Nether Mountains. It was the smallest member of the confederacy of the Silver Marches and would not have normally been accepted as a signatory unless as a vassal to a larger city, but due to the request of Lady Arletha Icespear it was allowed to join, though did not have a seat on the council. Deadsnows was connected via a trail to Fork Road which eventually lead to Sundabar. </br></br> Originally a keep for a human lord who desired his own kingdom, his dream was shattered before it had ever really started. He died in the Battle of Deadsnows, a minor skirmish with some of the countless orc raiders that continually plagued his designs and the battle which gave the place it's name. Two religious groups, Dwarves of Marthammor Duin and Humans of Lathander eventually settled here, building impressive temples to each of their respective gods. </br></br> In Eleint, 1372 DR, during the winter melt a hunter was filling his waterskin at a swollen river 3 miles from the village when he noticed the water contained tiny golden flecks. He returned and began to prospect, discovering to his joy that there was indeed gold to be found. Word spread around the village which then got out, and within a couple of months, 300 dwarves, elves, humans and halflings had flocked to the village, either looking to mine the gold themselves or hawk their wares to said miners. A few also arrived for more nefarious ends, to sell illegal items or to steal. </br></br> This sudden influx of people taxed the village to it's limit and it looked like it would continue to do so until the gold ran out. However, the Spellplague destroyed the buildings and fields of the village, forcing the survivors to flee. Deadsnows still drew visitors however - rumours abounded in Sundabar that a powerful group of adventurers, the Brotherhood of the Moon, were unable to retrieve the majority of their collected treasure when the Spellplague struck and so treasure hunters scoured the area for hidden caches for years to come. </br></br> When an orc bandit named Histarack discovered the Brotherhood's treasures, he had the tale spread that a new pocket of active Spellplague energy had erupted in the area to keep the scavengers away, however, the story only served to gain the attention of the Order of the Blue Fire who sent envoys to reveal the hoax for what it was."
+                  ]
+               },
+               
+            ]
+         }, 
+
+         {
+            "name": "Vaerluth",
+            "size": "KI",
+            "population": "",
+            "region": "Rauvin Mountains",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/deadsnows.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Vaerluth",
+                  "text": [
+                     "Vaerluth was ruled by a succession of kings named Vaerluth; in 1372 DR, the realm was on its 36th King Vaerluth. Succession of each king came through the murder of his predecessor. The goblins of Vaerluth were considered the poorest of the goblins in the Rauvin Mountains. They dwelt in huge-spider-infested caverns and foothills, which gave them immunity to the spider venom. The goblins boiled the spider webs to make soup."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Vaerluth was the easternmost goblin realm in the Rauvin Mountains in Luruar. Malauth was located in the caverns and foothills of the eastern Rauvin Mountains."
+                  ]
+               },
+               
+            ]
+         }, 
+
+         {
+            "name": "Auvandell",
+            "size": "V",
+            "population": "524",
+            "region": "Nether Mountains",
+            "imports": "",
+            "exports": "Copper, Lead, Iron",
+            "religion": "",
+            "alignment": "Lawful Good",
+            "image": "images/auvandell.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Auvandell",
+                  "text": [
+                     "Auvandell wasn't so different from other villages, despite being the largest and the most defended. Despite Auvandell belonging to the jurisdiction of Sundabar, the village enjoyed administrative autonomy. Auvandell was governed by a High Sheriff, Jortheyn Serpentbane. Helm Dwarf-Friend, ruler of Sundabar, granted Jortheyn his title and role in return for services provided to Sundabar. </br></br> Legends told that the king of Delzoun commanded Auvan Arlandspyr to kill a dragon that dwelt right in the tower. The watchtower was said to be built over the wyrm's hoard."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Auvandell, named after the human hero Auvan Arlandspyr, was a village located on the road from Silverymoon to Sundabar, where the road descended out of Silverymoon Pass. The town clustered around an old, dwarf-built, Delzoun watchtower. </br></br> A small community lived around the gray base of the tower and was a place of repose for travelers. The area around Auvandell was not so easy to cultivate. Goats and sheep were the main resource for local agriculture, while apple and cherry orchards were cultivated on the slopes of the hills. Two small mines in the nearby hills were the primary business of Auvandell. A foundryman produced copper, lead and iron ingots, which were sent to Sundabar on heavy carts pulled by teams of oxen."
+                  ]
+               },
+               
+            ]
+         }, 
+
+         {
+            "name": "Dark Arrow Keep",
+            "size": "F",
+            "population": "2,000",
+            "region": "Upper Surbin Vale",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/darkarrow.png",
+
+            "locationofinterest": [
+               {
+                  "name": "The Citadel",
+                  "text": [
+                     "The Citadel was the largest structure in the city. Made of stone, wood and iron it was constructed to be a fortress within a fortress with a large host of royal guards to defend the King's family. The citadel was built around the throne room, which is the largest open area in the keep. Though The Citadel is better laid out than the rest of the city, it still appeared dark and cramped to outsiders. It was tradition for the Obould dynasty to make their home here, in the political centre of the kingdom, from its founding by king Obould I until the Second Sundering when king Obould XVII fought off all other factions in a civil war to reclaim the throne. The Citadel was stocked with provisions and weaponry to survive a lengthy siege, not just from non-orc opponents, but also from the various native political factions."
+                  ]
+               },
+               {
+                  "name": "The Pit",
+                  "text": [
+                     "The Pit was a small underground arena used as a punishment for law breakers, political opponents and any others identified as dangerous individuals. The arena housed monsters that were deliberately mistreated and set loose upon lightly armed opponents. Either party or both might even find themselves poisoned before the competition by political factions or the King's subjects. The winners in the Pit were set free, but such occasions were rare as the ogres, hill giants and other exotic monsters brutally dispensed crude orc justice. </br></br> The only punishable crimes in the kingdom were those perpetrated against powerful figures such as chieftains or the King. The King, however, had the final decision on whether transgressors found themselves in the Pit and what they would face when they got there. The Pit was also used to settle disputes among citizens and these contests were invariably fought to the death."
+                  ]
+               },
+               {
+                  "name": "The Bazaar",
+                  "text": [
+                     "During the five months from Mirtul to Marpenoth each year, the Bazaar blossomed with caravans owned by humans, elves and dwarves from Silverymoon and Sundabar trading resources directly with the orcs for useful items. The Bazaar was located in the shadow of the keep itself, formed around a central marketplace. The tent community generally looked in better shape than the ragged assortment found within the keep. The area contained no permanent structures and had no permanent residents. </br></br> As the industrial centre of the kingdom, with dozens of forges and iron ore mined from the Spine of the world, Dark Arrow Keep traded mainly in orc weapons, which were functional and lacked elegance."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "King Obould XVII ruled the Kingdom of Many-Arrows from the central chamber in this trapped fortress. Known for its slit-covered, confounding corridors and blind alleys, Dark Arrow Keep also housed the Pit; an arena used by the King to judge his chieftains and mete out brutal punishments. </br></br> Dark Arrow Keep was founded as the capital of the new Kingdom of Many Arrows by Obould I after the Treaty of Garumn's Gorge The Keep and Citadel had seen many battles, with invasions and uprisings occurring almost every generation. The location and foreboding look of the fortress was chosen to make neighbouring countries hesitate to try removing the orcs from their new homeland."
+                  ]
+               },
+               
+            ]
+         }, 
+
+         {
+            "name": "Castle of Illusion",
+            "size": "C",
+            "population": "",
+            "region": "Frost Hills",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/illusion.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Castle of Illusion",
+                  "text": [
+                     "The Castle of Illusion was once the home of the gnome illusionist Fhzmilliyun Sparkledrim, whose illusions lingered for years, even driving away an orc horde that settled in the ruined citadel."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The castle was located near the eastern side of the Fell Pass. As of the 1360s DR, the castle was inhabited by the evil wizard MacBec Maclyon and his insane followers. Malcyon used to summon powerful demons and come to terms with the dark powers to get a wider magical knowledge. Some devils were protecting his castle and hopping up and down on the surrounding land, while others teached him in black magic. The evil wizard was not aware it was on its way to build a second Hellgate Keep."
+                  ]
+               },
+               
+            ]
+         }, 
+
+         {
+            "name": "Mithril Hall",
+            "size": "SET",
+            "population": "4,991",
+            "region": "Frost Hills",
+            "imports": "",
+            "exports": "Mithral, mithral items, iron",
+            "religion": "Dwarven Pantheon",
+            "alignment": "Neutral Good",
+            "image": "images/mithrilhall.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Keeper's Dale",
+                  "text": [
+                     "Keeper's Dale was the name given to the rocky valley that surrounded the northwestern entrance to Mithral Hall. To navigate it was treacherous and arduous, due to the craggy outcrops and unstable edges. The steps on Keeper's Dale that led to the entrance of the hall were carefully carved where two different types of rock met. This provided camouflage and meant the steps could only be seen from the correct angle, or by those in the know."
+                  ]
+               },
+               {
+                  "name": "Entrances",
+                  "text": [
+                     "There were two primary ways into Mithral Hall, along with a number of hidden, thin chimneys used for ventilation. Additionally, the lowest levels of the mine opened up into the Underdark. </br></br> <strong>Main entrance (west)</strong></br></br> Sunken into Keeper's Dale, the main entrance to Mithral Hall was highlighted by a formation of ancient monoliths that pre-dated the settlement. Originally the entrance was accessed via a hidden door that only revealed itself on hearing a command word, but after Bruenor's refurbishments it was kept by two huge, well guarded granite portals. The entry hall was a wide, high roofed room carved out of the mountains, lit by enchanted torches that never went out. </br></br> <strong>Secondary entrance/exit (east)</strong></br></br>On the east side of Fourthpeak was a small, hidden door that came out overlooking the river Surbrin. Known as Surbrin Gate, this door was not marked from the outside and for this reason was rarely used as an entrance.[21] It was instead used as an exit via Garumn's Gorge. </br></br><strong>Underdark connections</strong></br></br>The lowest levels of the mine were gated off by heavy doors from the Underdark. These tunnels allowed the invasion by the drow of Menzoberranzan in 1358 DR, but they also connecting the city to the deep gnomes of Blingdenstone."
+                  ]
+               },
+               {
+                  "name": "The Maze",
+                  "text": [
+                     "After entering Mithral Hall from the western entrance in Keeper's Dale, one was faced with a short corridor and then a complex network of twisting tunnels and side rooms. This section on the upper level was known as the Maze. It was a knotted web of tunnels filled with traps and dead ends. Its purpose was to slow down or stop any invaders. Invited guests were instructed to wait in the entry hall to be met by a guide, as attempting to navigate the maze without the requisite knowledge could be fatal."
+                  ]
+               },
+               {
+                  "name": "The Undercity ",
+                  "text": [
+                     "In the centre of the mountain lay the Undercity, the main living quarters for the miners and permanent residents. What was already a large natural cave was carved out further by the town founders. The walls had ledges carved into them like a colosseum, with several small homes carved into each of the giant steps. Although only inhabited by a few thousand in 1372 DR, this town had the capacity to house some 10,000 individuals. In the middle of the chamber, at the lowest level, were the workshops and furnaces where the majority of the forging and labour took place. The glow of the forge lit and warmed the entire Undercity. Towering over the Undercity was a bridge allowing miners to navigate through the city rather than around it."
+                  ]
+               },
+               {
+                  "name": "Garumn's Gorge",
+                  "text": [
+                     "Garumn's Gorge was a massive natural cavern within the east side of the mountain. Although unconfirmed, it was almost undoubtedly named after the Sixth King of Mithral Hall, Garumn Battlehammer. The 330m (1000ft) deep cave could only be crossed via a small bridge. This bridge led to the east entrance, and could be used as a great defensive tool. The bridge was also blocked by a portcullis, which was operated from a room on the other side of Mithral Hall. Down one side of the gorge, there was a waterfall known as Bruenor Falls. Bruenor Falls led to a small basin of water at the bottom of the gorge, which in turn trickled out through caves in the mountain into the River Surbrin. During Shimmergloom's reign, the gorge was known as Shimmergloom's Run. A cave at the bottom of hte gorge lead to the deep mines east of the Undercity."
+                  ]
+               },
+               {
+                  "name": "Halls of Gathering",
+                  "text": [
+                     "On the upper levels, on the east side of the complex, were the Halls of Gathering. These huge rooms were used as a meeting and greeting place for visitors and guests. Here the majority of Mithral Hall's occupants could meet (depending on the current population) and share pleasantries with any newcomers."
+                  ]
+               },
+               {
+                  "name": "Hall of Dumathoin",
+                  "text": [
+                     "Named after the patron of shield dwarves and Keeper of Secrets under hte Mountain, Dumathoin, this room was used as storage for the vast wealth and treasures belonging to Mithral Hall and Clan Battlehammer. New visitors were shown this room on arrival after being seen through the Hall of Gathering. Some of the treasures included masterwork weapons, armor, gems, and jewelry."
+                  ]
+               },
+               {
+                  "name": "Burial places",
+                  "text": [
+                     "The cairn of King Bruenor Battlehammer included a statue of King Bruenor in battle stance. Regis and Catti-brie were also buried in Mithral Hall."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Mithral Hall (sometimes spelled Mithril Hall) was a dwarven stronghold beneath Fourthpeak Mountain in the Frost Hills, part of the Spine of the World. It was one of the best known dwarven strongholds in Faerûn. </br></br> Originally a mithral mine belonging to Clan Battlehammer, this underground town became a safe haven for various dwarf families and even some persons of other races. Mithral Hall had a long history of tragedy and triumph, and was the making and breaking of countless individuals. </br></br> Set amongst the longest mountain range in Faerûn, Mithral Hall was one of the northernmost settlements on the continent. </br></br> After being built by Gandalug Battlehammer and his kin, Mithral Hall accumulated a long and fascinating history filled with all manner of heroes, villains, victory and defeat. Although the exact date when Mithral Hall was founded is unknown, it was before 0 DR. The Hall was founded by Gandalug Battlehammer.[5] (It is however reported in Hall of Heroes that Bunko Battlehammer was the founder of Mithral Hall,[28] however this has been contradicted in several other works so is considered an error.) The settlement was originally set up as a mine, due to the rich seams of mithral ore in the mountain. The business quickly grew into a thriving community. The location of Mithral Hall was kept extremely secret, so that other organisations wouldn't try invading. The dwarves used to sell their ore and weapons in Settlestone, using it as a public front for the mine. This way outsiders were not exposed to the secret location of the mine. </br></br><strong>Shimmergloom's Reign</strong></br></br> Towards the end of the 1100s DR, the deepest mines carved out by the dwarves of Mithral Hall broke into a shadowcavern. The cavern was said to be linked to the Plane of Shadows. An immensely powerful shadow dragon named Haerinvureem (known as Shimmergloom) was subsequently released into the mines."
+                  ]
+               },
+               
+            ]
+         }, 
+
+         {
+            "name": "Claw Hollow",
+            "size": "SHE",
+            "population": "70",
+            "region": "Moonwood",
+            "imports": "",
+            "exports": "",
+            "religion": "Malar",
+            "alignment": "Neutral Evil",
+            "image": "images/claw.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Claw Hollow Stronghold",
+                  "text": [
+                     "The stronghold of the tribe was built within two rings of stockades, erected around a rocky promontory and a network of underground caverns. The People defended Claw Hollow with crossbows equipped with poisoned darts, javelins and stones. </br></br> In the bottom of a well, there was a great natural cave, full of junk and feces, where a trapped otyugh dwelt. The otyugh was captured and imprisoned several years before. The monster couldn't escape so it was fed with all the creatures that were thrown into the depths of the well. "
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Claw Hollow was one of the People of the Black Blood hideouts in the Silver Marches. The refuge also acted as a rally point. Here, the lycanthropes treated their wounded and sick kin. They also used this place as a safe-zone when the Knights in Silver were out hunting them in the forest. Often, nearly half of the tribe was away from the settlement, busy hunting in the nearby woods."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Lonely Tower",
+            "size": "T",
+            "population": "",
+            "region": "Moonwood",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/claw.png",
+
+            "locationofinterest": [
+               {
+                  "name": "The Lonely Tower",
+                  "text": [
+                     "This mysterious tower, made of white stone, had an incredibly light and frail structure compared to where it stood. Without a doubt, the surroundings of the tower were quite unusual. The surrounding area was perfectly circular, strewn with volcanic rock and dotted with deep cracks, which differed considerably from the nearby hills, as if the tower had been built elsewhere and then moved to this place, along with all its environment for about one kilometer."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "The Lonely Tower was a tower located somewhere in the Moonlands near the eastern border of the Moonwood forest in the Silver Marches. The wizard Ssessibil Istahvar lived in this place. He was not a native of Faerûn, and spent much of his time away from the tower, in areas that required his attention in other planes of existence far away. During his last absence from the tower, which lasted about thirty years, Arbane the wizard was able to overcome the defenses of the Lonely Tower, and after stealing Ssessibil's treasure, he proclaimed himself master of the tower. This lasted until a company of adventurers defeated him in combat, allowing the return of the previous owner. Ssessibil, while having very few interests in the Silver Marches, protected his dwelling with the help of fearsome elemental guardians and destructive traps. For him, the Lonely Tower was a secret refuge, a fortress of solitude, where enemies and rivals from his home plane would never have the opportunity to locate."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "One Stone",
+            "size": "TO",
+            "population": "",
+            "region": "Moonwood",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/claw.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Rumors and Legends",
+                  "text": [
+                     "One legend told of a god who sealed a passageway from the Nine Hells with a single rock thrust into the ground. Some wonder if the evil sealed beneath the stone caused the deaths of the tribes and darker tales said the tribes dwelt under the stone within the portal."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "One Stone was an ancestor mound for the Golden Eagle and Sky Pony tribes in the Moonwood in the Silver Marches. Instead of an altar mound at the center of the cairn rings, there was a single massive boulder 20 ft (6.1 m) across and 12 ft (3.7 m) high and covered in precisely engraved tracery. Carved steps ascended the south face to the altar top. In the past, Lycanthropes of Claw Hollow, fulfilled sudden attacks to the Sky Pony Tribe on pilgrimage to this holy place to celebrate their ancestors. Sky Pony barbarians therefore had started attacking strangers on sight."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Beorunna's Well",
+            "size": "SET",
+            "population": "2,139",
+            "region": "Moonwood",
+            "imports": "",
+            "exports": "Fur, meats, timber",
+            "religion": "Uthgar",
+            "alignment": "Neutral",
+            "image": "images/glimmerwood.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Beorunna's Well",
+                  "text": [
+                     "Members of the tribe lived in modest houses around the deep pit that once contained the ancestral mound. At the bottom of the pit dwelt Underdark monsters that the barbarians feared. The Black Lion tribe forsook their nomadic habits and settled in a small, roughly built town surrounded by a stockade, where they traded timber, furs, and smoked meat. The Red Tigers held a different opinion about living like the southern folk and often resolved their disputes in duels to the death. Traders and merchants were welcome, though the journey there was full of dangers."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Beorunna's Well was a large settlement of the barbarians of the Black Lion Tribe. Legend says that Beorunna, the father of Uthgar, defeated the demon Zukothoth at the ancestral mound, causing it to sink into the earth. In 1372 DR, the Uthgardt tribes of Black Lion and Red Tiger both considered Beorunna's Well their ancestral mound.</br></br>The town often traded with the dwarves of Citadel Felbarr,[5] to whom they were connected by a trade route."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Thradulf's Camp",
+            "size": "SET",
+            "population": "180",
+            "region": "Cold Wood",
+            "imports": "",
+            "exports": "",
+            "religion": "Uthgar",
+            "alignment": "Chaotic Evil",
+            "image": "images/glimmerwood.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Thradulf's Camp",
+                  "text": [
+                     "Thradulf's camp was the largest gathering of Red Tigers. His followers hunted and gathered in the Cold Wood region during the wintertime and moved north to the Druarwood in the summer season."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Thradulf's Camp was located in the southwestern region of the Cold Wood and was ruled by the cruel Thradulf Longfang, chieftain of the Red Tiger Tribe. </br></br>Thradulf became leader of the Red Tiger tribe in 1368 DR succeeding Adalwulf Longfang, a wise leader who ruled his tribe long and well. Before this time, the Red Tigers were a solitary tribe, but under Thradulf's rule, a darker side of the tribe was born."
+                  ]
+               },
+               
+            ]
+         },
+
+          {
+            "name": "Tulrun's Tent",
+            "size": "TEN",
+            "population": "",
+            "region": "Cold Wood",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "",
+            "image": "images/citadeladbar.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Tulrun's Tent",
+                  "text": [
+                     "From the outside, it looked like a colorful silk tent perched on top a plain wooden platform held on five thin wooden legs about 30 ft (9.14 m) up. While it could walk, the tent often flew when requested by Tulrun. Tulrun preferred to stay alone to create new spells, but occasionally intervened in aid of needy adventurers. He was an expert in creating constructs, including three beautiful servants which had beautiful female likenesses, but really were realistic constructs. Caere, Elsara and Tionele. Despite they were similar to flesh golem, they hadn't the same tendency to go berserk during fights. Tulrun planned a system to establish a means to link all three of his creations to himself as if they were familiars. Tulrun truly cared for these three marvelous constructs, so much that he would have done anything to spare them any suffering."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Tulrun's Tent was a magical dwelling found in the Cold Wood. Wanderers entering the tent became lost in an extradimensional labyrinth of stairs, rooms and corridors composed of glowing white mist. Tulrun was using several detection spells to understand the real intentions of the intruders."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Grimlight's Lair",
+            "size": "LAI",
+            "population": "",
+            "region": "Cold Wood",
+            "imports": "",
+            "exports": "",
+            "religion": "",
+            "alignment": "Neutral Evil",
+            "image": "images/rauvin.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Grimlight",
+                  "text": [
+                     "A behir (pronounced be-HEER) was a great serpentine monster with twelve legs and an electrical breath. A behir was often mistaken for a wingless blue dragon. It had a long, snake-like body and could slither on the ground like a snake, but it also had six pairs of legs upon which it could walk or climb if it chose to do so. Each of a behir's twelve feet contained three clawed toes. They were surprisingly quick, and could outrun the typical human."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Grimlight was a behir who lived in a cave near a gorge situated near to the Cold Vale. He was a large, clever and vicious behir, well known for his tastes for dwarf flesh and gold."
+                  ]
+               },
+               
+            ]
+         },
+
+         {
+            "name": "Malauth",
+            "size": "KI",
+            "population": "",
+            "region": "Rauvin Mountains",
+            "imports": "",
+            "exports": "",
+            "religion": "Maglubiyet",
+            "alignment": "Neutral Evil",
+            "image": "images/rauvin.png",
+
+            "locationofinterest": [
+               {
+                  "name": "Queen Nargharab",
+                  "text": [
+                     "In 1372 DR, Queen Nargharab was the recognized leader of Malauth. However, Nargharab was known to be the puppet of seven priests of Maglubiyet known as the Malauthar. The Malauthar used rituals and signs to instill fear in the realm's inhabitants, who began suspecting that the Malauthar made up those signs and meanings at whim."
+                  ]
+               },
+            ],
+
+            "trait": [
+
+               {
+                  "name": "Summary",
+                  "text": [
+                     "Malauth was the 'most sinister' goblin realm in the Rauvin Mountains in Luruar."
+                  ]
+               },
+               
+            ]
+         },
+
+         
+
+
+      ],
+      "_version": "5"
+   }
+}

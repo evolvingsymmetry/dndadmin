@@ -1,0 +1,297 @@
+var guilddata = {
+   "compendium": {
+      "guilds": [
+
+         {
+            "name": "Blackstaff Academy",
+            "location":"Waterdeep",
+            "boo":"Blackstaff Tower (C6)",
+            "size":"Small",
+            "guildType": "Arcane",
+            "alignment": "LN",
+            "dues": "10gp per level per month",
+            "salary": "",
+            "classes":"Sorcerer, Wizard, Warlock",
+            "skills": "Alchemy, Arcana, History",
+            "requirements":"Any new spells you research or discover must be copied and given to the tower library.",
+            "special":"Admittance to Blackstaff Academy usually requires demonstration of exceptional magical talent (Spellcasting Prodigy or a similar feat) or a uniquely compelling personal history. Nonwizards are very rarely admitted.",
+            "favored":"Choose a feat of your choice.",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "In the years since Khelben “Blackstaff” Arunsun rescued Laeral Silverhand from the madness induced by the Crown of Horns, the two have dwelt together in Blackstaff Tower (C6) along with an everchanging roster of apprentices. Over time, as those apprentices have taken on students of their own, the students of the Lord and Lady Mage of Waterdeep have effectively formed an informal, elite arcanists’ academy. Although Khelben and Laeral remain titular master and mistress of the school, most day-to-day administration and instruction of junior arcanists is left to the more senior apprentices.</br></br>About fifty apprentices reside at Blackstaff Tower at any one time. The more senior apprentices, well trained in defensive magics, defend the Tower against monstrous incursions and hostile wizards."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Eltorchul Academy",
+            "location":"Waterdeep",
+            "boo":"",
+            "size":"Small",
+            "guildType": "Arcane",
+            "alignment": "NG",
+            "dues": "200gp per month (1,000gp to join)",
+            "salary": "10gp per month per level for instructors (no cost to join)",
+            "classes":"Sorcerer, Wizard, Bard",
+            "skills": "Religion, Arcana, History",
+            "requirements":"If you are an instructor, you must be on the premises to instruct students an average of 20 hours per tenday. If you are a student, your classes require your attendance for 40 hours per tenday.",
+            "special":"",
+            "favored":"",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "Test"
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Enclave of Red Magic",
+            "location":"Waterdeep",
+            "boo":"Thayan Embassy, Thayan enclave in the Lower Heart district of Skullport",
+            "size":"Medium",
+            "guildType": "Arcane",
+            "alignment": "LE",
+            "dues": "",
+            "salary": "5gp per month per level (no cost to join)",
+            "classes":"Fighter, Rogue, Wizard",
+            "skills": "Alchemy, Arcana, Religion",
+            "requirements":"You are required to serve in the embassy or its Skullport annex for an average of 30 hours per tenday. Each month, you must also donate at least 100 gp of magic items to the enclave for resale. (Donations are measured by market value, not their cost to create.)",
+            "special":"",
+            "favored":"",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "Test"
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Halaster's Heirs",
+            "location":"Waterdeep",
+            "boo":"Level 1 of Undermountain, in the vicinity of the Yawning Portal.",
+            "size":"Small",
+            "guildType": "Arcane",
+            "alignment": "CE",
+            "dues": "25gp per month (250gp to join)",
+            "salary": "",
+            "classes":"Sorcerer, Wizard, Warlock",
+            "skills": "Alchemy, Arcana, Nature",
+            "requirements":"You must craft at least one magic item for the guild per month; the item crafted must be worth at least 100 gp.",
+            "special":"",
+            "favored":"",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "Test"
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "New Olamn",
+            "location":"Waterdeep",
+            "boo":"New Olamn (C72)",
+            "size":"Medium",
+            "guildType": "Arcane",
+            "alignment": "CE",
+            "dues": "10gp per month (50gp to join)",
+            "salary": "",
+            "classes":"Bard, Rogue, Sorcerer, Wizard, Druid",
+            "skills": "History, Performance, Arcana",
+            "requirements":"You must be present at the college or engaged in its business for an average of 20 hours of service per tenday (usually instructing the children of well-to-do families in music and learning).",
+            "special":"",
+            "favored":"",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "Test"
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Watchful Order of Magists and Protectors",
+            "location":"Waterdeep",
+            "boo":"Tower of the Order (C15)",
+            "size":"Large",
+            "guildType": "Arcane",
+            "alignment": "CE",
+            "dues": "20gp per month (100gp to join)",
+            "salary": "",
+            "classes":"Sorcerer, Wizard, Warlock, Druid",
+            "skills": "Alchemy, Arcana, History",
+            "requirements":"You must craft at least one magic item for the guild each month; the item must be worth at least 25 gp. (Members who craft more expensive items are excused from this obligation for 1 month per 100 gp of the market price of the item crafted.) Donating a magic item is an acceptable substitute for crafting one. In addition, you must serve an average of 20 hours per tenday with the Guard, the Watch, or in similar protective duties.",
+            "special":"",
+            "favored":"",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "Test"
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Griffon Cavalry",
+            "location":"Waterdeep",
+            "boo":"Peaktop Aerie (C67)",
+            "size":"Medium",
+            "guildType": "Armed Forces",
+            "alignment": "LN",
+            "dues": "",
+            "salary": "15 gp per month (500gp to join)",
+            "classes":"Fighter, Paladin, Ranger, Barbarian",
+            "skills": "Animal Handling, Intimidate, Insight",
+            "requirements":" You are expected to serve an average of 20 hours per tenday, drilling and patrolling the skies above the city.",
+            "special":"",
+            "favored":"",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "Test"
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "City Guard",
+            "location":"Waterdeep",
+            "boo":"Castle Waterdeep (C76)",
+            "size":"Large",
+            "guildType": "Armed Forces",
+            "alignment": "LN",
+            "dues": "",
+            "salary": "15 gp per month",
+            "classes":"Any",
+            "skills": "Intimidate, Insight, Athletics",
+            "requirements":"You are expected to serve an average of 30 hours per tenday, standing guard, drilling, or patrolling. (Many Guards serve more.)",
+            "special":"",
+            "favored":"",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "Test"
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "City Navy",
+            "location":"Waterdeep",
+            "boo":"Inner Fort (H4)",
+            "size":"Large",
+            "guildType": "Armed Forces",
+            "alignment": "LN",
+            "dues": "",
+            "salary": "60 gp per month",
+            "classes":"Barbarian, Bard, Cleric, Fighter, Ranger, Rogue",
+            "skills": "Intimidate, Insight, Athletics",
+            "requirements":"You are expected to serve an average of 30 hours per tenday. This might involve several tendays away on a voyage, followed by a long leave in which you are free to do as you please.",
+            "special":"",
+            "favored":"",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "Test"
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "City Watch",
+            "location":"Waterdeep",
+            "boo":"Piergeiron's Palace (C76)",
+            "size":"Large",
+            "guildType": "Armed Forces",
+            "alignment": "LN",
+            "dues": "",
+            "salary": "50 gp per month",
+            "classes":"Any",
+            "skills": "Intimidate, Insight, Perception",
+            "requirements":"You must spend 30 hours per tenday on duty.",
+            "special":"",
+            "favored":"You gain a +1 bonus on Insight checks and Intimidate checks when dealing with any resident of Waterdeep in Waterdeep.",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "Test"
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "The Gray Hands",
+            "location":"Waterdeep",
+            "boo":"Blackstaff Tower (C6)",
+            "size":"Small",
+            "guildType": "Armed Forces",
+            "alignment": "LG",
+            "dues": "",
+            "salary": "100 gp per month",
+            "classes":"Barbarian, Cleric, Druid, Fighter, Ranger, Sorcerer, Wizard",
+            "skills": "Intimidate, Athletics, Perception",
+            "requirements":"You must be present in Waterdeep at least 30 hours per tenday. The Gray Hands do not patrol or stand duty; they’re called when they’re needed.",
+            "special":"A prospective member must demonstrate excellent combat skills or powerful spellcasting to join the Gray Hands (minimum +5 base attack bonus or 3rd-level spells). Members of the Gray Hands usually adopt the Gray Hand enforcer prestige class as soon as possible",
+            "favored":"You gain a +1 morale bonus on all saving throws made in Waterdeep or within 10 miles of the city.",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "Although Waterdeep is ably defended by the City Guard and City Watch, some threats require more extreme solutions. The Gray Hands are an elite force of high-powered adventurers who answer directly to the Lords of Waterdeep. Although their numbers are small, members of this group are capable of confronting the most powerful foes. The Lords of Waterdeep are loath to call on the Gray Hands unless no other option prevents itself, for the fallout from conflicts involving this group inevitably infl ict a great deal of collateral damage on the City of Splendors."
+                  ]
+               },
+            ],
+         },
+
+         {
+            "name": "Church of Gond",
+            "location":"Waterdeep",
+            "boo":"House of Inspired Hands (38)",
+            "size":"Medium",
+            "guildType": "Religious",
+            "alignment": "Any",
+            "dues": "5gp per month",
+            "salary": "",
+            "classes":"Cleric, Fighter, Rogue, Wizard",
+            "skills": "Religion, Arcana, History",
+            "requirements":"You must craft an item worth at least 2 gp and donate it to the temple once per month. You must also adhere to the tenets of Gond’s faith.",
+            "special":"Admittance to the clergy of Gond usually requires demonstrable understanding of the church’s teachings (2 ranks in Knowledge [religion]) and a vow of devotion to the Wonderbringer.",
+            "favored":"The church subsidizes the costs of any construct or magic item you create, reducing your raw material costs by 10%.",
+            "background": [
+               {
+                  "name": "<strong>Summary</strong>",
+                  "text": [
+                     "Waterdeep has long been a bastion of enterprising artisans and craftsfolk, many of whom worship the Wonderbringer. Merchants from Lantan are believed to have fi rst introduced the teachings of Gond to the settlement, and their teachings were in large part responsible for the ascendance of Waterdeep’s mercantile culture. The Waterdhavian branch of the church has long benefi ted from the generous donations of Waterdeep’s prosperous tradesfolk. </br></br>In recent years, as Waterdeep’s economic troubles have multiplied, donations to the church’s coffers have fallen off, undermining the authority of the temple’s leaders with respect to the rest of the faith. In response, High Seeker Jhoadil Zulthind has partnered with the Splendid Order of Armorers, Locksmiths, & Finesmiths, the Guild of Stonecutters, Masons, Potters, & Tile-Makers, and the Watchful Order of Magists & Protectors to begin actively marketing constructs to the wealthiest Waterdhavians, attempting to corner the market for such devices. Smiths, stonemasons, and sorcerers across the city are now employed in the fabrication of caryatid columnsFF, dread guards, guardgoyles*, helmed horrors, iron golems, nimblewrights, shield guardians, and stone golems."
+                  ]
+               },
+            ],
+         },
+
+
+      ],
+      "_version": "5"
+   }
+}

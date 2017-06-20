@@ -1,0 +1,946 @@
+<!doctype html>
+<html class="fixed">
+	<head>
+
+		<!-- Basic -->
+		<meta charset="UTF-8">
+
+		<title>Character Creation | DM Admin 1.0</title>
+		<meta name="keywords" content="HTML5 Admin Template" />
+		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
+		<meta name="author" content="okler.net">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+
+		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+
+		<!-- Specific Page Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.css" />
+		<link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.theme.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.css" />
+		<link rel="stylesheet" href="assets/vendor/morris.js/morris.css" />
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+
+		<!-- Head Libs -->
+		<script src="assets/vendor/modernizr/modernizr.js"></script>
+
+	</head>
+	<body>
+		<section class="body">
+
+			<!-- start: header -->
+			<header class="header">
+				<div class="logo-container">
+					<a href="#" class="logo">
+						<img src="assets/images/logo.png" width="100" height="35" alt="Porto Admin" />
+					</a>
+					<div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+						<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+					</div>
+				</div>
+			
+				<!-- start: search & user box -->
+				<div class="header-right">
+			
+					<form action="pages-search-results.html" class="search nav-form">
+						<div class="input-group input-search">
+							<input type="text" class="form-control" name="q" id="q" placeholder="Search...">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+							</span>
+						</div>
+					</form>
+			
+					<span class="separator"></span>
+			
+					<ul class="notifications">
+						<li>
+							<a href="http://dnd.wizards.com/" class="dropdown-toggle notification-icon" target="_blank">
+								<i class="fa fa-tasks"></i>
+								<span class="badge"></span>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://roll20.net/" class="dropdown-toggle notification-icon" target="_blank">
+								<i class="fa fa-users"></i>
+								<span class="badge"></span>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://donjon.bin.sh/" class="dropdown-toggle notification-icon" target="_blank">
+								<i class="fa fa-map"></i>
+								<span class="badge"></span>
+							</a>
+						</li>
+					</ul>
+			
+					<span class="separator"></span>
+			
+					<div id="userbox" class="userbox">
+						<a href="#" data-toggle="dropdown">
+							<figure class="profile-picture">
+								<img src="assets/images/!logged-user.jpg" alt="Joseph Doe" class="img-circle" data-lock-picture="assets/images/!logged-user.jpg" />
+							</figure>
+							<div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
+								<span class="name">Casey Willis</span>
+								<span class="role">administrator</span>
+							</div>
+			
+							<i class="fa custom-caret"></i>
+						</a>
+			
+						<div class="dropdown-menu">
+							<ul class="list-unstyled">
+								<li class="divider"></li>
+								<li>
+									<a role="menuitem" tabindex="-1" href="pages-user-profile.html"><i class="fa fa-user"></i> My Profile</a>
+								</li>
+								<li>
+									<a role="menuitem" tabindex="-1" href="#" data-lock-screen="true"><i class="fa fa-lock"></i> Lock Screen</a>
+								</li>
+								<li>
+									<a role="menuitem" tabindex="-1" href="pages-signin.html"><i class="fa fa-power-off"></i> Logout</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- end: search & user box -->
+			</header>
+			<!-- end: header -->
+
+			<div class="inner-wrapper">
+				<!-- start: sidebar -->
+				<aside id="sidebar-left" class="sidebar-left">
+				
+					<div class="sidebar-header">
+						<div class="sidebar-title">
+							Menu
+						</div>
+						<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+							<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+						</div>
+					</div>
+				
+					<div class="nano">
+						<div class="nano-content">
+							<nav id="menu" class="nav-main" role="navigation">
+								<ul class="nav nav-main">
+									<li>
+										<a href="layouts-default.html">
+											<i class="fa fa-home nav-active" aria-hidden="true"></i>
+											<span>Home</span>
+										</a>
+									</li>
+
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-book" aria-hidden="true"></i>
+											<span>Rules</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="index.html">
+													 Character Creation
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Equipment
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Playing the Game
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Running the Game
+												</a>
+											</li>
+											<li>
+												<a href="layouts-default.html">
+													 Setting
+												</a>
+											</li>
+										</ul>
+									</li>
+
+									<li>
+										<a>
+											<i class="fa fa-users" aria-hidden="true"></i>
+											<span>Player Options</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="page-classes.html">
+													 Classes
+												</a>
+											</li>
+											<li>
+												<a href="page-backgrounds.html">
+													 Backgrounds
+												</a>
+											</li>
+											<li>
+												<a href="page-feats.html">
+													 Feats
+												</a>
+											</li>
+											<li>
+												<a href="page-races.html">
+													 Races
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent nav-active">
+										<a>
+											<i class="fa fa-wrench" aria-hidden="true"></i>
+											<span>DM Tools</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="pages-signup.html">
+													 CR Calculator
+												</a>
+											</li>
+											<li>
+												<a href="pages-signin.html">
+													 Encounter Builder
+												</a>
+											</li>
+											<li>
+												<a href="pages-recover-password.html">
+													 Loot Generator
+												</a>
+											</li>
+											<li>
+												<a href="pages-lock-screen.html">
+													 Market
+												</a>
+											</li>
+											<li class="nav-active">
+												<a href="page-tables.html">
+													 Tables
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-book" aria-hidden="true"></i>
+											<span>References</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="page-bestiary.html">
+													 Bestiary
+												</a>
+											</li>
+											<li>
+												<a href="page-conditions.html">
+													 Conditions
+												</a>
+											</li>
+											<li>
+												<a href="ui-elements-panels.html">
+													 Items
+												</a>
+											</li>
+											<li>
+												<a href="page-spells.html">
+													 Spells
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-random" aria-hidden="true"></i>
+											<span>Generators</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="page-tavern.html">
+													 Tavern Generator
+												</a>
+											</li>
+											<li>
+												<a href="page-npc.html">
+													 NPC Generator
+												</a>
+											</li>
+											<li>
+												<a href="page-encounters.html">
+													 Encounter Generator
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-exclamation" aria-hidden="true"></i>
+											<span>Lore</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="forms-basic.html">
+													 NPCs
+												</a>
+											</li>
+											<li>
+												<a href="page-factions.html">
+													 Factions
+												</a>
+											</li>
+											<li>
+												<a href="page-locations.html">
+													 Locations
+												</a>
+											</li>
+											<li>
+												<a href="page-buildings.html">
+													 Buildings
+												</a>
+											</li>
+											<li>
+												<a href="page-factions.html">
+													 Factions
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-map" aria-hidden="true"></i>
+											<span>Map</span>
+										</a>
+									</li>
+									
+				
+							<hr class="separator" />
+				
+							<div class="sidebar-widget widget-tasks">
+								<div class="widget-header">
+									<h6>Links</h6>
+									<div class="widget-toggle">+</div>
+								</div>
+								<div class="widget-content">
+									<ul class="list-unstyled m-none">
+										<li><a href="https://roll20.net/">Roll20</a></li>
+										<li><a href="https://donjon.bin.sh/">Donjon</a></li>
+									</ul>
+								</div>
+							</div>
+				
+							<hr class="separator" />
+				
+							
+						</div>
+				
+						<script>
+							// Maintain Scroll Position
+							if (typeof localStorage !== 'undefined') {
+								if (localStorage.getItem('sidebar-left-position') !== null) {
+									var initialPosition = localStorage.getItem('sidebar-left-position'),
+										sidebarLeft = document.querySelector('#sidebar-left .nano-content');
+									
+									sidebarLeft.scrollTop = initialPosition;
+								}
+							}
+						</script>
+				
+					</div>
+				
+				</aside>
+				<!-- end: sidebar -->
+					<section role="main" class="content-body">
+					<header class="page-header">
+						<h2>Tables</h2>
+					
+						<div class="right-wrapper pull-right">
+							<ol class="breadcrumbs">
+								<li>
+									<a href="layouts-default.html">
+										<i class="fa fa-home"></i>
+									</a>
+								</li>
+								<li><span>DM Tools</span></li>
+								<li><span>Tables</span></li>
+							</ol>
+					
+							<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
+						</div>
+					</header>
+
+					<!-- start: page -->
+						<section class="panel">
+							<header class="panel-heading">
+								<div class="panel-actions">
+									<a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
+									<a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
+								</div>
+						
+								<h2 class="panel-title">Weapon Attack Critical Hit</h2>
+							</header>
+							<div class="panel-body">
+								<table class="table table-bordered table-striped mb-none" id="datatable-details">
+									<thead>
+										<tr>
+											<th>Roll Percentage</th>
+											<th>Description</th>
+											<th>Effect</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr role="row">
+											<td>1</td>
+											<td>You feel accomplished, but nothing remarkable happens.</td>
+											<td>Regular critical hit.</td>
+										</tr>
+										<tr role="row">
+											<td>2-5</td>
+											<td>You feel it is imperative to press the advantage no matter the cost.</td>
+											<td>You can choose to gain advantage on all attacks against your target until the end of your next turn, but if you do all enemies have advantage on their attack rolls against you until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>6-9</td>
+											<td>You feel it is imperative to press the advantage, but maintain awareness of your surroundings.</td>
+											<td>You can choose to gain advantage on all attacks against your target next turn, your target has advantage on their attack rolls against you until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>10-14</td>
+											<td>You know how to press the advantage.</td>
+											<td>You gain advantage on all attacks against your target until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>15-19</td>
+											<td>As you are fighting, you notice an effective route to escape danger.</td>
+											<td>You are able to use the disengage action after your attack.</td>
+										</tr>
+										<tr role="row">
+											<td>20-24</td>
+											<td>You feel the eb and flow of the battle, and know where to make your next move.</td>
+											<td>After your turn you move to the top of the initiative order.</td>
+										</tr>
+										<tr role="row">
+											<td>25-29</td>
+											<td>You begin to recognize patterns in your opponents fighting technique.</td>
+											<td>You gain +2 to your AC against your target, and advantage on all savings throws from effects originating from your target until your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>30-39</td>
+											<td>You are able to maneuver towards your opponent while attacking, and attempt to harass them.</td>
+											<td>After your attack you can choose to attempt to grapple your opponent if you have a free hand, or attempt to shove your opponent if both hands are in use.</td>
+										</tr>
+										<tr role="row">
+											<td>40-49</td>
+											<td>You are able to maneuver towards your opponent while attacking and harass them.</td>
+											<td>After your attack you can choose to automatically succeed in grappling your opponent if you have a free hand, or shoving your opponent if both hands are in use.</td>
+										</tr>
+										<tr role="row">
+											<td>50-59</td>
+											<td>You attempt to disarm your opponent.</td>
+											<td>You are able to take the disarm action after your attack.</td>
+										</tr>
+										<tr role="row">
+											<td>60-69</td>
+											<td>You kick your target's weapon out of their hands.</td>
+											<td>You are able to take the disarm action after your attack, and can steal your opponents weapon if you have a free hand. Otherwise you can knock it up to 20 feet away.</td>
+										</tr>
+										<tr role="row">
+											<td>70-74</td>
+											<td>Your senses heighten and you become aware of threats around the battlefield.</td>
+											<td>You are able to use the dodge action after your attack.</td>
+										</tr>
+										<tr role="row">
+											<td>75-79</td>
+											<td>Your attack knocks your target over.</td>
+											<td>Your target is knocked prone.</td>
+										</tr>
+										<tr role="row">
+											<td>80-84</td>
+											<td>Your strike surprises your opponent.</td>
+											<td>Your target is surprised until the end of their next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>85-89</td>
+											<td>You strike with great force.</td>
+											<td>Roll an additional set of damage dice above and beyond your normal critical roll.</td>
+										</tr>
+										<tr role="row">
+											<td>90-94</td>
+											<td>You strike with extreme force.</td>
+											<td>Roll an additional set of damage dice above and beyond your normal critical roll, and the target suffers one unit of exhaustion.</td>
+										</tr>
+										<tr role="row">
+											<td>95-99</td>
+											<td>You strike with debilitating force.</td>
+											<td>Roll an additional set of damage dice above and beyond your normal critical roll, and the target suffers a permanent injury chosen by the DM. The permanent injury can be healed with extended rest of a length determined by the DM, but the attack leaves a scar.</td>
+										</tr>
+										<tr role="row">
+											<td>100</td>
+											<td>You strike with devastating force.</td>
+											<td>Roll an additional set of damage dice above and beyond your normal critical roll, and the target suffers 1 unit of exhaustion, and the target suffers a permanent injury chosen by the DM. The permanent injury can be healed with extended rest of a length determined by the DM, but the attack leaves a scar.</td>
+										</tr>								
+									</tbody>
+								</table>
+							</div>
+						</section>
+
+						<section class="panel">
+							<header class="panel-heading">
+								<div class="panel-actions">
+									<a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
+									<a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
+								</div>
+						
+								<h2 class="panel-title">Weapon Attack Roll Fumble Table</h2>
+							</header>
+							<div class="panel-body">
+								<table class="table table-bordered table-striped mb-none" id="datatable-details">
+									<thead>
+										<tr>
+											<th>Roll Percentage</th>
+											<th>Description</th>
+											<th>Effect</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr role="row">
+											<td>1</td>
+											<td>You are embarassed by your poor showing, but nothing remarkable happens.</td>
+											<td>You miss your attack.</td>
+										</tr>
+										<tr role="row">
+											<td>2-5</td>
+											<td>You lose your combat footing, exposing yourself to your target.</td>
+											<td>Your target has advantage on their first attack roll against you next round.</td>
+										</tr>
+										<tr role="row">
+											<td>6-9</td>
+											<td>You lose your combat footing, exposing yourself to your enemies.</td>
+											<td>Your enemies have advantage on their first attack roll against you next round.</td>
+										</tr>
+										<tr role="row">
+											<td>10-14</td>
+											<td>You lose your combat footing, and have difficulty recovering.</td>
+											<td>Your enemies have advantage on their attack rolls against you until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>15-19</td>
+											<td>Melee: You get tangled with your enemy and fall over. Ranged: You spill your quiver.</td>
+											<td>Melee: You are knocked prone and your movement is reduced to 0. Your target must succeed a DC 10 dexterity check or they are also knocked prone. Ranged: You must pick up arrows individually from the ground using your "environmental interaction", or the "Use an Object" action to nock your bow.</td>
+										</tr>
+										<tr role="row">
+											<td>20-29</td>
+											<td>You lose your balance while attacking.</td>
+											<td>You fall prone and your movement is reduced to 0.</td>
+										</tr>
+										<tr role="row">
+											<td>30-39</td>
+											<td>As you attack your opponent you begin to fear that they are the superior combatant.</td>
+											<td>Disadvantage on your next attack roll against your target.</td>
+										</tr>
+										<tr role="row">
+											<td>40-49</td>
+											<td>You miss an attack and gaze upon the chaos of the battle, causing your confidence to falter.</td>
+											<td>Disadvantage on your next attack roll against any target.</td>
+										</tr>
+										<tr role="row">
+											<td>50-59</td>
+											<td>You lose your grip as you attack.</td>
+											<td>Roll a DC 10 Dexterity Check, on failure you drop your weapon at your feet.</td>
+										</tr>
+										<tr role="row">
+											<td>60-69</td>
+											<td>Melee: The weapon slips from your hand as you attack. Ranged: Your ammunition gets lodged in its container.</td>
+											<td>Melee: Roll a DC 10 Dexterity Check, on failure you throw your weapon into your enemy's space. DM determines where the item is thrown on large sized or greater creatures. Ranged: You must use an action to organize the ammunition in its case before you can make another ranged attack.</td>
+										</tr>
+										<tr role="row">
+											<td>70-79</td>
+											<td>Melee: You lunge past an enemy exposing yourself to his attack. Ranged: Your missile startles your allies near your target.</td>
+											<td>Melee: Enemy you were attacking is able to use their reaction to perform and attack of opportunity. Ranged: the target can perform an opportunity attack on any ally within melee range.</td>
+										</tr>
+										<tr role="row">
+											<td>80-84</td>
+											<td>Missing what you thought was a critical blow causes you to panic.</td>
+											<td>End your current turn and you are surprised until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>85-89</td>
+											<td>You attack wildly and lose track of the fight around you.</td>
+											<td>End your turn and move to the bottom of the initiative order at the start of the next round.</td>
+										</tr>
+										<tr role="row">
+											<td>90-94</td>
+											<td>You lose your footing while attacking and fall to the ground bumping your head.</td>
+											<td>You fall prone. Roll a DC 10 constitution save, on failure you take 1d6 damage and are knocked unconscious for 1 minute or until you receive damage from any source. On success take half damage and you remain conscious.</td>
+										</tr>
+										<tr role="row">
+											<td>95-99</td>
+											<td>You lose your footing while attacking and fall head first.</td>
+											<td>You fall prone. Roll a DC 15 constitution save, on failure you take 2d6 damage and are knocked unconscious for 1 minute or until you receive damage from any source. On success take half damage and you remain conscious.</td>
+										</tr>
+										<tr role="row">
+											<td>100</td>
+											<td>You lose your footing while attacking and slam your head into the ground.</td>
+											<td>You fall prone, take 3d6 damage, and become unconscious for 1 minute or until you receive damage from any source.</td>
+										</tr>								
+									</tbody>
+								</table>
+							</div>
+						</section>
+
+						<section class="panel">
+							<header class="panel-heading">
+								<div class="panel-actions">
+									<a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
+									<a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
+								</div>
+						
+								<h2 class="panel-title">Spell Attack Critical Hit Table</h2>
+							</header>
+							<div class="panel-body">
+								<table class="table table-bordered table-striped mb-none" id="datatable-details">
+									<thead>
+										<tr>
+											<th>Roll Percentage</th>
+											<th>Description</th>
+											<th>Effect</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr role="row">
+											<td>1</td>
+											<td>You feel accomplished, but nothing remarkable happens.</td>
+											<td>Regular spell critical hit.</td>
+										</tr>
+										<tr role="row">
+											<td>2-5</td>
+											<td>You feel it is imperative to press the advantage no matter the cost.</td>
+											<td>You can choose to gain advantage on your next attack roll against your target, but all enemies have advantage on their attack rolls against you until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>6-9</td>
+											<td>You feel it is imperative to press the advantage, but maintain awareness of your surroundings.</td>
+											<td>You can choose to gain advantage on your next attack roll against your target, your target has advantage on their attack rolls against you until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>10-14</td>
+											<td>As you are fighting, you notice an effective route to escape danger.</td>
+											<td>You are able to use the disengage action after your attack.</td>
+										</tr>
+										<tr role="row">
+											<td>15-19</td>
+											<td>You feel the eb and flow of the battle, and know where to make your next move.</td>
+											<td>After your turn you move to the top of the initiative order.</td>
+										</tr>
+										<tr role="row">
+											<td>20-29</td>
+											<td>Your spell cripples your opponent.</td>
+											<td>Your target's movement speed is cut in half for their next 2 turns.</td>
+										</tr>
+										<tr role="row">
+											<td>30-39</td>
+											<td>Your spell attack knocks your target over.</td>
+											<td>Your target is knocked prone.</td>
+										</tr>
+										<tr role="row">
+											<td>40-49</td>
+											<td>The light from your spell flashes near your target's eyes.</td>
+											<td>Your target is blinded until the end of their next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>50-59</td>
+											<td>You blast the targets weapons out of their hands.</td>
+											<td>Your target's weapon is flung 1d6*5 feet away in a random direction.</td>
+										</tr>
+										<tr role="row">
+											<td>60-69</td>
+											<td>The sight of your magic fills the target's heart with fear.</td>
+											<td>Your target is frightened by you until you stop casting magic. You are able to discern the source of your targets fear.</td>
+										</tr>
+										<tr role="row">
+											<td>70-79</td>
+											<td>The force from your spell stuns your opponent.</td>
+											<td>Your target is incapacitated until the end of their next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>80-84</td>
+											<td>Your spell is incidentally infused with fey energy.</td>
+											<td>Roll 10d8. If your targets current health is lower than the number rolled they fall asleep for 1 minute.</td>
+										</tr>
+										<tr role="row">
+											<td>85-89</td>
+											<td>Your spells strike surprises your opponent.</td>
+											<td>Your target is surprised until the end of their next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>90-94</td>
+											<td>Your spell strikes with extreme force.</td>
+											<td>Roll an additional set of spell damage dice above and beyond your normal critical roll, and the target suffers one unit of exhaustion.</td>
+										</tr>
+										<tr role="row">
+											<td>95-99</td>
+											<td>Your spell strikes with debilitating force.</td>
+											<td>Roll an additional set of spell damage dice above and beyond your normal critical roll, and the target suffers a permanent injury chose by the DM. The permanent injury can be healed with extended rest of a length determined by the DM, but the attack leaves a scar.</td>
+										</tr>
+										<tr role="row">
+											<td>100</td>
+											<td>Your spell strikes with devastating force.</td>
+											<td>Roll an additional set of spell damage dice above and beyond your normal critical roll, and the target suffers 1 unit of exhaustion, and the target suffers a permanent injury chose by the DM. The permanent injury can be healed with extended rest of a length determined by the DM, but the attack leaves a scar.</td>
+										</tr>								
+									</tbody>
+								</table>
+							</div>
+						</section>
+
+						<section class="panel">
+							<header class="panel-heading">
+								<div class="panel-actions">
+									<a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
+									<a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
+								</div>
+						
+								<h2 class="panel-title">Spell Attack Fumble Table</h2>
+							</header>
+							<div class="panel-body">
+								<table class="table table-bordered table-striped mb-none" id="datatable-details">
+									<thead>
+										<tr>
+											<th>Roll Percentage</th>
+											<th>Description</th>
+											<th>Effect</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr role="row">
+											<td>1</td>
+											<td>You are embarassed by your poor showing, but nothing remarkable happens.</td>
+											<td>You miss your attack.</td>
+										</tr>
+										<tr role="row">
+											<td>2-5</td>
+											<td>You get wrapped up in your spellcasting and forget to watch your target.</td>
+											<td>Your target has advantage on their first attack roll against you next round.</td>
+										</tr>
+										<tr role="row">
+											<td>6-9</td>
+											<td>You get wrapped up in your spellcasting and forget to watch your surroundings.</td>
+											<td>All enemies have advantage on their first attack roll against you next round.</td>
+										</tr>
+										<tr role="row">
+											<td>10-14</td>
+											<td>You are so wrapped up in your spellcasting that you forget you are fighting a battle.</td>
+											<td>All enemies have advantage on their attack rolls against you until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>15-19</td>
+											<td>Your spell creates a large plume of smoke obscuring your location.</td>
+											<td>The area in a 5 foot radius around your location becomes heavily obscured for 1 minute. A strong breeze can blow away the smoke in 1 round.</td>
+										</tr>
+										<tr role="row">
+											<td>20-29</td>
+											<td>Your spell misfires knocking you over.</td>
+											<td>You are knocked prone.</td>
+										</tr>
+										<tr role="row">
+											<td>30-39</td>
+											<td>The spell fires in an unexpected manner, causing your confidence in your abilities to falter.</td>
+											<td>You have disadvantage on any spell attacks, and enemies have advantage against your spell savings throws until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>40-49</td>
+											<td>The placement of your spell startles your allies near your target, causing them to drop their guard.</td>
+											<td>Your target is able to use their reaction to take an attack of opportunity on one of your allies in melee range.</td>
+										</tr>
+										<tr role="row">
+											<td>50-59</td>
+											<td>You scramble the ingredients of your component pouch or your focus becomes overloaded with magical energy and temporarily stops working.</td>
+											<td>You are unable to perform material components to cast spells until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>60-69</td>
+											<td>Your arm cramps as you cast.</td>
+											<td>You are unable to perform somatic components to cast spells until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>70-79</td>
+											<td>You bite your tongue as you cast.</td>
+											<td>You are unable to use verbal components to cast spells until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>80-84</td>
+											<td>Your spell misfires and dazes you, causing you to lose track of the fight.</td>
+											<td>End your turn and move to the bottom of the initiative order at the start of the next round.</td>
+										</tr>
+										<tr role="row">
+											<td>85-89</td>
+											<td>Your spell misfires causing you to panic.</td>
+											<td>End your current turn and you are surprised until the end of your next turn.</td>
+										</tr>
+										<tr role="row">
+											<td>90-94</td>
+											<td>Your spell backfires creating a small explosion causing you to fall and bump your head.</td>
+											<td>You fall prone. Roll a DC 10 constitution save, on failure you take 1d6 bludeoning damage and are knocked unconscious for 1 minute or until you receive damage from any source. On success take half damage and you remain conscious.</td>
+										</tr>
+										<tr role="row">
+											<td>95-99</td>
+											<td>Your spell backfires creating a large explosion causing you to fall and bump your head.</td>
+											<td>You fall prone. Roll a DC 15 constitution save, on failure you take 1d6 bludgeoning damage, 1d6 thunder damage, and are knocked unconscious for 1 minute or until you receive damage from any source. On success take half damage and you remain conscious.</td>
+										</tr>
+										<tr role="row">
+											<td>100</td>
+											<td>Your spell completely backfires creating a large explosion causing you to fall and bump your head.</td>
+											<td>You hit yourself with your spell. If the spell effect is instant you take the full effect. If the spell requires concentration the effect persists until the end of your next turn. You also fall prone, take 1d6 bludgeoning damage, 1d6 thunder damage, and become unconscious for 1 minute or until you receive damage from any source.</td>
+										</tr>								
+									</tbody>
+								</table>
+							</div>
+						</section>
+				<!-- end: page -->
+				</section>
+			</div>
+
+			<aside id="sidebar-right" class="sidebar-right">
+				<div class="nano">
+					<div class="nano-content">
+						<a href="#" class="mobile-close visible-xs">
+							Collapse <i class="fa fa-chevron-right"></i>
+						</a>
+			
+						<div class="sidebar-right-wrapper">
+			
+							<div class="sidebar-widget widget-calendar">
+								<h6>Upcoming Tasks</h6>
+								<div data-plugin-datepicker data-plugin-skin="dark" ></div>
+			
+								<ul>
+									<li>
+										<time datetime="2016-04-19T00:00+00:00">04/19/2016</time>
+										<span>Company Meeting</span>
+									</li>
+								</ul>
+							</div>
+			
+							<div class="sidebar-widget widget-friends">
+								<h6>Friends</h6>
+								<ul>
+									<li class="status-online">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+									<li class="status-online">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+									<li class="status-offline">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+									<li class="status-offline">
+										<figure class="profile-picture">
+											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+										</figure>
+										<div class="profile-info">
+											<span class="name">Joseph Doe Junior</span>
+											<span class="title">Hey, how are you?</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+			
+						</div>
+					</div>
+				</div>
+			</aside>
+
+		</section>
+
+		<!-- Vendor -->
+		<script src="assets/vendor/jquery/jquery.js"></script>
+		<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+		<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+		<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script src="assets/vendor/magnific-popup/jquery.magnific-popup.js"></script>
+		<script src="assets/vendor/jquery-placeholder/jquery-placeholder.js"></script>
+		
+		<!-- Specific Page Vendor -->
+		<script src="assets/vendor/jquery-ui/jquery-ui.js"></script>
+		<script src="assets/vendor/jqueryui-touch-punch/jqueryui-touch-punch.js"></script>
+		<script src="assets/vendor/jquery-appear/jquery-appear.js"></script>
+		<script src="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.js"></script>
+		<script src="assets/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.js"></script>
+		<script src="assets/vendor/flot.tooltip/flot.tooltip.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.pie.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.categories.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.resize.js"></script>
+		<script src="assets/vendor/jquery-sparkline/jquery-sparkline.js"></script>
+		<script src="assets/vendor/raphael/raphael.js"></script>
+		<script src="assets/vendor/morris.js/morris.js"></script>
+		<script src="assets/vendor/gauge/gauge.js"></script>
+		<script src="assets/vendor/snap.svg/snap.svg.js"></script>
+		<script src="assets/vendor/liquid-meter/liquid.meter.js"></script>
+		<script src="assets/vendor/jqvmap/jquery.vmap.js"></script>
+		<script src="assets/vendor/jqvmap/data/jquery.vmap.sampledata.js"></script>
+		<script src="assets/vendor/jqvmap/maps/jquery.vmap.world.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.africa.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.asia.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.australia.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.europe.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.north-america.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.south-america.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="assets/javascripts/theme.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="assets/javascripts/theme.custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="assets/javascripts/theme.init.js"></script>
+
+		<!-- Examples -->
+		<script src="assets/javascripts/dashboard/examples.dashboard.js"></script>
+
+	</body>
+</html>

@@ -501,7 +501,7 @@
 										</div>
 									</div>
 									<div class="form-group has-success">
-										<button type="button" onclick=" randomDescription(); npcJob(); randomAge(); getRandomGender(); getRandomRace(); getRandomStat(); getRandomAlignment();" id="npcButton" onclick="">Generate NPC</button>
+										<button type="button" onclick=" characterTraits(); randomDescription(); npcJob(); randomAge(); getRandomGender(); getRandomRace(); getRandomStat(); getRandomAlignment();" id="npcButton" onclick="">Generate NPC</button>
 											
 									</div>
 								</form>
@@ -529,10 +529,12 @@
 								<div class="col-md-6">
 									<div class="first-row-height panel panel-default">
 										<div class="panel-heading">
-											<div class="panel-title">Personality Traits</div>
+											<div class="panel-title">Character Traits</div>
 										</div>
 										<div class="panel-body">
-											<p><span id="npcPronoun3"></span> <span id="npcdescription4"></span>.</p>
+											<p><span id="npcTrait"></span></p>
+											<p><span id="npcBond"></span></p>
+											<p><span id="npcIdeal"></span></p>
 										</div>
 										
 									</div>
@@ -578,10 +580,10 @@
 								<div class="col-md-4">
 									<div class="first-row-height panel panel-default">
 										<div class="panel-heading">
-											<div class="panel-title">Relationships</div>
+											<div class="panel-title">Faith</div>
 										</div>
 										<div class="panel-body">
-											
+											<p><span id="npcPronoun3"></span> <span id="npcdescription4"></span>.</p>
 										</div>
 										
 									</div>

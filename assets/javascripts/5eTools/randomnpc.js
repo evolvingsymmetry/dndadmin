@@ -131,6 +131,37 @@ function femaledragonbornNameDisplay() {
 
 
 ///////////////////////////////////
+// Dwarf //////////////////////////
+///////////////////////////////////
+
+
+function maledwarfNameDisplay() {
+  $('#npcButton').click(function(){
+    var i = Math.random();
+    console.log(i);
+    dnd4 = Math.floor(Math.random() * dm7.length);
+    dnd5 = Math.floor(Math.random() * dm8.length);
+    if(i > 0.5){
+      dnd = Math.floor(Math.random() * dm4.length);
+      dnd2 = Math.floor(Math.random() * dm5.length);
+      dnd3 = Math.floor(Math.random() * dm6.length);
+      nameObj.fName = dm4[dnd] + dm5[dnd2] + dm6[dnd3] + " " + dm7[dnd4] + dm8[dnd5];
+    }else if (i > 0.9){
+      nameObj.fName = arrSearch(dwarfFNames) + " " + arrSearch(dwarfLNames1) + arrSearch(dwarfLNames2);
+    }
+    else{
+      dnd = Math.floor(Math.random() * dm1.length);
+      dnd2 = Math.floor(Math.random() * dm2.length);
+      dnd3 = Math.floor(Math.random() * dm3.length);
+      nameObj.fName = dm1[dnd] + dm2[dnd2] + dm3[dnd3] + " " + dm7[dnd4] + dm8[dnd5];
+    }
+
+    nameDisplay();
+  })
+}
+
+
+///////////////////////////////////
 // Human //////////////////////////
 ///////////////////////////////////
 
@@ -521,6 +552,12 @@ function maleNPCname(){
   if (document.getElementById('raceOption').value == "drow") {
     maleelfNameDisplay();
   }
+  if (document.getElementById('raceOption').value == "hilldwarf") {
+    maledwarfNameDisplay();
+  }
+  if (document.getElementById('raceOption').value == "mountaindwarf") {
+    maledwarfNameDisplay();
+  }
   if (document.getElementById('raceOption').value == "eladrin") {
     maleelfNameDisplay();
   }
@@ -805,6 +842,34 @@ function randomDescription(){
   }
 }
 
+
+
+//////////// Traits /////////////////
+
+function characterTraits(){
+  pickTrait();
+  pickBond();
+  pickIdeal();
+}
+
+
+function pickTrait(){
+  document.getElementById("npcTrait").innerHTML = npctraits[Math.floor(Math.random()*npctraits.length)];
+}
+
+
+/// Bonds
+
+function pickBond(){
+  document.getElementById("npcBond").innerHTML = npcBond[Math.floor(Math.random()*npcBond.length)];
+}
+
+
+/// Ideal
+
+function pickIdeal(){
+  document.getElementById("npcIdeal").innerHTML = npcIdeal[Math.floor(Math.random()*npcIdeal.length)];
+}
 
 
 // ////////// NPC Descriptions ///////////

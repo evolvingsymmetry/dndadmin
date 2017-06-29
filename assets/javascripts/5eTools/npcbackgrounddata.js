@@ -106,7 +106,15 @@ var npctraits = [
 ];
 
 var npcbackground = [
-"Miner",
+"miner in the Earthspur Mountains",
+"miner in the Dragonspine Mountains",
+"miner in the Giantspire Mountains",
+"miner in the Galena Mountains",
+"miner in the Troll Mountains",
+"miner in the Toadsquat Mountains",
+"miner in the Himasala Mountains",
+"miner in the Greypeak Mountains",
+"miner in the Orsraun Mountains",
 "Lumberjack",
 "Retired Adventurer",
 "Shop Owner",
